@@ -1192,8 +1192,8 @@ function downloadFile(content, filename, type) {
   document.body.removeChild(a);
 }
 
-// AI Copilot
-function runAICopilot() {
+// AI Copilot with Vercel Serverless API Integration & Local Fallback
+async function runAICopilot() {
   const queryInput = document.getElementById('ai-query-input');
   const responseBox = document.getElementById('ai-response-box');
   const responseText = document.getElementById('ai-response-text');
@@ -1207,6 +1207,35 @@ function runAICopilot() {
   const totalCites = state.filteredPublications.reduce((s,p) => s + (parseInt(p.citations)||0), 0);
   const cpp = total > 0 ? (totalCites / total).toFixed(2) : '0';
 
+  responseBox.style.display = 'block';
+  responseText.innerHTML = `<div style="color:#38BDF8; font-weight:700;">🤖 Querying AI Copilot Intelligence Engine via Serverless API...</div>`;
+
+  try {
+    const res = await fetch('/api/copilot', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        prompt: `You are an expert academic bibliometric research advisor for COEP Technological University. Answer the query concisely: "${query}". Context: COEP has ${total} Scopus publications, ${totalCites} citations accrued, and CPP density of ${cpp}.`
+      })
+    });
+
+    if (res.ok) {
+      const data = await res.json();
+      const aiContent = data.candidates?.[0]?.content?.parts?.[0]?.text;
+      if (aiContent) {
+        responseText.innerHTML = `
+          <div style="color:#10B981; font-weight:800; margin-bottom:8px;">🤖 Live Gemini AI Intelligence Response</div>
+          <div style="line-height:1.6; color:var(--text-primary);">${aiContent.replace(/\n/g, '<br>')}</div>
+          <div style="margin-top:10px; font-size:0.72rem; color:#8FA0B5;">Powered by Gemini API Serverless Endpoint</div>
+        `;
+        return;
+      }
+    }
+  } catch (err) {
+    console.log('Serverless API fallback:', err);
+  }
+
+  // Local analytical synthesis fallback
   responseText.innerHTML = `
     <b>Analytical Synthesis for: "${query}"</b><br><br>
     Based on ${total.toLocaleString()} active Scopus indexed records for COEP Technological University:<br>
@@ -1215,8 +1244,6 @@ function runAICopilot() {
     • Research Quality Profile: High Q1 journal output with steady international co-authorship growth.<br><br>
     <i>Recommendation:</i> Continue prioritizing interdisciplinary R&D initiatives and high-impact Q1 journal venues for maximum NIRF/NAAC scoring.
   `;
-
-  responseBox.style.display = 'block';
 }
 
 function runCopilotPreset(type) {
@@ -1230,3 +1257,22 @@ function runCopilotPreset(type) {
 
   runAICopilot();
 }
+
+// Scopus Serverless Gateway Proxy Sync
+async function syncLiveScopusAPI(query = 'AF-ID(60007233)') {
+  try {
+    const res = await fetch(`/api/scopus?query=${encodeURIComponent(query)}`);
+    if (res.ok) {
+      const data = await res.json();
+      const searchResults = data['search-results']?.entry || [];
+      if (searchResults.length > 0) {
+        console.log(`Live Scopus Gateway: Retrieved ${searchResults.length} live records.`);
+        return searchResults;
+      }
+    }
+  } catch (err) {
+    console.log('Scopus API Gateway fallback active:', err);
+  }
+  return null;
+}
+
