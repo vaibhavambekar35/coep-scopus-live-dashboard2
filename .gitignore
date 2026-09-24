@@ -1,0 +1,14 @@
+# Environment & Secret Files (NEVER COMMIT API KEYS)
+.env
+.env.local
+.env.*.local
+
+# Diagnostics & System Logs
+*.log
+*.tmp
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
