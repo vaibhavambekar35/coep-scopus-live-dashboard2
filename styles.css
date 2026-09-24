@@ -548,13 +548,28 @@ html, body {
   display: flex;
 }
 
-.sidebar-footer-note {
-  margin-top: auto;
-  padding-top: 10px;
-  border-top: 1px solid var(--border-color);
-  font-size: 0.68rem;
-  color: var(--text-muted);
-  line-height: 1.4;
+.sidebar-footer-note, .sidebar-footer {
+  margin-top: auto !important;
+  padding-top: 10px !important;
+  border-top: 1px solid var(--border-color) !important;
+  font-size: 0.68rem !important;
+  color: var(--text-muted) !important;
+  line-height: 1.4 !important;
+}
+
+.sidebar-footer-note strong, .sidebar-footer strong {
+  color: var(--text-secondary);
+  font-weight: 700;
+}
+
+.sidebar-footer-note span, .sidebar-footer span {
+  color: var(--primary-blue);
+  font-weight: 700;
+}
+
+[data-theme="dark"] .sidebar-footer-note span,
+[data-theme="dark"] .sidebar-footer span {
+  color: #38BDF8 !important;
 }
 
 /* =========================================================
