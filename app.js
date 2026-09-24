@@ -553,8 +553,8 @@ function getPlotlyLayoutTheme() {
     plot_bgcolor: 'transparent',
     autosize: true,
     font: {
-      family: 'Plus Jakarta Sans, sans-serif',
-      color: isDark ? '#FFFFFF' : '#0F172A',
+      family: 'Inter, sans-serif',
+      color: isDark ? '#FFFFFF' : '#0D111A',
       size: 11
     },
     xaxis: {

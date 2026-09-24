@@ -38,26 +38,26 @@
         </div>
       </div>
 
-      <div class="topbar-right">
-        <!-- Live Status Pulse Pill -->
-        <div class="sync-status-capsule">
-          <span class="pulse-green-dot"></span> Live Scopus Feed • Synced 60m
+      <div class="topbar-right header-right">
+        <!-- Live Status Pulse Pill (Exact MU Match - Red Box 1) -->
+        <div class="live-feed-badge sync-status-capsule">
+          <span class="pulse-dot pulse-green-dot"></span> Live Scopus Feed &bull; Synced 60m
         </div>
 
         <!-- Dual Theme Mode Capsule Switch -->
-        <div class="theme-switch-capsule">
-          <button id="theme-btn-light" class="btn-theme-capsule active">☀️ Light</button>
-          <button id="theme-btn-dark" class="btn-theme-capsule">🌙 Dark</button>
+        <div class="header-theme-toggle theme-switch-capsule">
+          <button id="theme-btn-light" class="theme-toggle-btn btn-theme-capsule active" title="Light Mode">☀️ Light</button>
+          <button id="theme-btn-dark" class="theme-toggle-btn btn-theme-capsule" title="Dark Mode">🌙 Dark</button>
         </div>
 
         <!-- Reset Button -->
-        <button id="reset-filters-btn-top" class="btn-topbar-reset">
-          🔄 Reset
+        <button id="reset-filters-btn-top" class="btn-header-reset btn-topbar-reset" title="Reset all filters to defaults">
+          <span>🔄</span> Reset
         </button>
 
         <!-- Mobile Filter Toggle Button -->
-        <button id="mobile-toggle-sidebar" class="mobile-sidebar-toggle">
-          🧭 Filters
+        <button id="mobile-toggle-sidebar" class="mobile-sidebar-toggle btn-mobile-filter-toggle">
+          <span>☰</span> Filters
         </button>
       </div>
     </header>
@@ -68,18 +68,20 @@
       <div id="sidebar-backdrop" class="sidebar-backdrop"></div>
       
       <!-- Left Sidebar Controls -->
-      <aside class="sidebar">
+      <aside class="sidebar" id="app-sidebar">
         <!-- Mobile Header inside Sidebar -->
         <div class="sidebar-mobile-header">
           <span>🧭 Filters</span>
           <button id="mobile-close-sidebar" class="mobile-close-btn">&times;</button>
         </div>
         
-        <!-- Section Header -->
-        <div class="sidebar-section-hdr">
-          <span style="color:#F59E0B; font-size:0.88rem;">🧭</span> RESEARCH INTELLIGENCE FILTERS
+        <!-- Section Header (Exact MU Match - Red Box 2) -->
+        <div class="sidebar-header-box">
+          <div class="sidebar-title sidebar-section-hdr">
+            <span>🧭</span> RESEARCH INTELLIGENCE FILTERS
+          </div>
+          <div class="sidebar-desc sidebar-sub-hdr">Multi-dimensional bibliometric surveillance</div>
         </div>
-        <div class="sidebar-sub-hdr">Multi-dimensional bibliometric surveillance</div>
 
         <!-- Evaluation Period Slider & Range Inputs -->
         <div class="sidebar-filter-group">
@@ -220,11 +222,11 @@
               </div>
             </div>
 
-            <!-- Right Stat Box -->
-            <div class="hero-stat-box">
-              <div class="hero-stat-label">TOTAL SCOPUS OUTPUT</div>
-              <div class="hero-stat-value" id="hero-total-output">2,794</div>
-              <div class="hero-stat-sub gold-id" id="hero-citations-accrued">26,664 Citations Accrued</div>
+            <!-- Right Stat Box (Exact MU Match with Orange Top Accent - Red Box 3) -->
+            <div class="hero-exec-statbox hero-stat-box" id="hero-exec-statbox">
+              <div class="statbox-label hero-stat-label">TOTAL SCOPUS OUTPUT</div>
+              <div class="statbox-number hero-stat-value" id="hero-total-output">2,794</div>
+              <div class="statbox-citations hero-stat-sub gold-id" id="hero-citations-accrued">26,664 Citations Accrued</div>
             </div>
 
           </div>
