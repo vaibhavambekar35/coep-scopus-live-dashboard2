@@ -7,6 +7,15 @@
   <link rel="icon" type="image/png" href="assets/coep_logo.png">
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <link rel="apple-touch-icon" href="assets/coep_logo.png">
+  <!-- Force Default Light Mode (Exact Match to Mumbai Reference) -->
+  <script>
+    try {
+      localStorage.removeItem('coep_theme');
+      localStorage.removeItem('coep_theme_v2');
+      localStorage.removeItem('theme');
+    } catch (e) {}
+    document.documentElement.setAttribute('data-theme', 'light');
+  </script>
   <!-- Stylesheets -->
   <link rel="stylesheet" href="styles.css">
   <!-- Plotly.js 2.35.2 CDN (Exact Match to Mumbai Reference) -->

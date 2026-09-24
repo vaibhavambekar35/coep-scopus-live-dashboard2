@@ -7,7 +7,7 @@
 const state = {
   rawPublications: [],
   filteredPublications: [],
-  theme: localStorage.getItem('coep_theme_v2') || 'light',
+  theme: document.documentElement.getAttribute('data-theme') || 'light',
   activeTab: 'tab-trends',
   selectedMonthlyYear: 2026,
   feedLimit: 50,
@@ -64,17 +64,15 @@ function initTheme() {
 
 // Event Listeners Initialization
 function initEventListeners() {
-  // Theme Switchers
+  // Theme Switchers (Exact Match to Mumbai Reference)
   document.getElementById('theme-btn-dark')?.addEventListener('click', () => {
     state.theme = 'dark';
-    localStorage.setItem('coep_theme_v2', 'dark');
     initTheme();
     renderAllCharts();
     showToast('Switched to Dark Mode Theme', '🌙');
   });
   document.getElementById('theme-btn-light')?.addEventListener('click', () => {
     state.theme = 'light';
-    localStorage.setItem('coep_theme_v2', 'light');
     initTheme();
     renderAllCharts();
     showToast('Switched to Light Mode Theme', '☀️');
