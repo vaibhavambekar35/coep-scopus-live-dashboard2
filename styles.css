@@ -3,7 +3,7 @@
    100.00% Exact Pixel RGB Color-Matched System for BOTH Dark & Light Modes
    ========================================================================== */
 
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
 
 :root {
   /* Dark Theme Palette (Pixel-Sampled Exact Match to MU Dark Reference) */
@@ -57,7 +57,7 @@
 }
 
 body {
-  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
   background-color: var(--bg-main);
   color: var(--text-primary);
   line-height: 1.5;

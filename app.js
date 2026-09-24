@@ -7,7 +7,7 @@
 const state = {
   rawPublications: [],
   filteredPublications: [],
-  theme: localStorage.getItem('coep_theme') || 'light',
+  theme: localStorage.getItem('coep_theme_v2') || 'light',
   activeTab: 'tab-trends',
   selectedMonthlyYear: 2026,
   feedLimit: 50,
@@ -67,14 +67,14 @@ function initEventListeners() {
   // Theme Switchers
   document.getElementById('theme-btn-dark')?.addEventListener('click', () => {
     state.theme = 'dark';
-    localStorage.setItem('coep_theme', 'dark');
+    localStorage.setItem('coep_theme_v2', 'dark');
     initTheme();
     renderAllCharts();
     showToast('Switched to Dark Mode Theme', '🌙');
   });
   document.getElementById('theme-btn-light')?.addEventListener('click', () => {
     state.theme = 'light';
-    localStorage.setItem('coep_theme', 'light');
+    localStorage.setItem('coep_theme_v2', 'light');
     initTheme();
     renderAllCharts();
     showToast('Switched to Light Mode Theme', '☀️');
@@ -376,6 +376,11 @@ function populateDepartmentMultiSelectOptions() {
       if (d !== dropdown) d.classList.remove('open');
     });
     dropdown?.classList.toggle('open');
+  });
+
+  // Prevent clicks inside dropdown from closing it
+  dropdown?.addEventListener('click', (e) => {
+    e.stopPropagation();
   });
 
   dropdown?.querySelectorAll('input[type="checkbox"]').forEach(cb => {
