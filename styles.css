@@ -2628,7 +2628,11 @@ The user changed setting `Model Selection` from Gemini 3.6 Flash (High) to Claud
   to { transform: translateX(0); opacity: 1; }
 }
 
-/* Responsive Overrides (Ensuring Mobile Off-Canvas Sidebar Works Perfectly) */
+/* ==========================================================================
+   Comprehensive Mobile & Tablet Responsive Architecture
+   ========================================================================== */
+
+/* 1. TABLET BREAKPOINT (<= 1024px) */
 @media (max-width: 1024px) {
   .btn-mobile-filter-toggle, .mobile-sidebar-toggle {
     display: inline-flex !important;
@@ -2668,24 +2672,259 @@ The user changed setting `Model Selection` from Gemini 3.6 Flash (High) to Claud
 
   .main-content {
     padding: 16px 14px 40px 14px !important;
+    max-width: 100vw !important;
+    overflow-x: hidden !important;
   }
-}
 
-@media (max-width: 768px) {
+  /* Force single-column on all chart and analytics grids */
+  .grid-2col-charts,
+  .grid-2col-equal,
+  .grid-2col,
+  .grid-7-5,
+  .grid-5-7 {
+    grid-template-columns: 1fr !important;
+    gap: 16px !important;
+  }
+
   .kpi-grid-4col {
     grid-template-columns: repeat(2, 1fr) !important;
+    gap: 10px !important;
   }
+
   .kpi-grid-5col {
     grid-template-columns: repeat(2, 1fr) !important;
+    gap: 10px !important;
   }
+
   .podium-grid, .laureate-podium-row {
     grid-template-columns: 1fr !important;
+    gap: 12px !important;
   }
 }
 
-@media (max-width: 480px) {
+/* 2. MOBILE LANDSCAPE & PORTRAIT (<= 768px) */
+@media (max-width: 768px) {
+  .app-header, .institutional-header {
+    padding: 10px 12px !important;
+    gap: 10px !important;
+    flex-direction: column !important;
+    align-items: stretch !important;
+  }
+
+  .topbar-left, .header-left {
+    display: flex !important;
+    align-items: center !important;
+    gap: 10px !important;
+    width: 100% !important;
+  }
+
+  .topbar-logo-box img, .header-logo-img, .header-crest-img {
+    height: 30px !important;
+  }
+
+  .topbar-main-title, .header-inst-name {
+    font-size: 0.85rem !important;
+    line-height: 1.25 !important;
+  }
+
+  .topbar-sub-info, .header-sub-tagline {
+    font-size: 0.68rem !important;
+    line-height: 1.3 !important;
+    flex-wrap: wrap !important;
+    gap: 4px !important;
+  }
+
+  .topbar-right, .header-right {
+    width: 100% !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    gap: 8px !important;
+    flex-wrap: wrap !important;
+    border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
+    padding-top: 8px !important;
+  }
+
+  .live-feed-badge, .sync-status-capsule {
+    font-size: 0.70rem !important;
+    padding: 3px 8px !important;
+  }
+
+  .btn-theme-capsule, .theme-toggle-btn {
+    font-size: 0.70rem !important;
+    padding: 3px 7px !important;
+  }
+
+  .btn-topbar-reset, .btn-header-reset {
+    font-size: 0.70rem !important;
+    padding: 4px 10px !important;
+  }
+
+  .mobile-sidebar-toggle, .btn-mobile-filter-toggle {
+    font-size: 0.72rem !important;
+    padding: 4px 10px !important;
+  }
+
+  /* Hero Section */
+  .hero-banner, .institutional-hero {
+    padding: 16px 14px !important;
+    margin-bottom: 16px !important;
+  }
+
+  .hero-main-title, .hero-inst-headline {
+    font-size: 1.35rem !important;
+  }
+
+  .hero-sub-text, .hero-tagline-motto {
+    font-size: 0.78rem !important;
+  }
+
+  .hero-stat-box, .hero-exec-statbox {
+    width: 100% !important;
+    text-align: left !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    padding: 10px 14px !important;
+    margin-top: 10px !important;
+  }
+
+  .hero-stat-value, .statbox-number {
+    font-size: 1.7rem !important;
+    margin: 0 !important;
+  }
+
+  /* Executive Report Toolbar */
+  .report-bar, .report-toolbar {
+    flex-direction: column !important;
+    align-items: stretch !important;
+    padding: 10px 12px !important;
+    gap: 10px !important;
+  }
+
+  .action-btns-group, .toolbar-actions {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 6px !important;
+  }
+
+  .btn-report-action, .btn-action,
+  .btn-report-secondary, .btn-action-outline {
+    padding: 6px 4px !important;
+    font-size: 0.72rem !important;
+    justify-content: center !important;
+    text-align: center !important;
+  }
+
+  /* KPI Grid: Clean 2-column layout */
   .kpi-grid-4col {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 10px !important;
+    margin-bottom: 16px !important;
+  }
+
+  .kpi-card, .exec-kpi-card {
+    padding: 12px 14px !important;
+    min-height: 95px !important;
+  }
+
+  .kpi-value, .kpi-metric-number {
+    font-size: 1.55rem !important;
+    margin: 2px 0 4px 0 !important;
+  }
+
+  /* Navigation Tabs: smooth horizontal scroll */
+  .horizontal-tabs-nav, .tabs-analytics-nav {
+    padding: 3px !important;
+    gap: 4px !important;
+    margin-bottom: 16px !important;
+    overflow-x: auto !important;
+    -webkit-overflow-scrolling: touch !important;
+  }
+
+  .tab-nav-btn {
+    padding: 7px 12px !important;
+    font-size: 0.78rem !important;
+    flex-shrink: 0 !important;
+  }
+
+  /* Chart Cards: 100% width stacked */
+  .chart-panel-card, .analytics-card {
+    padding: 14px 14px !important;
+    margin-bottom: 16px !important;
+  }
+
+  .chart-panel-title, .card-title {
+    font-size: 0.88rem !important;
+  }
+
+  .chart-box-container, .chart-container {
+    min-height: 310px !important;
+    width: 100% !important;
+  }
+
+  .copilot-container {
+    height: 480px !important;
+  }
+
+  .chat-bubble {
+    max-width: 95% !important;
+  }
+}
+
+/* 3. SMALL PHONES (<= 480px) */
+@media (max-width: 480px) {
+  .topbar-logo-box img, .header-logo-img, .header-crest-img {
+    height: 24px !important;
+  }
+
+  .topbar-main-title, .header-inst-name {
+    font-size: 0.76rem !important;
+  }
+
+  .topbar-sub-info .tagline {
+    display: none !important;
+  }
+
+  .hero-main-title, .hero-inst-headline {
+    font-size: 1.22rem !important;
+  }
+
+  .action-btns-group, .toolbar-actions {
     grid-template-columns: 1fr !important;
+    gap: 6px !important;
+  }
+
+  .kpi-grid-4col {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 8px !important;
+  }
+
+  .kpi-card, .exec-kpi-card {
+    padding: 10px 10px !important;
+    min-height: 85px !important;
+  }
+
+  .kpi-title, .kpi-label {
+    font-size: 0.65rem !important;
+  }
+
+  .kpi-value, .kpi-metric-number {
+    font-size: 1.35rem !important;
+  }
+
+  .kpi-subtext, .kpi-sub-badge {
+    font-size: 0.62rem !important;
+  }
+
+  .chart-box-container, .chart-container {
+    min-height: 290px !important;
+  }
+
+  .footer-content {
+    flex-direction: column !important;
+    text-align: center !important;
+    gap: 6px !important;
   }
 }
 
