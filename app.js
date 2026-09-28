@@ -1255,13 +1255,37 @@ function renderImpactBubbleChart() {
   const totalCites = state.filteredPublications.reduce((acc, d) => acc + (parseInt(d.citations) || 0), 0);
   const avgCpp = state.filteredPublications.length > 0 ? (totalCites / state.filteredPublications.length) : 0;
 
+  const deptMap = {
+    'Mechanical Engineering': { short: 'Mechanical', pos: 'top center' },
+    'Computer Engineering & IT': { short: 'Computer & IT', pos: 'bottom center' },
+    'Electronics & Telecommunication (E&TC)': { short: 'E&TC', pos: 'top right' },
+    'Instrumentation & Control Engineering': { short: 'Instrumentation', pos: 'bottom right' },
+    'Applied Sciences & Mathematics': { short: 'Applied Math', pos: 'top right' },
+    'Electrical Engineering': { short: 'Electrical', pos: 'top right' },
+    'Metallurgical & Materials Engineering': { short: 'Metallurgy', pos: 'bottom center' },
+    'Manufacturing & Industrial Engineering': { short: 'Mfg & Ind', pos: 'top center' },
+    'Physics & Applied Materials': { short: 'Physics', pos: 'top right' },
+    'Civil & Environmental Engineering': { short: 'Civil Eng', pos: 'middle right' },
+    'Chemistry & Chemical Sciences': { short: 'Chemistry', pos: 'bottom right' }
+  };
+
   const deptArray = Object.keys(deptStats).map(dept => {
     const item = deptStats[dept];
     const cpp = item.pubs > 0 ? (item.cites / item.pubs) : 0;
     const q1Pct = item.pubs > 0 ? ((item.q1 / item.pubs) * 100) : 0;
-    const shortName = dept.replace('Department of ', '')
-      .replace('National Centre for Nanosciences and Nanotechnology (NCNNUM)', 'NCNNUM Nano');
-    return { dept: shortName, pubs: item.pubs, cpp: cpp, cites: item.cites, q1Pct: q1Pct };
+    const config = deptMap[dept] || {
+      short: dept.replace('Department of ', '').slice(0, 14),
+      pos: 'top center'
+    };
+    return {
+      fullName: dept,
+      shortName: config.short,
+      pos: config.pos,
+      pubs: item.pubs,
+      cpp: cpp,
+      cites: item.cites,
+      q1Pct: q1Pct
+    };
   });
 
   const maxPubs = Math.max(...deptArray.map(d => d.pubs), 50);
@@ -1269,23 +1293,21 @@ function renderImpactBubbleChart() {
   const bubbleTrace = {
     x: deptArray.map(d => d.pubs),
     y: deptArray.map(d => d.cpp),
-    text: deptArray.map(d => {
-      if (isMobile) {
-        if (d.pubs >= 1000) return 'Mechanical';
-        if (d.pubs >= 500) return 'Computer & IT';
-        if (d.pubs >= 200) return 'E&TC';
-        return '';
-      }
-      return d.dept;
-    }),
+    text: deptArray.map(d => isMobile ? (d.pubs >= 100 ? d.shortName : '') : d.shortName),
+    customdata: deptArray.map(d => d.fullName),
     mode: 'markers+text',
-    textposition: deptArray.map(d => d.pubs >= 1000 ? 'top left' : 'top center'),
-    textfont: { size: isMobile ? 8 : 10, color: isDark ? '#FFFFFF' : '#0D111A' },
+    textposition: deptArray.map(d => d.pos),
+    textfont: {
+      size: isMobile ? 9 : 10.5,
+      color: isDark ? '#FFFFFF' : '#0D111A',
+      family: 'Inter, sans-serif'
+    },
+    cliponaxis: false,
     marker: {
       size: deptArray.map(d => d.cites),
       sizemode: 'area',
-      sizeref: 2.0 * Math.max(...deptArray.map(d => d.cites), 100) / ((isMobile ? 30 : 42) ** 2),
-      sizemin: 5,
+      sizeref: 2.0 * Math.max(...deptArray.map(d => d.cites), 100) / ((isMobile ? 32 : 42) ** 2),
+      sizemin: isMobile ? 5 : 7,
       color: deptArray.map(d => d.q1Pct),
       colorscale: [
         [0.0, '#0C3967'],
@@ -1294,13 +1316,20 @@ function renderImpactBubbleChart() {
       ],
       colorbar: {
         title: 'Q1 %',
-        thickness: isMobile ? 8 : 12,
-        len: 0.75,
+        thickness: isMobile ? 9 : 12,
+        len: isMobile ? 0.7 : 0.75,
         tickfont: { color: isDark ? '#FFFFFF' : '#0D111A', size: isMobile ? 8 : 10 }
       }
     },
-    hovertemplate: '<b>%{text}</b><br>Publications: %{x}<br>CPP: %{y:.2f}<br>Citations: %{marker.size:,}<extra></extra>'
+    hovertemplate:
+      '<b>%{customdata}</b><br>' +
+      '• Publications: <b>%{x}</b><br>' +
+      '• Citation Density: <b>%{y:.2f}</b> CPP<br>' +
+      '• Total Citations: <b>%{marker.size:,}</b><br>' +
+      '• Q1 Journal Share: <b>%{marker.color:.1f}%</b><extra></extra>'
   };
+
+  const xMaxBound = maxPubs * (isMobile ? 1.15 : 1.12);
 
   const bubbleLayout = {
     ...getPlotlyLayoutTheme(),
@@ -1308,29 +1337,36 @@ function renderImpactBubbleChart() {
       ...getPlotlyLayoutTheme().xaxis,
       title: isMobile ? 'Publications' : 'Total Publication Volume (Papers)',
       automargin: true,
-      range: [0, maxPubs * (isMobile ? 1.25 : 1.15)]
+      range: [-25, xMaxBound]
     },
     yaxis: {
       ...getPlotlyLayoutTheme().yaxis,
       title: isMobile ? 'Avg CPP' : 'Average Citations Per Paper (CPP)',
-      automargin: true
+      automargin: true,
+      range: [0, 23]
     },
     shapes: [{
       type: 'line',
-      x0: 0,
-      x1: maxPubs * 1.15,
+      x0: -25,
+      x1: xMaxBound,
       y0: avgCpp,
       y1: avgCpp,
       line: { color: '#FB9611', width: 2, dash: 'dash' }
     }],
     annotations: [{
-      x: maxPubs * 0.2,
-      y: avgCpp + (avgCpp * 0.08 || 0.5),
-      text: `Benchmark Avg CPP: ${avgCpp.toFixed(2)}`,
+      x: maxPubs * (isMobile ? 0.42 : 0.45),
+      y: avgCpp + (isMobile ? 0.7 : 0.65),
+      text: `<b>Benchmark Avg CPP: ${avgCpp.toFixed(2)}</b>`,
       showarrow: false,
-      font: { color: '#FB9611', size: isMobile ? 9 : 11, weight: 600 }
+      xanchor: 'center',
+      yanchor: 'bottom',
+      font: { color: '#FB9611', size: isMobile ? 9 : 11, family: 'Inter, sans-serif' },
+      bgcolor: isDark ? 'rgba(17, 26, 38, 0.95)' : 'rgba(255, 255, 255, 0.95)',
+      bordercolor: '#FB9611',
+      borderwidth: 1,
+      borderpad: isMobile ? 2 : 4
     }],
-    margin: { t: 25, r: isMobile ? 15 : 25, l: isMobile ? 38 : 50, b: isMobile ? 38 : 45 }
+    margin: { t: 25, r: isMobile ? 15 : 25, l: isMobile ? 38 : 55, b: isMobile ? 38 : 45 }
   };
 
   Plotly.newPlot('chart-impact-bubble', [bubbleTrace], bubbleLayout, { responsive: true, displayModeBar: false });
