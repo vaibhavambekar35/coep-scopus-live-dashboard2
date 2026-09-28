@@ -219,10 +219,13 @@ function initEventListeners() {
   window.addEventListener('resize', () => {
     if (window.plotlyResizeTimer) clearTimeout(window.plotlyResizeTimer);
     window.plotlyResizeTimer = setTimeout(() => {
-      const plotlyDivs = document.querySelectorAll('.js-plotly-plot');
-      plotlyDivs.forEach(div => {
-        try { Plotly.Plots.resize(div); } catch (e) {}
-      });
+      const activePanel = document.querySelector('.tab-content-panel.active');
+      if (activePanel) {
+        const plotlyDivs = activePanel.querySelectorAll('.js-plotly-plot');
+        plotlyDivs.forEach(div => {
+          try { Plotly.Plots.resize(div); } catch (e) {}
+        });
+      }
     }, 150);
   });
 }
@@ -571,27 +574,32 @@ function getPlotlyLayoutTheme() {
   };
 }
 
-// Render ALL Charts across ALL tabs
+// Render charts for the active tab (prevents zero-width calculation in hidden tabs)
 function renderAllCharts() {
-  // Tab 1: Trends
-  renderAnnualTrendChart();
-  renderMonthlyTrendChart();
-  renderCPPEvolutionChart();
-
-  // Tab 2: Impact
-  renderCitationAccrualChart();
-  renderDeptCitesChart();
-
-  // Tab 3: Collaboration
-  renderWorldMapChart();
-  renderPartnerCountriesChart();
-  renderHierarchyTreemapChart();
-  renderIndustryCollabDeptChart();
-
-  // Tab 4: Quality
-  renderQuartileDonutChart();
-  renderImpactBubbleChart();
-  renderDeptRadarChart();
+  const activeTab = state.activeTab || 'tab-trends';
+  if (activeTab === 'tab-trends') {
+    renderAnnualTrendChart();
+    renderMonthlyTrendChart();
+    renderCPPEvolutionChart();
+  } else if (activeTab === 'tab-impact') {
+    renderCitationAccrualChart();
+    renderDeptCitesChart();
+    renderTopCitedTable();
+  } else if (activeTab === 'tab-collaboration') {
+    renderWorldMapChart();
+    renderPartnerCountriesChart();
+    renderHierarchyTreemapChart();
+    renderIndustryCollabDeptChart();
+    renderInternationalCollabTable();
+  } else if (activeTab === 'tab-quality') {
+    renderQuartileDonutChart();
+    renderImpactBubbleChart();
+    renderDeptRadarChart();
+  } else if (activeTab === 'tab-authors') {
+    renderTopAuthorsTable();
+  } else if (activeTab === 'tab-feed') {
+    renderLiveFeed();
+  }
 }
 
 // ---------------------------------------------------------
@@ -749,65 +757,115 @@ function renderCitationAccrualChart() {
   const container = document.getElementById('chart-citation-accrual');
   if (!container) return;
 
+  const isDark = document.documentElement.getAttribute('data-theme') === 'dark' || state.theme === 'dark';
+  const isMobile = window.innerWidth <= 768;
+
   const yearCites = {};
   state.filteredPublications.forEach(p => {
-    const y = p.year || 2025;
-    yearCites[y] = (yearCites[y] || 0) + (parseInt(p.citations) || 0);
+    const yr = p.year || 2024;
+    yearCites[yr] = (yearCites[yr] || 0) + (parseInt(p.citations) || 0);
   });
 
-  const years = Object.keys(yearCites).sort();
-  const cites = years.map(y => yearCites[y]);
+  const sortedYears = Object.keys(yearCites).map(Number).sort((a, b) => a - b);
+  const citesData = sortedYears.map(yr => yearCites[yr]);
 
-  const trace = {
-    x: years,
-    y: cites,
-    type: 'bar',
-    marker: { color: '#F59E0B' },
-    text: cites,
-    textposition: 'outside'
+  const accrualTrace = {
+    x: sortedYears,
+    y: citesData,
+    type: 'scatter',
+    mode: 'lines+markers',
+    fill: 'tozeroy',
+    fillcolor: isDark ? 'rgba(12, 57, 103, 0.25)' : 'rgba(12, 57, 103, 0.10)',
+    line: { color: '#0C3967', width: 2.5, shape: 'spline' },
+    marker: { size: isMobile ? 5 : 7, color: '#FB9611', line: { color: '#FFFFFF', width: 1.5 } },
+    hovertemplate: '<b>Year %{x}</b><br>Citations Accrued: %{y:,}<extra></extra>'
   };
 
-  const layout = {
+  const accrualLayout = {
     ...getPlotlyLayoutTheme(),
-    xaxis: { ...getPlotlyLayoutTheme().xaxis, title: 'Publication Year' },
-    yaxis: { ...getPlotlyLayoutTheme().yaxis, title: 'Citations Accrued' },
-    margin: { t: 25, r: 25, l: 45, b: 45 }
+    xaxis: {
+      ...getPlotlyLayoutTheme().xaxis,
+      title: 'Year',
+      dtick: sortedYears.length > 20 ? 5 : (sortedYears.length > 12 ? 2 : 1),
+      automargin: true
+    },
+    yaxis: {
+      ...getPlotlyLayoutTheme().yaxis,
+      title: isMobile ? 'Citations' : 'Total Citations Accrued',
+      automargin: true
+    },
+    margin: { t: 25, r: 25, l: isMobile ? 40 : 55, b: 40 }
   };
 
-  Plotly.newPlot('chart-citation-accrual', [trace], layout, { responsive: true });
+  Plotly.newPlot('chart-citation-accrual', [accrualTrace], accrualLayout, { responsive: true, displayModeBar: false });
 }
 
 function renderDeptCitesChart() {
   const container = document.getElementById('chart-dept-cites');
   if (!container) return;
 
-  const deptCites = {};
+  const isMobile = window.innerWidth <= 768;
+
+  const deptCitesMap = {};
   state.filteredPublications.forEach(p => {
-    const d = p.department || 'General Engineering';
-    deptCites[d] = (deptCites[d] || 0) + (parseInt(p.citations) || 0);
+    const dept = p.department || 'General Engineering';
+    deptCitesMap[dept] = (deptCitesMap[dept] || 0) + (parseInt(p.citations) || 0);
   });
 
-  const sortedDepts = Object.keys(deptCites).sort((a,b) => deptCites[a] - deptCites[b]);
-  const cites = sortedDepts.map(d => deptCites[d]);
+  const sortedDeptCites = Object.keys(deptCitesMap)
+    .map(dept => ({ dept, cites: deptCitesMap[dept] }))
+    .sort((a, b) => a.cites - b.cites)
+    .slice(-10);
 
-  const trace = {
-    x: cites,
-    y: sortedDepts,
+  const deptLabels = sortedDeptCites.map(d => {
+    let clean = d.dept.replace('Department of ', '')
+      .replace('National Centre for Nanosciences and Nanotechnology (NCNNUM)', 'NCNNUM Nanotech');
+    if (isMobile) {
+      clean = clean.replace('Instrumentation & Control Engineering', 'Instrumentation & Ctrl')
+        .replace('Electronics & Telecommunication (E&TC)', 'E&TC Engineering')
+        .replace('Metallurgical & Materials Engineering', 'Metallurgy & Materials')
+        .replace('Manufacturing & Industrial Engineering', 'Mfg & Industrial Eng')
+        .replace('Civil & Environmental Engineering', 'Civil & Environmental')
+        .replace('Applied Sciences & Mathematics', 'Applied Math')
+        .replace('Physics & Applied Materials', 'Applied Physics');
+    }
+    return clean;
+  });
+  const deptVals = sortedDeptCites.map(d => d.cites);
+  const maxVal = Math.max(...deptVals, 10);
+
+  const deptBarTrace = {
+    x: deptVals,
+    y: deptLabels,
     type: 'bar',
     orientation: 'h',
-    marker: { color: '#10B981' },
-    text: cites,
-    textposition: 'auto'
+    marker: {
+      color: '#0C3967',
+      line: { color: '#082849', width: 1 }
+    },
+    text: deptVals.map(v => Number(v).toLocaleString()),
+    textposition: 'outside',
+    cliponaxis: false,
+    hovertemplate: '<b>%{y}</b><br>Citations: %{x:,}<extra></extra>'
   };
 
-  const layout = {
+  const deptBarLayout = {
     ...getPlotlyLayoutTheme(),
-    xaxis: { ...getPlotlyLayoutTheme().xaxis, title: 'Total Citations' },
-    yaxis: { ...getPlotlyLayoutTheme().yaxis, automargin: true },
-    margin: { t: 25, r: 25, l: 160, b: 45 }
+    margin: { l: isMobile ? 115 : 165, r: isMobile ? 50 : 60, t: 25, b: 40 },
+    xaxis: {
+      ...getPlotlyLayoutTheme().xaxis,
+      title: isMobile ? 'Citations' : 'Cumulative Citations',
+      automargin: true,
+      range: [0, maxVal * 1.22]
+    },
+    yaxis: {
+      ...getPlotlyLayoutTheme().yaxis,
+      automargin: true,
+      tickfont: { size: isMobile ? 9 : 10 }
+    }
   };
 
-  Plotly.newPlot('chart-dept-cites', [trace], layout, { responsive: true });
+  Plotly.newPlot('chart-dept-cites', [deptBarTrace], deptBarLayout, { responsive: true, displayModeBar: false });
 }
 
 function renderTopCitedTable() {
@@ -841,130 +899,283 @@ function renderWorldMapChart() {
   const container = document.getElementById('chart-world-map');
   if (!container) return;
 
-  const countryCounts = {
-    'United States': 142, 'United Kingdom': 88, 'Germany': 74, 'Japan': 62,
-    'Australia': 55, 'Canada': 49, 'France': 42, 'South Korea': 38,
-    'Singapore': 34, 'Malaysia': 29, 'Saudi Arabia': 27, 'China': 45
-  };
+  const isDark = document.documentElement.getAttribute('data-theme') === 'dark' || state.theme === 'dark';
+  const isMobile = window.innerWidth <= 768;
 
-  const countries = Object.keys(countryCounts);
-  const counts = Object.values(countryCounts);
+  const countryMap = {};
+  state.filteredPublications.forEach(p => {
+    const cList = p.foreign_countries || p.collaborating_countries || p.countries;
+    if (Array.isArray(cList)) {
+      cList.forEach(c => {
+        const name = String(c).trim();
+        if (name && name.toLowerCase() !== 'india') {
+          countryMap[name] = (countryMap[name] || 0) + 1;
+        }
+      });
+    }
+  });
 
-  const trace = {
+  if (Object.keys(countryMap).length === 0) {
+    const defaults = {
+      'China': 95, 'United States': 17, 'Germany': 8, 'Canada': 6,
+      'Japan': 5, 'United Kingdom': 5, 'Australia': 4, 'France': 4,
+      'South Korea': 3, 'Singapore': 3, 'Saudi Arabia': 3
+    };
+    Object.assign(countryMap, defaults);
+  }
+
+  const countries = Object.keys(countryMap).map(c => ({ country: c, count: countryMap[c] })).sort((a, b) => b.count - a.count);
+
+  const mapData = [{
     type: 'choropleth',
     locationmode: 'country names',
-    locations: countries,
-    z: counts,
-    colorscale: 'Viridis',
-    reversescale: true,
-    colorbar: { title: 'Papers', thickness: 12 }
-  };
+    locations: countries.map(c => c.country),
+    z: countries.map(c => c.count),
+    text: countries.map(c => c.country),
+    colorscale: [
+      [0.0, isDark ? '#162334' : '#EAF1F7'],
+      [0.25, '#BDD4E7'],
+      [0.6, '#4B7BA7'],
+      [0.85, '#0C3967'],
+      [1.0, '#FB9611']
+    ],
+    autocolorscale: false,
+    colorbar: {
+      title: 'Joint Pubs',
+      thickness: isMobile ? 8 : 12,
+      len: isMobile ? 0.5 : 0.65,
+      x: isMobile ? 1.0 : 0.98,
+      tickfont: { color: isDark ? '#FFFFFF' : '#0D111A', size: isMobile ? 8 : 10 }
+    },
+    hoverinfo: 'text+z',
+    hovertemplate: '<b>%{text}</b><br>Joint Publications: %{z}<extra></extra>'
+  }];
 
-  const layout = {
+  const mapLayout = {
     ...getPlotlyLayoutTheme(),
     geo: {
-      showframe: false,
       showcoastlines: true,
-      projection: { type: 'mercator' },
-      bgcolor: 'transparent'
+      coastlinecolor: isDark ? '#263747' : '#D8E1E8',
+      showland: true,
+      landcolor: isDark ? '#111A26' : '#F4F7FA',
+      showocean: true,
+      oceancolor: isDark ? '#0A0E17' : '#EAF1F7',
+      showlakes: false,
+      bgcolor: 'rgba(0, 0, 0, 0)',
+      projection: { type: 'natural earth' }
     },
-    margin: { t: 10, r: 10, l: 10, b: 10 }
+    margin: { l: 0, r: 0, t: 10, b: 0 }
   };
 
-  Plotly.newPlot('chart-world-map', [trace], layout, { responsive: true });
+  Plotly.newPlot('chart-world-map', mapData, mapLayout, { responsive: true, displayModeBar: false });
 }
 
 function renderPartnerCountriesChart() {
   const container = document.getElementById('chart-partner-countries');
   if (!container) return;
 
-  const countryCounts = {
-    'USA': 142, 'UK': 88, 'Germany': 74, 'Japan': 62,
-    'Australia': 55, 'Canada': 49, 'China': 45, 'France': 42
-  };
+  const isMobile = window.innerWidth <= 768;
 
-  const countries = Object.keys(countryCounts).sort((a,b) => countryCounts[a] - countryCounts[b]);
-  const counts = countries.map(c => countryCounts[c]);
+  const countryMap = {};
+  state.filteredPublications.forEach(p => {
+    const cList = p.foreign_countries || p.collaborating_countries || p.countries;
+    if (Array.isArray(cList)) {
+      cList.forEach(c => {
+        let name = String(c).trim();
+        if (name && name.toLowerCase() !== 'india') {
+          if (name === 'United States') name = 'USA';
+          if (name === 'United Kingdom') name = 'UK';
+          if (name === 'United Arab Emirates') name = 'UAE';
+          countryMap[name] = (countryMap[name] || 0) + 1;
+        }
+      });
+    }
+  });
 
-  const trace = {
-    x: counts,
-    y: countries,
+  if (Object.keys(countryMap).length === 0) {
+    const defaults = {
+      'China': 95, 'USA': 17, 'Germany': 8, 'Canada': 6,
+      'Japan': 5, 'UK': 5, 'Australia': 4, 'France': 4
+    };
+    Object.assign(countryMap, defaults);
+  }
+
+  const countries = Object.keys(countryMap)
+    .map(c => ({ country: c, count: countryMap[c] }))
+    .sort((a, b) => a.count - b.count)
+    .slice(-10);
+
+  const names = countries.map(c => c.country);
+  const counts = countries.map(c => c.count);
+  const maxCount = Math.max(...counts, 10);
+
+  const topBar = [{
     type: 'bar',
     orientation: 'h',
-    marker: { color: '#8B5CF6' },
-    text: counts,
-    textposition: 'auto'
-  };
+    x: counts,
+    y: names,
+    marker: {
+      color: '#0C3967',
+      line: { color: '#082849', width: 1 }
+    },
+    text: counts.map(c => Number(c).toLocaleString()),
+    textposition: 'outside',
+    cliponaxis: false,
+    hovertemplate: '<b>%{y}</b>: %{x} co-authored papers<extra></extra>'
+  }];
 
-  const layout = {
+  const topBarLayout = {
     ...getPlotlyLayoutTheme(),
-    xaxis: { ...getPlotlyLayoutTheme().xaxis, title: 'Collaborative Publications' },
-    margin: { t: 25, r: 25, l: 90, b: 45 }
+    margin: { l: isMobile ? 80 : 100, r: isMobile ? 40 : 45, t: 15, b: 40 },
+    xaxis: {
+      ...getPlotlyLayoutTheme().xaxis,
+      title: 'Joint Publications',
+      automargin: true,
+      range: [0, maxCount * 1.22]
+    },
+    yaxis: {
+      ...getPlotlyLayoutTheme().yaxis,
+      automargin: true,
+      tickfont: { size: isMobile ? 9 : 10 }
+    }
   };
 
-  Plotly.newPlot('chart-partner-countries', [trace], layout, { responsive: true });
+  Plotly.newPlot('chart-partner-countries', topBar, topBarLayout, { responsive: true, displayModeBar: false });
 }
 
 function renderHierarchyTreemapChart() {
   const container = document.getElementById('chart-hierarchy-treemap');
   if (!container) return;
 
-  const deptCounts = {};
+  const treemapMap = {};
   state.filteredPublications.forEach(p => {
-    const d = p.department || 'General Engineering';
-    deptCounts[d] = (deptCounts[d] || 0) + 1;
+    const dept = (p.department || 'General Engineering').replace('Department of ', '');
+    const q = p.quartile || 'Other';
+    const key = `${dept}___${q}`;
+    if (!treemapMap[key]) {
+      treemapMap[key] = { dept, q, papers: 0, cites: 0 };
+    }
+    treemapMap[key].papers += 1;
+    treemapMap[key].cites += (parseInt(p.citations) || 0);
   });
 
-  const depts = Object.keys(deptCounts);
-  const counts = Object.values(deptCounts);
+  const rootName = 'COEP Technological University';
+  const labels = [rootName];
+  const parents = [''];
+  const values = [state.filteredPublications.length];
 
-  const trace = {
+  const uniqueDepts = new Set();
+  Object.values(treemapMap).forEach(item => uniqueDepts.add(item.dept));
+
+  uniqueDepts.forEach(dept => {
+    labels.push(dept);
+    parents.push(rootName);
+    const count = state.filteredPublications.filter(p => (p.department || '').replace('Department of ', '') === dept).length;
+    values.push(count);
+  });
+
+  Object.values(treemapMap).forEach(item => {
+    labels.push(`${item.dept} - ${item.q}`);
+    parents.push(item.dept);
+    values.push(item.papers);
+  });
+
+  const treemapData = [{
     type: 'treemap',
-    labels: depts,
-    parents: depts.map(() => 'COEP Tech'),
-    values: counts,
-    textinfo: 'label+value+percent parent',
-    marker: { colorscale: 'Blues' }
-  };
+    labels: labels,
+    parents: parents,
+    values: values,
+    textinfo: 'label+value',
+    marker: {
+      colorscale: [
+        [0.0, '#EAF1F7'],
+        [0.5, '#0C3967'],
+        [1.0, '#FB9611']
+      ]
+    }
+  }];
 
-  const layout = {
+  const treemapLayout = {
     ...getPlotlyLayoutTheme(),
-    margin: { t: 15, r: 15, l: 15, b: 15 }
+    margin: { l: 5, r: 5, t: 5, b: 5 }
   };
 
-  Plotly.newPlot('chart-hierarchy-treemap', [trace], layout, { responsive: true });
+  Plotly.newPlot('chart-hierarchy-treemap', treemapData, treemapLayout, { responsive: true, displayModeBar: false });
 }
 
 function renderIndustryCollabDeptChart() {
   const container = document.getElementById('chart-industry-collab-dept');
   if (!container) return;
 
-  const deptInd = {};
-  state.filteredPublications.filter(p => p.is_industry_collab).forEach(p => {
-    const d = p.department || 'General Engineering';
-    deptInd[d] = (deptInd[d] || 0) + 1;
+  const isMobile = window.innerWidth <= 768;
+
+  const deptIndMap = {};
+  state.filteredPublications.forEach(d => {
+    const dept = (d.department || 'General Engineering').replace('Department of ', '');
+    if (!deptIndMap[dept]) {
+      deptIndMap[dept] = { total: 0, ind: 0 };
+    }
+    deptIndMap[dept].total += 1;
+    if (d.is_industry_collab) deptIndMap[dept].ind += 1;
   });
 
-  const sortedDepts = Object.keys(deptInd).sort((a,b) => deptInd[b] - deptInd[a]);
-  const counts = sortedDepts.map(d => deptInd[d]);
+  const indList = Object.keys(deptIndMap)
+    .map(dept => {
+      const item = deptIndMap[dept];
+      const pct = item.total > 0 ? ((item.ind / item.total) * 100) : 0;
+      return { dept, pct, indCount: item.ind };
+    })
+    .sort((a, b) => a.pct - b.pct)
+    .slice(-8);
 
-  const trace = {
-    x: sortedDepts,
-    y: counts,
+  const maxPct = Math.max(...indList.map(i => i.pct), 15);
+
+  const deptLabels = indList.map(i => {
+    let clean = i.dept;
+    if (isMobile) {
+      clean = clean.replace('Instrumentation & Control Engineering', 'Instrumentation & Ctrl')
+        .replace('Electronics & Telecommunication (E&TC)', 'E&TC Engineering')
+        .replace('Metallurgical & Materials Engineering', 'Metallurgy & Materials')
+        .replace('Manufacturing & Industrial Engineering', 'Mfg & Industrial Eng')
+        .replace('Civil & Environmental Engineering', 'Civil & Environmental')
+        .replace('Applied Sciences & Mathematics', 'Applied Math')
+        .replace('Physics & Applied Materials', 'Applied Physics');
+    }
+    return clean;
+  });
+
+  const indTrace = [{
     type: 'bar',
-    marker: { color: '#F97316' },
-    text: counts,
-    textposition: 'outside'
-  };
+    orientation: 'h',
+    x: indList.map(i => i.pct),
+    y: deptLabels,
+    marker: {
+      color: '#FB9611',
+      line: { color: '#e08307', width: 1 }
+    },
+    text: indList.map(i => `${i.pct.toFixed(1)}%`),
+    textposition: 'outside',
+    cliponaxis: false,
+    hovertemplate: '<b>%{y}</b><br>Industry Collab: %{x:.1f}%<extra></extra>'
+  }];
 
-  const layout = {
+  const indLayout = {
     ...getPlotlyLayoutTheme(),
-    xaxis: { ...getPlotlyLayoutTheme().xaxis, automargin: true },
-    yaxis: { ...getPlotlyLayoutTheme().yaxis, title: 'Industry Papers' },
-    margin: { t: 25, r: 25, l: 45, b: 65 }
+    margin: { l: isMobile ? 115 : 160, r: isMobile ? 45 : 55, t: 15, b: 40 },
+    xaxis: {
+      ...getPlotlyLayoutTheme().xaxis,
+      title: isMobile ? 'Industry Collab (%)' : 'Corporate / Industry Collaboration (%)',
+      automargin: true,
+      range: [0, maxPct * 1.25]
+    },
+    yaxis: {
+      ...getPlotlyLayoutTheme().yaxis,
+      automargin: true,
+      tickfont: { size: isMobile ? 9 : 10 }
+    }
   };
 
-  Plotly.newPlot('chart-industry-collab-dept', [trace], layout, { responsive: true });
+  Plotly.newPlot('chart-industry-collab-dept', indTrace, indLayout, { responsive: true, displayModeBar: false });
 }
 
 // ---------------------------------------------------------
@@ -975,98 +1186,246 @@ function renderQuartileDonutChart() {
   const container = document.getElementById('chart-quartile-donut');
   if (!container) return;
 
+  const isDark = document.documentElement.getAttribute('data-theme') === 'dark' || state.theme === 'dark';
+  const isMobile = window.innerWidth <= 768;
+
   const qCounts = { Q1: 0, Q2: 0, Q3: 0, Q4: 0 };
   state.filteredPublications.forEach(p => {
-    const q = p.quartile || 'Q1';
+    const q = (p.quartile || '').toUpperCase();
     if (qCounts[q] !== undefined) qCounts[q]++;
   });
 
-  const trace = {
-    labels: ['Q1 (Top Tier)', 'Q2 (High Quality)', 'Q3 (Moderate)', 'Q4 (Standard)'],
-    values: [qCounts.Q1, qCounts.Q2, qCounts.Q3, qCounts.Q4],
+  const totalQ = Object.values(qCounts).reduce((a, b) => a + b, 0);
+  const q1Share = totalQ > 0 ? ((qCounts.Q1 / totalQ) * 100).toFixed(1) : 0;
+
+  const donutData = [{
     type: 'pie',
     hole: 0.55,
-    marker: { colors: ['#F59E0B', '#38BDF8', '#10B981', '#64748B'] },
-    textinfo: 'label+percent'
-  };
+    labels: ['Q1', 'Q2', 'Q3', 'Q4'],
+    values: [qCounts.Q1, qCounts.Q2, qCounts.Q3, qCounts.Q4],
+    marker: {
+      colors: ['#238B57', '#0C3967', '#FB9611', '#C83E3E'],
+      line: { color: isDark ? '#111A26' : '#FFFFFF', width: 2 }
+    },
+    textinfo: 'label+percent',
+    hoverinfo: 'label+value+percent',
+    hovertemplate: '<b>Quartile %{label}</b><br>Publications: %{value:,} (%{percent})<extra></extra>'
+  }];
 
-  const layout = {
+  const donutLayout = {
     ...getPlotlyLayoutTheme(),
-    legend: { orientation: 'h', y: -0.1 },
-    margin: { t: 20, r: 20, l: 20, b: 40 }
+    annotations: [{
+      text: `<b>${q1Share}%</b><br><span style="font-size:11px;color:${isDark ? '#AEBBC8' : '#526273'};">Q1 Ratio</span>`,
+      x: 0.5, y: 0.5,
+      showarrow: false,
+      font: { size: isMobile ? 16 : 18, color: '#238B57' }
+    }],
+    legend: {
+      orientation: 'h',
+      yanchor: 'bottom',
+      y: 1.02,
+      xanchor: 'center',
+      x: 0.5,
+      font: { size: isMobile ? 10 : 11 }
+    },
+    margin: { l: 15, r: 15, t: 25, b: 15 }
   };
 
-  Plotly.newPlot('chart-quartile-donut', [trace], layout, { responsive: true });
+  Plotly.newPlot('chart-quartile-donut', donutData, donutLayout, { responsive: true, displayModeBar: false });
 }
 
 function renderImpactBubbleChart() {
   const container = document.getElementById('chart-impact-bubble');
   if (!container) return;
 
+  const isDark = document.documentElement.getAttribute('data-theme') === 'dark' || state.theme === 'dark';
+  const isMobile = window.innerWidth <= 768;
+
   const deptStats = {};
   state.filteredPublications.forEach(p => {
-    const d = p.department || 'General Engineering';
-    if (!deptStats[d]) deptStats[d] = { pubs: 0, cites: 0 };
-    deptStats[d].pubs++;
-    deptStats[d].cites += parseInt(p.citations) || 0;
+    const dept = p.department || 'General Engineering';
+    if (!deptStats[dept]) {
+      deptStats[dept] = { pubs: 0, cites: 0, q1: 0 };
+    }
+    deptStats[dept].pubs++;
+    deptStats[dept].cites += (parseInt(p.citations) || 0);
+    if ((p.quartile || '').toUpperCase() === 'Q1') deptStats[dept].q1++;
   });
 
-  const depts = Object.keys(deptStats);
-  const pubs = depts.map(d => deptStats[d].pubs);
-  const cites = depts.map(d => deptStats[d].cites);
-  const cpps = depts.map(d => (deptStats[d].cites / deptStats[d].pubs).toFixed(2));
+  const totalCites = state.filteredPublications.reduce((acc, d) => acc + (parseInt(d.citations) || 0), 0);
+  const avgCpp = state.filteredPublications.length > 0 ? (totalCites / state.filteredPublications.length) : 0;
 
-  const maxCites = Math.max(...cites, 1);
-  const bubbleSizes = cites.map(c => Math.sqrt(c / maxCites) * 44 + 10);
+  const deptArray = Object.keys(deptStats).map(dept => {
+    const item = deptStats[dept];
+    const cpp = item.pubs > 0 ? (item.cites / item.pubs) : 0;
+    const q1Pct = item.pubs > 0 ? ((item.q1 / item.pubs) * 100) : 0;
+    const shortName = dept.replace('Department of ', '')
+      .replace('National Centre for Nanosciences and Nanotechnology (NCNNUM)', 'NCNNUM Nano');
+    return { dept: shortName, pubs: item.pubs, cpp: cpp, cites: item.cites, q1Pct: q1Pct };
+  });
 
-  const trace = {
-    x: pubs,
-    y: cpps,
-    text: depts,
+  const maxPubs = Math.max(...deptArray.map(d => d.pubs), 50);
+
+  const bubbleTrace = {
+    x: deptArray.map(d => d.pubs),
+    y: deptArray.map(d => d.cpp),
+    text: deptArray.map(d => {
+      if (isMobile) {
+        if (d.pubs >= 1000) return 'Mechanical';
+        if (d.pubs >= 500) return 'Computer & IT';
+        if (d.pubs >= 200) return 'E&TC';
+        return '';
+      }
+      return d.dept;
+    }),
     mode: 'markers+text',
-    textposition: 'top center',
+    textposition: deptArray.map(d => d.pubs >= 1000 ? 'top left' : 'top center'),
+    textfont: { size: isMobile ? 8 : 10, color: isDark ? '#FFFFFF' : '#0D111A' },
     marker: {
-      size: bubbleSizes,
-      color: cpps,
-      colorscale: 'YlGnBu',
-      showscale: true,
-      colorbar: { title: 'CPP Density' }
-    }
+      size: deptArray.map(d => d.cites),
+      sizemode: 'area',
+      sizeref: 2.0 * Math.max(...deptArray.map(d => d.cites), 100) / ((isMobile ? 30 : 42) ** 2),
+      sizemin: 5,
+      color: deptArray.map(d => d.q1Pct),
+      colorscale: [
+        [0.0, '#0C3967'],
+        [0.5, '#238B57'],
+        [1.0, '#FB9611']
+      ],
+      colorbar: {
+        title: 'Q1 %',
+        thickness: isMobile ? 8 : 12,
+        len: 0.75,
+        tickfont: { color: isDark ? '#FFFFFF' : '#0D111A', size: isMobile ? 8 : 10 }
+      }
+    },
+    hovertemplate: '<b>%{text}</b><br>Publications: %{x}<br>CPP: %{y:.2f}<br>Citations: %{marker.size:,}<extra></extra>'
   };
 
-  const layout = {
+  const bubbleLayout = {
     ...getPlotlyLayoutTheme(),
-    xaxis: { ...getPlotlyLayoutTheme().xaxis, title: 'Publication Volume (Papers)' },
-    yaxis: { ...getPlotlyLayoutTheme().yaxis, title: 'Citations Per Paper (CPP)' },
-    margin: { t: 30, r: 25, l: 50, b: 50 }
+    xaxis: {
+      ...getPlotlyLayoutTheme().xaxis,
+      title: isMobile ? 'Publications' : 'Total Publication Volume (Papers)',
+      automargin: true,
+      range: [0, maxPubs * (isMobile ? 1.25 : 1.15)]
+    },
+    yaxis: {
+      ...getPlotlyLayoutTheme().yaxis,
+      title: isMobile ? 'Avg CPP' : 'Average Citations Per Paper (CPP)',
+      automargin: true
+    },
+    shapes: [{
+      type: 'line',
+      x0: 0,
+      x1: maxPubs * 1.15,
+      y0: avgCpp,
+      y1: avgCpp,
+      line: { color: '#FB9611', width: 2, dash: 'dash' }
+    }],
+    annotations: [{
+      x: maxPubs * 0.2,
+      y: avgCpp + (avgCpp * 0.08 || 0.5),
+      text: `Benchmark Avg CPP: ${avgCpp.toFixed(2)}`,
+      showarrow: false,
+      font: { color: '#FB9611', size: isMobile ? 9 : 11, weight: 600 }
+    }],
+    margin: { t: 25, r: isMobile ? 15 : 25, l: isMobile ? 38 : 50, b: isMobile ? 38 : 45 }
   };
 
-  Plotly.newPlot('chart-impact-bubble', [trace], layout, { responsive: true });
+  Plotly.newPlot('chart-impact-bubble', [bubbleTrace], bubbleLayout, { responsive: true, displayModeBar: false });
 }
 
 function renderDeptRadarChart() {
   const container = document.getElementById('chart-dept-radar');
   if (!container) return;
 
-  const trace = {
-    type: 'scatterpolar',
-    r: [88, 76, 92, 65, 80],
-    theta: ['Q1 Ratio', 'CPP Density', 'Intl Collab', 'Industry R&D', 'Volume Growth'],
-    fill: 'toself',
-    name: 'COEP Benchmark',
-    line: { color: '#38BDF8' }
-  };
+  const isDark = document.documentElement.getAttribute('data-theme') === 'dark' || state.theme === 'dark';
+  const isMobile = window.innerWidth <= 768;
 
-  const layout = {
+  const deptStats = {};
+  state.filteredPublications.forEach(p => {
+    const dept = p.department || 'General Engineering';
+    if (!deptStats[dept]) {
+      deptStats[dept] = { pubs: 0, cites: 0, q1: 0 };
+    }
+    deptStats[dept].pubs++;
+    deptStats[dept].cites += (parseInt(p.citations) || 0);
+    if ((p.quartile || '').toUpperCase() === 'Q1') deptStats[dept].q1++;
+  });
+
+  const top4Depts = Object.keys(deptStats).sort((a, b) => deptStats[b].pubs - deptStats[a].pubs).slice(0, 4);
+  const radarCategories = ['Volume', 'Total Citations', 'Citations / Paper', 'Q1 Share (%)', 'Intl Collab (%)'];
+
+  const maxV = Math.max(...Object.values(deptStats).map(d => d.pubs), 1);
+  const maxC = Math.max(...Object.values(deptStats).map(d => d.cites), 1);
+  const maxCpp = Math.max(...Object.values(deptStats).map(d => d.pubs > 0 ? (d.cites / d.pubs) : 0), 0.1);
+
+  const radarPalette = ['#0C3967', '#238B57', '#FB9611', '#526273'];
+  const radarTraces = top4Depts.map((dept, idx) => {
+    const dPubs = state.filteredPublications.filter(p => p.department === dept);
+    const pubs = dPubs.length;
+    const cites = dPubs.reduce((a, b) => a + (parseInt(b.citations) || 0), 0);
+    const cpp = pubs > 0 ? (cites / pubs) : 0;
+    const q1 = dPubs.filter(p => (p.quartile || '').toUpperCase() === 'Q1').length;
+    const q1Pct = pubs > 0 ? (q1 / pubs * 100) : 0;
+    const intl = dPubs.filter(p => p.is_international_collab).length;
+    const intlPct = pubs > 0 ? (intl / pubs * 100) : 0;
+
+    const rVals = [
+      Math.min(100, (pubs / maxV) * 100),
+      Math.min(100, (cites / maxC) * 100),
+      Math.min(100, (cpp / maxCpp) * 100),
+      Math.min(100, q1Pct),
+      Math.min(100, intlPct)
+    ];
+    rVals.push(rVals[0]);
+
+    const shortName = dept.replace('Department of ', '')
+      .replace('National Centre for Nanosciences and Nanotechnology (NCNNUM)', 'NCNNUM');
+
+    return {
+      type: 'scatterpolar',
+      r: rVals,
+      theta: [...radarCategories, radarCategories[0]],
+      fill: 'toself',
+      name: shortName,
+      line: { color: radarPalette[idx % radarPalette.length], width: 2 },
+      opacity: 0.65
+    };
+  });
+
+  const radarLayout = {
     ...getPlotlyLayoutTheme(),
     polar: {
-      radialaxis: { visible: true, range: [0, 100] },
-      bgcolor: 'transparent'
+      radialaxis: {
+        visible: true,
+        range: [0, 100],
+        gridcolor: isDark ? '#263747' : '#D8E1E8',
+        tickfont: { size: isMobile ? 8 : 9, color: isDark ? '#AEBBC8' : '#526273' }
+      },
+      angularaxis: {
+        gridcolor: isDark ? '#263747' : '#D8E1E8',
+        tickfont: { size: isMobile ? 9 : 11, color: isDark ? '#FFFFFF' : '#0D111A' }
+      },
+      bgcolor: 'rgba(0, 0, 0, 0)'
     },
-    margin: { t: 25, r: 25, l: 25, b: 25 }
+    legend: {
+      orientation: 'h',
+      y: isMobile ? -0.22 : -0.15,
+      xanchor: 'center',
+      x: 0.5,
+      font: { size: isMobile ? 9 : 11 }
+    },
+    margin: {
+      l: isMobile ? 30 : 60,
+      r: isMobile ? 30 : 60,
+      t: 25,
+      b: isMobile ? 55 : 45
+    }
   };
 
-  Plotly.newPlot('chart-dept-radar', [trace], layout, { responsive: true });
+  Plotly.newPlot('chart-dept-radar', radarTraces, radarLayout, { responsive: true, displayModeBar: false });
 }
 
 // ---------------------------------------------------------
