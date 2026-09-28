@@ -2804,7 +2804,7 @@ The user changed setting `Model Selection` from Gemini 3.6 Flash (High) to Claud
 
   .action-btns-group, .toolbar-actions {
     display: grid !important;
-    grid-template-columns: repeat(3, 1fr) !important;
+    grid-template-columns: repeat(2, 1fr) !important;
     gap: 6px !important;
   }
 
