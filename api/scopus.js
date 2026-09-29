@@ -21,7 +21,7 @@ export default async function handler(req, res) {
   }
 
   try {
-    const { query = 'AF-ID(60007233)' } = req.query;
+    const { query = 'AF-ID(60069506)' } = req.query;
     const response = await fetch(`https://api.elsevier.com/content/search/scopus?query=${encodeURIComponent(query)}&count=25`, {
       headers: {
         'Accept': 'application/json',

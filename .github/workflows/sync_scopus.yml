@@ -1,0 +1,40 @@
+name: Hourly Scopus Data Sync (60 mins)
+
+on:
+  schedule:
+    # Run every 60 minutes (at minute 0 of every hour)
+    - cron: '0 * * * *'
+  workflow_dispatch: # Allows manual trigger anytime from GitHub Actions UI
+
+jobs:
+  sync:
+    name: Sync Scopus Publications
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Dependencies
+        run: |
+          pip install requests
+
+      - name: Execute Scopus Sync
+        env:
+          SCOPUS_API_KEY: ${{ secrets.SCOPUS_API_KEY || '6e4a05c4e7829e38a64ffc958487c027' }}
+        run: |
+          python sync_scopus.py --incremental
+
+      - name: Commit and Push Updates
+        run: |
+          git config --global user.name "COEP-Scopus-Bot"
+          git config --global user.email "bot@coep.ac.in"
+          git add data/coep_scopus_cache.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-sync: Refresh Scopus data (hourly) [skip ci]" && git push)

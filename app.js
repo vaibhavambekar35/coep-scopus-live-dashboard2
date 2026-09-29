@@ -30,6 +30,13 @@ document.addEventListener('DOMContentLoaded', async () => {
   initTheme();
   initEventListeners();
   await loadData();
+
+  // 60-Minute Automated Data Refresh Interval
+  setInterval(async () => {
+    console.log('[Auto-Sync] 60-minute scheduled refresh triggered...');
+    await loadData();
+    showToast('Scopus intelligence refreshed automatically (60-min sync)', '🔄');
+  }, 60 * 60 * 1000);
 });
 
 // Toast Notification System
@@ -317,10 +324,11 @@ async function loadData() {
   let loaded = false;
 
   try {
-    const response = await fetch('./data/coep_scopus_cache.json');
+    const response = await fetch(`./data/coep_scopus_cache.json?t=${Date.now()}`);
     if (response.ok) {
       const data = await response.json();
       state.rawPublications = data.publications || data || [];
+      state.lastSynced = data.last_synced || null;
       loaded = true;
     }
   } catch (err) {
