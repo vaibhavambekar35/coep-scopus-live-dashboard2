@@ -1209,6 +1209,8 @@ function renderQuartileDonutChart() {
   const donutData = [{
     type: 'pie',
     hole: 0.55,
+    sort: false,
+    direction: 'clockwise',
     labels: ['Q1', 'Q2', 'Q3', 'Q4'],
     values: [qCounts.Q1, qCounts.Q2, qCounts.Q3, qCounts.Q4],
     marker: {
@@ -1264,17 +1266,17 @@ function renderImpactBubbleChart() {
   const avgCpp = state.filteredPublications.length > 0 ? (totalCites / state.filteredPublications.length) : 0;
 
   const deptMap = {
-    'Mechanical Engineering': { short: 'Mechanical', pos: 'top center' },
-    'Computer Engineering & IT': { short: 'Computer & IT', pos: 'bottom center' },
-    'Electronics & Telecommunication (E&TC)': { short: 'E&TC', pos: 'top right' },
-    'Instrumentation & Control Engineering': { short: 'Instrumentation', pos: 'bottom right' },
-    'Applied Sciences & Mathematics': { short: 'Applied Math', pos: 'top right' },
-    'Electrical Engineering': { short: 'Electrical', pos: 'top right' },
-    'Metallurgical & Materials Engineering': { short: 'Metallurgy', pos: 'bottom center' },
+    'Mechanical Engineering': { short: 'Mechanical', pos: 'top right' },
+    'Computer Engineering & IT': { short: 'Computer & IT', pos: 'top left' },
+    'Metallurgical & Materials Engineering': { short: 'Metallurgy', pos: 'top right' },
+    'Electrical Engineering': { short: 'Electrical', pos: 'bottom right' },
+    'Civil & Environmental Engineering': { short: 'Civil Eng', pos: 'top center' },
+    'Electronics & Telecommunication (E&TC)': { short: 'E&TC', pos: 'bottom left' },
+    'Instrumentation & Control Engineering': { short: 'Instrumentation', pos: 'top center' },
     'Manufacturing & Industrial Engineering': { short: 'Mfg & Ind', pos: 'top center' },
     'Physics & Applied Materials': { short: 'Physics', pos: 'top right' },
-    'Civil & Environmental Engineering': { short: 'Civil Eng', pos: 'middle right' },
-    'Chemistry & Chemical Sciences': { short: 'Chemistry', pos: 'bottom right' }
+    'Chemistry & Chemical Sciences': { short: 'Chemistry', pos: 'bottom right' },
+    'Applied Sciences & Mathematics': { short: 'Applied Math', pos: 'top left' }
   };
 
   const deptArray = Object.keys(deptStats).map(dept => {
@@ -1297,16 +1299,17 @@ function renderImpactBubbleChart() {
   });
 
   const maxPubs = Math.max(...deptArray.map(d => d.pubs), 50);
+  const maxCpp = Math.max(...deptArray.map(d => d.cpp), 15);
 
   const bubbleTrace = {
     x: deptArray.map(d => d.pubs),
     y: deptArray.map(d => d.cpp),
-    text: deptArray.map(d => isMobile ? (d.pubs >= 100 ? d.shortName : '') : d.shortName),
+    text: deptArray.map(d => isMobile ? (d.pubs >= 80 ? d.shortName : '') : d.shortName),
     customdata: deptArray.map(d => d.fullName),
     mode: 'markers+text',
     textposition: deptArray.map(d => d.pos),
     textfont: {
-      size: isMobile ? 9 : 10.5,
+      size: isMobile ? 8.5 : 10.5,
       color: isDark ? '#FFFFFF' : '#0D111A',
       family: 'Inter, sans-serif'
     },
@@ -1314,7 +1317,7 @@ function renderImpactBubbleChart() {
     marker: {
       size: deptArray.map(d => d.cites),
       sizemode: 'area',
-      sizeref: 2.0 * Math.max(...deptArray.map(d => d.cites), 100) / ((isMobile ? 32 : 42) ** 2),
+      sizeref: 2.0 * Math.max(...deptArray.map(d => d.cites), 100) / ((isMobile ? 32 : 44) ** 2),
       sizemin: isMobile ? 5 : 7,
       color: deptArray.map(d => d.q1Pct),
       colorscale: [
@@ -1338,6 +1341,7 @@ function renderImpactBubbleChart() {
   };
 
   const xMaxBound = maxPubs * (isMobile ? 1.15 : 1.12);
+  const yMaxBound = Math.max(30, maxCpp * 1.15);
 
   const bubbleLayout = {
     ...getPlotlyLayoutTheme(),
@@ -1351,7 +1355,7 @@ function renderImpactBubbleChart() {
       ...getPlotlyLayoutTheme().yaxis,
       title: isMobile ? 'Avg CPP' : 'Average Citations Per Paper (CPP)',
       automargin: true,
-      range: [0, 23]
+      range: [0, yMaxBound]
     },
     shapes: [{
       type: 'line',
@@ -1362,11 +1366,11 @@ function renderImpactBubbleChart() {
       line: { color: '#FB9611', width: 2, dash: 'dash' }
     }],
     annotations: [{
-      x: maxPubs * (isMobile ? 0.42 : 0.45),
-      y: avgCpp + (isMobile ? 0.7 : 0.65),
+      x: xMaxBound * 0.96,
+      y: avgCpp + (isMobile ? 0.9 : 0.7),
       text: `<b>Benchmark Avg CPP: ${avgCpp.toFixed(2)}</b>`,
       showarrow: false,
-      xanchor: 'center',
+      xanchor: 'right',
       yanchor: 'bottom',
       font: { color: '#FB9611', size: isMobile ? 9 : 11, family: 'Inter, sans-serif' },
       bgcolor: isDark ? 'rgba(17, 26, 38, 0.95)' : 'rgba(255, 255, 255, 0.95)',
@@ -1482,16 +1486,26 @@ function getTopAuthorsList() {
     const dept = p.department || 'Engineering';
     const authors = p.coep_authors || p.authors || [];
     authors.forEach(a => {
-      if (!authorStats[a]) authorStats[a] = { name: a, dept, pubs: 0, cites: 0, q1: 0, years: {} };
+      if (!a || a.toLowerCase().includes('researcher')) return;
+      if (!authorStats[a]) authorStats[a] = { name: a, dept, depts: {}, pubs: 0, cites: 0, q1: 0, years: {} };
       authorStats[a].pubs++;
       authorStats[a].cites += parseInt(p.citations) || 0;
-      if (p.quartile === 'Q1') authorStats[a].q1++;
+      if ((p.quartile || '').toUpperCase() === 'Q1') authorStats[a].q1++;
       const y = p.year || 2025;
       authorStats[a].years[y] = (authorStats[a].years[y] || 0) + 1;
+      authorStats[a].depts[dept] = (authorStats[a].depts[dept] || 0) + 1;
     });
   });
 
   return Object.values(authorStats).map(a => {
+    if (a.depts) {
+      let bestD = a.dept;
+      let maxCnt = 0;
+      for (const [d, cnt] of Object.entries(a.depts)) {
+        if (cnt > maxCnt) { maxCnt = cnt; bestD = d; }
+      }
+      a.dept = bestD;
+    }
     a.cpp = (a.pubs > 0 ? a.cites / a.pubs : 0).toFixed(1);
     a.hIndex = Math.min(Math.floor(a.cites / 15) + 3, a.pubs);
     a.q1Pct = (a.pubs > 0 ? (a.q1 / a.pubs) * 100 : 0).toFixed(1);
@@ -1642,31 +1656,102 @@ function renderFacultyDossier() {
   }
 
   // 3. Render Annual Velocity Chart
-  const years = Object.keys(author.years).sort();
-  const counts = years.map(y => author.years[y]);
+  const isDark = document.documentElement.getAttribute('data-theme') === 'dark' || state.theme === 'dark';
+  const isMobile = window.innerWidth <= 768;
+
+  const yearKeys = Object.keys(author.years).map(Number).sort((a,b) => a - b);
+  const minYear = yearKeys.length > 0 ? Math.min(...yearKeys) : 2015;
+  const maxYear = yearKeys.length > 0 ? Math.max(...yearKeys) : 2026;
+
+  const allYears = [];
+  const allCounts = [];
+  for (let y = minYear; y <= maxYear; y++) {
+    allYears.push(y.toString());
+    allCounts.push(author.years[y] || 0);
+  }
+
+  const maxCount = Math.max(...allCounts, 1);
   const traceBar = {
-    x: years,
-    y: counts,
+    x: allYears,
+    y: allCounts,
     type: 'bar',
-    marker: { color: '#1D4ED8' },
-    text: counts,
-    textposition: 'auto'
+    marker: {
+      color: isDark ? '#38BDF8' : '#0284C7',
+      line: { color: isDark ? '#0284C7' : '#0369A1', width: 1 }
+    },
+    text: allCounts.map(c => c > 0 ? c : ''),
+    textposition: 'outside',
+    textfont: { size: isMobile ? 8.5 : 10, color: isDark ? '#F1F5F9' : '#0F172A', family: 'Inter, sans-serif' },
+    cliponaxis: false,
+    hovertemplate: '<b>Year %{x}</b><br>Publications: <b>%{y}</b><extra></extra>'
   };
-  Plotly.newPlot('chart-author-annual', [traceBar], { ...getPlotlyLayoutTheme(), margin: { t: 20, r: 20, l: 35, b: 35 } }, { responsive: true });
+
+  const layoutBar = {
+    ...getPlotlyLayoutTheme(),
+    xaxis: {
+      ...getPlotlyLayoutTheme().xaxis,
+      title: isMobile ? 'Year' : 'Publication Year',
+      type: 'category',
+      tickangle: -45,
+      automargin: true
+    },
+    yaxis: {
+      ...getPlotlyLayoutTheme().yaxis,
+      title: isMobile ? 'Papers' : 'Papers Published',
+      dtick: maxCount <= 5 ? 1 : (maxCount <= 10 ? 2 : undefined),
+      tickformat: ',d',
+      automargin: true,
+      range: [0, maxCount * 1.3]
+    },
+    margin: { t: 25, r: 20, l: isMobile ? 35 : 45, b: 50 }
+  };
+  Plotly.newPlot('chart-author-annual', [traceBar], layoutBar, { responsive: true, displayModeBar: false });
 
   // 4. Render Quartile Distribution Donut Chart
   const authorPubs = state.rawPublications.filter(p => (p.coep_authors || p.authors || []).includes(author.name));
   const qCounts = { Q1: 0, Q2: 0, Q3: 0, Q4: 0 };
-  authorPubs.forEach(p => { const q = p.quartile || 'Q1'; if (qCounts[q] !== undefined) qCounts[q]++; });
+  authorPubs.forEach(p => {
+    const q = (p.quartile || 'Q3').toUpperCase();
+    if (qCounts[q] !== undefined) qCounts[q]++;
+  });
+
+  const totalAuthorQ = Object.values(qCounts).reduce((a, b) => a + b, 0);
+  const q1PctAuthor = totalAuthorQ > 0 ? ((qCounts.Q1 / totalAuthorQ) * 100).toFixed(1) : '0.0';
 
   const traceDonut = {
-    labels: ['Q1 (Top Tier)', 'Q2', 'Q3', 'Q4'],
+    labels: ['Q1', 'Q2', 'Q3', 'Q4'],
     values: [qCounts.Q1, qCounts.Q2, qCounts.Q3, qCounts.Q4],
     type: 'pie',
-    hole: 0.5,
-    marker: { colors: ['#F59E0B', '#38BDF8', '#10B981', '#64748B'] }
+    hole: 0.55,
+    sort: false,
+    direction: 'clockwise',
+    marker: {
+      colors: ['#238B57', '#0C3967', '#FB9611', '#C83E3E'],
+      line: { color: isDark ? '#111A26' : '#FFFFFF', width: 2 }
+    },
+    textinfo: 'label+percent',
+    hoverinfo: 'label+value+percent',
+    hovertemplate: '<b>Quartile %{label}</b><br>Publications: %{value} (%{percent})<extra></extra>'
   };
-  Plotly.newPlot('chart-author-quartiles', [traceDonut], { ...getPlotlyLayoutTheme(), margin: { t: 20, r: 20, l: 20, b: 35 } }, { responsive: true });
+
+  const layoutDonut = {
+    ...getPlotlyLayoutTheme(),
+    annotations: [{
+      text: `<b>${q1PctAuthor}%</b><br><span style="font-size:10px;color:${isDark ? '#AEBBC8' : '#64748B'};">Q1 Ratio</span>`,
+      x: 0.5, y: 0.5,
+      showarrow: false,
+      font: { size: isMobile ? 14 : 16, color: '#238B57', family: 'Inter, sans-serif' }
+    }],
+    legend: {
+      orientation: 'h',
+      y: 1.15,
+      xanchor: 'center',
+      x: 0.5,
+      font: { size: isMobile ? 9 : 11, color: isDark ? '#F1F5F9' : '#0F172A' }
+    },
+    margin: { t: 30, r: 15, l: 15, b: 15 }
+  };
+  Plotly.newPlot('chart-author-quartiles', [traceDonut], layoutDonut, { responsive: true, displayModeBar: false });
 
   // 5. Render Top 5 Landmark Publications Table
   const tbody = document.getElementById('table-author-landmark-body');

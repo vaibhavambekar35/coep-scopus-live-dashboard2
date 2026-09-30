@@ -311,14 +311,16 @@ class ScopusAPIClient:
             quartile = metrics["quartile"]
         else:
             # Heuristic estimation based on journal keywords if not in lookup
-            if any(k in j_key for k in ["ieee transactions", "nature", "science", "applied energy", "acm trans"]):
+            if any(k in j_key for k in ["lecture notes", "aip conference", "advances in intelligent systems", "communications in computer", "journal of physics: conference", "materials science forum", "key engineering", "applied mechanics and materials", "iop conference"]):
+                quartile, citescore, sjr = "Q4", 1.2, 0.22
+            elif any(k in j_key for k in ["ieee transactions", "nature", "science", "applied energy", "chemical engineering journal", "journal of cleaner production", "composite structures", "expert systems with applications", "ieee internet of things"]):
                 quartile, citescore, sjr = "Q1", 16.5, 2.85
-            elif any(k in j_key for k in ["ieee", "elsevier", "springer", "wiley", "applied", "journal of"]):
+            elif any(k in j_key for k in ["ieee", "elsevier", "springer", "wiley", "applied", "journal of", "measurement", "computers & electrical", "surface and coatings"]):
                 quartile, citescore, sjr = "Q2", 7.2, 0.98
-            elif any(k in j_key for k in ["proceedings", "conference", "letters", "advances"]):
+            elif any(k in j_key for k in ["proceedings", "conference", "letters", "advances", "sae technical", "materials today"]):
                 quartile, citescore, sjr = "Q3", 3.8, 0.45
             else:
-                quartile, citescore, sjr = "Q3", 3.2, 0.40
+                quartile, citescore, sjr = "Q3" if citations >= 3 else "Q4", 2.5, 0.30
 
         is_top_10 = citations >= 25 or (quartile == "Q1" and citescore >= 15.0)
 
@@ -371,14 +373,23 @@ class ScopusAPIClient:
 
         # Department classification heuristic based on title & keywords
         assigned_dept = "General Engineering"
-        title_lower = title.lower()
+        combined_text = f"{title.lower()} {journal.lower()}"
         for dept_name, keywords in DEPARTMENT_KEYWORDS.items():
-            if any(kw in title_lower for kw in keywords):
+            if any(kw in combined_text for kw in keywords):
                 assigned_dept = dept_name
                 break
         
         if assigned_dept == "General Engineering":
-            assigned_dept = "Computer Engineering & IT" if "data" in title_lower or "system" in title_lower else "Mechanical Engineering"
+            if any(k in combined_text for k in ["smart", "network", "node", "packet", "security", "web"]):
+                assigned_dept = "Computer Engineering & IT"
+            elif any(k in combined_text for k in ["signal", "channel", "frequency", "band"]):
+                assigned_dept = "Electronics & Telecommunication (E&TC)"
+            elif any(k in combined_text for k in ["power", "energy", "grid"]):
+                assigned_dept = "Electrical Engineering"
+            elif any(k in combined_text for k in ["material", "structure", "crack", "fracture"]):
+                assigned_dept = "Metallurgical & Materials Engineering"
+            else:
+                assigned_dept = "Mechanical Engineering"
 
         doc_type = entry.get("subtypeDescription", "Article")
         open_access = entry.get("openaccessFlag", False) in [True, "1", "true", 1]
