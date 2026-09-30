@@ -2384,9 +2384,13 @@ The user changed setting `Model Selection` from Gemini 3.6 Flash (High) to Claud
 
 .grid-2col-charts, .grid-2col-equal, .grid-2col {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
   gap: 16px;
   margin-bottom: 16px;
+}
+
+.grid-2col-charts > *, .grid-2col-equal > *, .grid-2col > * {
+  min-width: 0 !important;
 }
 
 /* Tables */

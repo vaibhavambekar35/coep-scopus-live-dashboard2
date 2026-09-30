@@ -1655,39 +1655,52 @@ function renderFacultyDossier() {
     `;
   }
 
-  // 3. Render Annual Velocity Chart
+  // 3. Render Annual Velocity Chart (Combo Bar + Cumulative Output Line)
   const isDark = document.documentElement.getAttribute('data-theme') === 'dark' || state.theme === 'dark';
   const isMobile = window.innerWidth <= 768;
 
-  const yearKeys = Object.keys(author.years).map(Number).sort((a,b) => a - b);
-  const minYear = yearKeys.length > 0 ? Math.min(...yearKeys) : 2015;
-  const maxYear = yearKeys.length > 0 ? Math.max(...yearKeys) : 2026;
+  const sYears = Object.keys(author.years).map(Number).sort((a,b) => a - b);
+  let cum = 0;
+  const cumVals = [];
+  const yrCounts = [];
+  sYears.forEach(y => {
+    cum += author.years[y];
+    cumVals.push(cum);
+    yrCounts.push(author.years[y]);
+  });
 
-  const allYears = [];
-  const allCounts = [];
-  for (let y = minYear; y <= maxYear; y++) {
-    allYears.push(y.toString());
-    allCounts.push(author.years[y] || 0);
-  }
-
-  const maxCount = Math.max(...allCounts, 1);
-  const traceBar = {
-    x: allYears,
-    y: allCounts,
+  const vBar = {
+    x: sYears.map(String),
+    y: yrCounts,
     type: 'bar',
+    name: 'Annual Papers',
     marker: {
-      color: isDark ? '#38BDF8' : '#0284C7',
-      line: { color: isDark ? '#0284C7' : '#0369A1', width: 1 }
+      color: isDark ? '#38BDF8' : '#0C3967',
+      line: { color: isDark ? '#0284C7' : '#082849', width: 1 }
     },
-    text: allCounts.map(c => c > 0 ? c : ''),
-    textposition: 'outside',
-    textfont: { size: isMobile ? 8.5 : 10, color: isDark ? '#F1F5F9' : '#0F172A', family: 'Inter, sans-serif' },
-    cliponaxis: false,
-    hovertemplate: '<b>Year %{x}</b><br>Publications: <b>%{y}</b><extra></extra>'
+    text: yrCounts,
+    textposition: 'auto',
+    textfont: { size: isMobile ? 9 : 10, color: '#FFFFFF', family: 'Inter, sans-serif' },
+    hovertemplate: '<b>%{x} Output</b>: %{y} paper(s)<extra></extra>'
   };
 
+  const vLine = {
+    x: sYears.map(String),
+    y: cumVals,
+    type: 'scatter',
+    mode: 'lines+markers',
+    name: 'Cumulative Output',
+    yaxis: 'y2',
+    line: { color: '#FB9611', width: 2.5, shape: 'spline' },
+    marker: { size: isMobile ? 5 : 6, color: '#FB9611' },
+    hovertemplate: '<b>Cumulative Velocity</b>: %{y} total papers<extra></extra>'
+  };
+
+  const maxAnnual = Math.max(...yrCounts, 1);
   const layoutBar = {
     ...getPlotlyLayoutTheme(),
+    bargap: 0.35,
+    hovermode: 'x unified',
     xaxis: {
       ...getPlotlyLayoutTheme().xaxis,
       title: isMobile ? 'Year' : 'Publication Year',
@@ -1697,15 +1710,33 @@ function renderFacultyDossier() {
     },
     yaxis: {
       ...getPlotlyLayoutTheme().yaxis,
-      title: isMobile ? 'Papers' : 'Papers Published',
-      dtick: maxCount <= 5 ? 1 : (maxCount <= 10 ? 2 : undefined),
+      title: isMobile ? 'Annual' : 'Annual Papers',
+      dtick: maxAnnual <= 5 ? 1 : (maxAnnual <= 10 ? 2 : undefined),
       tickformat: ',d',
       automargin: true,
-      range: [0, maxCount * 1.3]
+      range: [0, maxAnnual * 1.25]
     },
-    margin: { t: 25, r: 20, l: isMobile ? 35 : 45, b: 50 }
+    yaxis2: {
+      title: isMobile ? 'Cumulative' : 'Cumulative Output',
+      overlaying: 'y',
+      side: 'right',
+      showgrid: false,
+      automargin: true,
+      dtick: cum <= 10 ? 2 : undefined,
+      tickformat: ',d',
+      tickfont: { color: '#FB9611', size: isMobile ? 8 : 10 }
+    },
+    legend: {
+      orientation: 'h',
+      yanchor: 'bottom',
+      y: 1.02,
+      xanchor: 'center',
+      x: 0.5,
+      font: { size: isMobile ? 9 : 10 }
+    },
+    margin: { t: 30, r: isMobile ? 35 : 45, l: isMobile ? 35 : 45, b: 45 }
   };
-  Plotly.newPlot('chart-author-annual', [traceBar], layoutBar, { responsive: true, displayModeBar: false });
+  Plotly.newPlot('chart-author-annual', [vBar, vLine], layoutBar, { responsive: true, displayModeBar: false });
 
   // 4. Render Quartile Distribution Donut Chart
   const authorPubs = state.rawPublications.filter(p => (p.coep_authors || p.authors || []).includes(author.name));
@@ -1718,18 +1749,27 @@ function renderFacultyDossier() {
   const totalAuthorQ = Object.values(qCounts).reduce((a, b) => a + b, 0);
   const q1PctAuthor = totalAuthorQ > 0 ? ((qCounts.Q1 / totalAuthorQ) * 100).toFixed(1) : '0.0';
 
+  const allQ = [
+    { label: 'Q1', count: qCounts.Q1, color: '#238B57' },
+    { label: 'Q2', count: qCounts.Q2, color: '#0C3967' },
+    { label: 'Q3', count: qCounts.Q3, color: '#FB9611' },
+    { label: 'Q4', count: qCounts.Q4, color: '#C83E3E' }
+  ];
+  const activeQ = allQ.filter(q => q.count > 0);
+
   const traceDonut = {
-    labels: ['Q1', 'Q2', 'Q3', 'Q4'],
-    values: [qCounts.Q1, qCounts.Q2, qCounts.Q3, qCounts.Q4],
+    labels: activeQ.map(q => q.label),
+    values: activeQ.map(q => q.count),
     type: 'pie',
     hole: 0.55,
     sort: false,
     direction: 'clockwise',
     marker: {
-      colors: ['#238B57', '#0C3967', '#FB9611', '#C83E3E'],
+      colors: activeQ.map(q => q.color),
       line: { color: isDark ? '#111A26' : '#FFFFFF', width: 2 }
     },
     textinfo: 'label+percent',
+    textposition: 'auto',
     hoverinfo: 'label+value+percent',
     hovertemplate: '<b>Quartile %{label}</b><br>Publications: %{value} (%{percent})<extra></extra>'
   };
@@ -1744,12 +1784,13 @@ function renderFacultyDossier() {
     }],
     legend: {
       orientation: 'h',
-      y: 1.15,
+      yanchor: 'bottom',
+      y: 1.02,
       xanchor: 'center',
       x: 0.5,
-      font: { size: isMobile ? 9 : 11, color: isDark ? '#F1F5F9' : '#0F172A' }
+      font: { size: isMobile ? 9 : 10, color: isDark ? '#F1F5F9' : '#0F172A' }
     },
-    margin: { t: 30, r: 15, l: 15, b: 15 }
+    margin: { t: 30, r: 20, l: 20, b: 20 }
   };
   Plotly.newPlot('chart-author-quartiles', [traceDonut], layoutDonut, { responsive: true, displayModeBar: false });
 
