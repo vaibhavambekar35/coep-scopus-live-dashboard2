@@ -1,5 +1,5 @@
 {
-  "last_synced": "2026-10-01T14:57:03.283095",
+  "last_synced": "2026-10-01T19:59:13.707154",
   "affiliation_id": "60069506",
   "institution": "COEP Technological University, Pune",
   "sync_frequency_minutes": 60,
@@ -5752,50 +5752,6 @@
       "abstract": "Scopus indexed publication from COEP Technological University on Leveraging RNNs for Cancer Time-Series Data Analysis."
     },
     {
-      "id": "105037456824",
-      "eid": "2-s2.0-105037456824",
-      "scopus_id": "105037456824",
-      "title": "A Lightweight Hybrid CNN Transformer and SVM Framework for Non Invasive Iris Based Diabetes Classification",
-      "authors": [
-        "Anap M."
-      ],
-      "authors_str": "Anap M.",
-      "coep_authors": [
-        "Anap M."
-      ],
-      "primary_author": "Anap M.",
-      "department": "Computer Engineering & IT",
-      "journal": "2026 International Conference on Communication Computing and Emerging Technologies Ic3et 2026",
-      "issn": "",
-      "publisher": "Academic Publisher",
-      "publication_date": "2026-01-01",
-      "year": 2026,
-      "month": "January",
-      "month_num": 1,
-      "doi": "10.1109/IC3ET64989.2026.11467466",
-      "doi_url": "https://doi.org/10.1109/IC3ET64989.2026.11467466",
-      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105037456824&origin=inward",
-      "citations": 0,
-      "citescore": 3.8,
-      "sjr": 0.45,
-      "quartile": "Q3",
-      "is_top_10_percent": false,
-      "collaboration_type": "Institutional",
-      "is_international_collab": false,
-      "is_industry_collab": false,
-      "collaborating_countries": [
-        "India"
-      ],
-      "foreign_countries": [],
-      "collaborating_institutions": [
-        "COEP Technological University, Pune"
-      ],
-      "external_institutions": [],
-      "document_type": "Conference Paper",
-      "open_access": false,
-      "abstract": "Scopus indexed publication from COEP Technological University on A Lightweight Hybrid CNN Transformer and SVM Framework for Non Invasive Iris Based Diabetes Classification."
-    },
-    {
       "id": "105040830869",
       "eid": "2-s2.0-105040830869",
       "scopus_id": "105040830869",
@@ -5838,6 +5794,50 @@
       "document_type": "Conference Paper",
       "open_access": false,
       "abstract": "Scopus indexed publication from COEP Technological University on A Multilingual Transformer-Based Approach for Sarcasm Detection and Sentiment Analysis in Hindi-Marathi Social Media."
+    },
+    {
+      "id": "105037456824",
+      "eid": "2-s2.0-105037456824",
+      "scopus_id": "105037456824",
+      "title": "A Lightweight Hybrid CNN Transformer and SVM Framework for Non Invasive Iris Based Diabetes Classification",
+      "authors": [
+        "Anap M."
+      ],
+      "authors_str": "Anap M.",
+      "coep_authors": [
+        "Anap M."
+      ],
+      "primary_author": "Anap M.",
+      "department": "Computer Engineering & IT",
+      "journal": "2026 International Conference on Communication Computing and Emerging Technologies Ic3et 2026",
+      "issn": "",
+      "publisher": "Academic Publisher",
+      "publication_date": "2026-01-01",
+      "year": 2026,
+      "month": "January",
+      "month_num": 1,
+      "doi": "10.1109/IC3ET64989.2026.11467466",
+      "doi_url": "https://doi.org/10.1109/IC3ET64989.2026.11467466",
+      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105037456824&origin=inward",
+      "citations": 0,
+      "citescore": 3.8,
+      "sjr": 0.45,
+      "quartile": "Q3",
+      "is_top_10_percent": false,
+      "collaboration_type": "Institutional",
+      "is_international_collab": false,
+      "is_industry_collab": false,
+      "collaborating_countries": [
+        "India"
+      ],
+      "foreign_countries": [],
+      "collaborating_institutions": [
+        "COEP Technological University, Pune"
+      ],
+      "external_institutions": [],
+      "document_type": "Conference Paper",
+      "open_access": false,
+      "abstract": "Scopus indexed publication from COEP Technological University on A Lightweight Hybrid CNN Transformer and SVM Framework for Non Invasive Iris Based Diabetes Classification."
     },
     {
       "id": "105040831758",
@@ -7426,6 +7426,50 @@
       "abstract": "Scopus indexed publication from COEP Technological University on A Lightweight Transfer Learning Framework for Multi-Crop Plant Leaf Disease Classification Using EfficientNetV2."
     },
     {
+      "id": "105038734308",
+      "eid": "2-s2.0-105038734308",
+      "scopus_id": "105038734308",
+      "title": "Development of ANCR Clustering Algorithm for NOMA-CR System",
+      "authors": [
+        "Tikar S."
+      ],
+      "authors_str": "Tikar S.",
+      "coep_authors": [
+        "Tikar S."
+      ],
+      "primary_author": "Tikar S.",
+      "department": "Computer Engineering & IT",
+      "journal": "Lecture Notes in Networks and Systems",
+      "issn": "23673370",
+      "publisher": "Academic Publisher",
+      "publication_date": "2026-01-01",
+      "year": 2026,
+      "month": "January",
+      "month_num": 1,
+      "doi": "10.1007/978-3-032-18846-5_17",
+      "doi_url": "https://doi.org/10.1007/978-3-032-18846-5_17",
+      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105038734308&origin=inward",
+      "citations": 0,
+      "citescore": 1.2,
+      "sjr": 0.22,
+      "quartile": "Q4",
+      "is_top_10_percent": false,
+      "collaboration_type": "Institutional",
+      "is_international_collab": false,
+      "is_industry_collab": false,
+      "collaborating_countries": [
+        "India"
+      ],
+      "foreign_countries": [],
+      "collaborating_institutions": [
+        "COEP Technological University, Pune"
+      ],
+      "external_institutions": [],
+      "document_type": "Conference Paper",
+      "open_access": false,
+      "abstract": "Scopus indexed publication from COEP Technological University on Development of ANCR Clustering Algorithm for NOMA-CR System."
+    },
+    {
       "id": "105038003145",
       "eid": "2-s2.0-105038003145",
       "scopus_id": "105038003145",
@@ -7471,50 +7515,6 @@
       "document_type": "Article",
       "open_access": true,
       "abstract": "Scopus indexed publication from COEP Technological University on Cutting tool and workpiece deformation in friction drilling of aluminum alloy 6063 by finite element model simulation."
-    },
-    {
-      "id": "105038734308",
-      "eid": "2-s2.0-105038734308",
-      "scopus_id": "105038734308",
-      "title": "Development of ANCR Clustering Algorithm for NOMA-CR System",
-      "authors": [
-        "Tikar S."
-      ],
-      "authors_str": "Tikar S.",
-      "coep_authors": [
-        "Tikar S."
-      ],
-      "primary_author": "Tikar S.",
-      "department": "Computer Engineering & IT",
-      "journal": "Lecture Notes in Networks and Systems",
-      "issn": "23673370",
-      "publisher": "Academic Publisher",
-      "publication_date": "2026-01-01",
-      "year": 2026,
-      "month": "January",
-      "month_num": 1,
-      "doi": "10.1007/978-3-032-18846-5_17",
-      "doi_url": "https://doi.org/10.1007/978-3-032-18846-5_17",
-      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105038734308&origin=inward",
-      "citations": 0,
-      "citescore": 1.2,
-      "sjr": 0.22,
-      "quartile": "Q4",
-      "is_top_10_percent": false,
-      "collaboration_type": "Institutional",
-      "is_international_collab": false,
-      "is_industry_collab": false,
-      "collaborating_countries": [
-        "India"
-      ],
-      "foreign_countries": [],
-      "collaborating_institutions": [
-        "COEP Technological University, Pune"
-      ],
-      "external_institutions": [],
-      "document_type": "Conference Paper",
-      "open_access": false,
-      "abstract": "Scopus indexed publication from COEP Technological University on Development of ANCR Clustering Algorithm for NOMA-CR System."
     },
     {
       "id": "105044507579",
@@ -7831,50 +7831,6 @@
       "abstract": "Scopus indexed publication from COEP Technological University on Deep Dilated CNN–BiLSTM for Intelligent Crop Seed Recommendation in Fertile Regions of Maharashtra."
     },
     {
-      "id": "105026358471",
-      "eid": "2-s2.0-105026358471",
-      "scopus_id": "105026358471",
-      "title": "Data-Efficient Pomegranate Disease Classification Using MulTaSiCl-MulTeSiSt Framework",
-      "authors": [
-        "Mane S.S."
-      ],
-      "authors_str": "Mane S.S.",
-      "coep_authors": [
-        "Mane S.S."
-      ],
-      "primary_author": "Mane S.S.",
-      "department": "Mechanical Engineering",
-      "journal": "IEEE Access",
-      "issn": "21693536",
-      "publisher": "Academic Publisher",
-      "publication_date": "2026-01-01",
-      "year": 2026,
-      "month": "January",
-      "month_num": 1,
-      "doi": "10.1109/ACCESS.2025.3649564",
-      "doi_url": "https://doi.org/10.1109/ACCESS.2025.3649564",
-      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105026358471&origin=inward",
-      "citations": 0,
-      "citescore": 7.4,
-      "sjr": 0.92,
-      "quartile": "Q2",
-      "is_top_10_percent": false,
-      "collaboration_type": "Institutional",
-      "is_international_collab": false,
-      "is_industry_collab": false,
-      "collaborating_countries": [
-        "India"
-      ],
-      "foreign_countries": [],
-      "collaborating_institutions": [
-        "COEP Technological University, Pune"
-      ],
-      "external_institutions": [],
-      "document_type": "Article",
-      "open_access": true,
-      "abstract": "Scopus indexed publication from COEP Technological University on Data-Efficient Pomegranate Disease Classification Using MulTaSiCl-MulTeSiSt Framework."
-    },
-    {
       "id": "105047326564",
       "eid": "2-s2.0-105047326564",
       "scopus_id": "105047326564",
@@ -7917,6 +7873,50 @@
       "document_type": "Conference Paper",
       "open_access": false,
       "abstract": "Scopus indexed publication from COEP Technological University on Design of a Compact and Flexible Leather-Based Dual Band MIMO Antenna for Wearable Wireless Applications."
+    },
+    {
+      "id": "105026358471",
+      "eid": "2-s2.0-105026358471",
+      "scopus_id": "105026358471",
+      "title": "Data-Efficient Pomegranate Disease Classification Using MulTaSiCl-MulTeSiSt Framework",
+      "authors": [
+        "Mane S.S."
+      ],
+      "authors_str": "Mane S.S.",
+      "coep_authors": [
+        "Mane S.S."
+      ],
+      "primary_author": "Mane S.S.",
+      "department": "Mechanical Engineering",
+      "journal": "IEEE Access",
+      "issn": "21693536",
+      "publisher": "Academic Publisher",
+      "publication_date": "2026-01-01",
+      "year": 2026,
+      "month": "January",
+      "month_num": 1,
+      "doi": "10.1109/ACCESS.2025.3649564",
+      "doi_url": "https://doi.org/10.1109/ACCESS.2025.3649564",
+      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105026358471&origin=inward",
+      "citations": 0,
+      "citescore": 7.4,
+      "sjr": 0.92,
+      "quartile": "Q2",
+      "is_top_10_percent": false,
+      "collaboration_type": "Institutional",
+      "is_international_collab": false,
+      "is_industry_collab": false,
+      "collaborating_countries": [
+        "India"
+      ],
+      "foreign_countries": [],
+      "collaborating_institutions": [
+        "COEP Technological University, Pune"
+      ],
+      "external_institutions": [],
+      "document_type": "Article",
+      "open_access": true,
+      "abstract": "Scopus indexed publication from COEP Technological University on Data-Efficient Pomegranate Disease Classification Using MulTaSiCl-MulTeSiSt Framework."
     },
     {
       "id": "105021817371",
@@ -9583,6 +9583,50 @@
       "abstract": "Scopus indexed publication from COEP Technological University on Constraint-Driven and Layer-Aware Optimization of Clock Tree Synthesis for Small ASIC Blocks."
     },
     {
+      "id": "105029408536",
+      "eid": "2-s2.0-105029408536",
+      "scopus_id": "105029408536",
+      "title": "Coffee Leaves Rust Detection Using YOLOv8",
+      "authors": [
+        "Patil A."
+      ],
+      "authors_str": "Patil A.",
+      "coep_authors": [
+        "Patil A."
+      ],
+      "primary_author": "Patil A.",
+      "department": "Computer Engineering & IT",
+      "journal": "Communications in Computer and Information Science",
+      "issn": "18650929",
+      "publisher": "Academic Publisher",
+      "publication_date": "2026-01-01",
+      "year": 2026,
+      "month": "January",
+      "month_num": 1,
+      "doi": "10.1007/978-3-032-10250-8_26",
+      "doi_url": "https://doi.org/10.1007/978-3-032-10250-8_26",
+      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105029408536&origin=inward",
+      "citations": 0,
+      "citescore": 1.2,
+      "sjr": 0.22,
+      "quartile": "Q4",
+      "is_top_10_percent": false,
+      "collaboration_type": "Institutional",
+      "is_international_collab": false,
+      "is_industry_collab": false,
+      "collaborating_countries": [
+        "India"
+      ],
+      "foreign_countries": [],
+      "collaborating_institutions": [
+        "COEP Technological University, Pune"
+      ],
+      "external_institutions": [],
+      "document_type": "Conference Paper",
+      "open_access": false,
+      "abstract": "Scopus indexed publication from COEP Technological University on Coffee Leaves Rust Detection Using YOLOv8."
+    },
+    {
       "id": "105051446050",
       "eid": "2-s2.0-105051446050",
       "scopus_id": "105051446050",
@@ -9672,50 +9716,6 @@
       "document_type": "Conference Paper",
       "open_access": false,
       "abstract": "Scopus indexed publication from COEP Technological University on A Hybrid Approach for Hallucination Detection in Large Language Models Using Semantic Uncertainty, Self-Consistency, and Claim Decomposition."
-    },
-    {
-      "id": "105029408536",
-      "eid": "2-s2.0-105029408536",
-      "scopus_id": "105029408536",
-      "title": "Coffee Leaves Rust Detection Using YOLOv8",
-      "authors": [
-        "Patil A."
-      ],
-      "authors_str": "Patil A.",
-      "coep_authors": [
-        "Patil A."
-      ],
-      "primary_author": "Patil A.",
-      "department": "Computer Engineering & IT",
-      "journal": "Communications in Computer and Information Science",
-      "issn": "18650929",
-      "publisher": "Academic Publisher",
-      "publication_date": "2026-01-01",
-      "year": 2026,
-      "month": "January",
-      "month_num": 1,
-      "doi": "10.1007/978-3-032-10250-8_26",
-      "doi_url": "https://doi.org/10.1007/978-3-032-10250-8_26",
-      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105029408536&origin=inward",
-      "citations": 0,
-      "citescore": 1.2,
-      "sjr": 0.22,
-      "quartile": "Q4",
-      "is_top_10_percent": false,
-      "collaboration_type": "Institutional",
-      "is_international_collab": false,
-      "is_industry_collab": false,
-      "collaborating_countries": [
-        "India"
-      ],
-      "foreign_countries": [],
-      "collaborating_institutions": [
-        "COEP Technological University, Pune"
-      ],
-      "external_institutions": [],
-      "document_type": "Conference Paper",
-      "open_access": false,
-      "abstract": "Scopus indexed publication from COEP Technological University on Coffee Leaves Rust Detection Using YOLOv8."
     },
     {
       "id": "105045588116",
@@ -10540,6 +10540,50 @@
       "abstract": "Scopus indexed publication from COEP Technological University on Enhancing Data Security Through Advanced Scrambling Techniques: A Contemporary Approach."
     },
     {
+      "id": "105036014939",
+      "eid": "2-s2.0-105036014939",
+      "scopus_id": "105036014939",
+      "title": "Robust Yaw Angle Control of an AUV: Terminal Sliding Manifold Based Optimized Super-Twisting Algorithm",
+      "authors": [
+        "Karade V.L."
+      ],
+      "authors_str": "Karade V.L.",
+      "coep_authors": [
+        "Karade V.L."
+      ],
+      "primary_author": "Karade V.L.",
+      "department": "Computer Engineering & IT",
+      "journal": "Iet Intelligent Transport Systems",
+      "issn": "1751956X",
+      "publisher": "Academic Publisher",
+      "publication_date": "2026-01-01",
+      "year": 2026,
+      "month": "January",
+      "month_num": 1,
+      "doi": "10.1049/itr2.70208",
+      "doi_url": "https://doi.org/10.1049/itr2.70208",
+      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105036014939&origin=inward",
+      "citations": 0,
+      "citescore": 2.5,
+      "sjr": 0.3,
+      "quartile": "Q4",
+      "is_top_10_percent": false,
+      "collaboration_type": "Institutional",
+      "is_international_collab": false,
+      "is_industry_collab": false,
+      "collaborating_countries": [
+        "India"
+      ],
+      "foreign_countries": [],
+      "collaborating_institutions": [
+        "COEP Technological University, Pune"
+      ],
+      "external_institutions": [],
+      "document_type": "Article",
+      "open_access": true,
+      "abstract": "Scopus indexed publication from COEP Technological University on Robust Yaw Angle Control of an AUV: Terminal Sliding Manifold Based Optimized Super-Twisting Algorithm."
+    },
+    {
       "id": "105027533787",
       "eid": "2-s2.0-105027533787",
       "scopus_id": "105027533787",
@@ -10585,94 +10629,6 @@
       "document_type": "Review",
       "open_access": false,
       "abstract": "Scopus indexed publication from COEP Technological University on Rare Earth-Doped TiO2 for Enhanced Photocatalytic Performance."
-    },
-    {
-      "id": "105036014939",
-      "eid": "2-s2.0-105036014939",
-      "scopus_id": "105036014939",
-      "title": "Robust Yaw Angle Control of an AUV: Terminal Sliding Manifold Based Optimized Super-Twisting Algorithm",
-      "authors": [
-        "Karade V.L."
-      ],
-      "authors_str": "Karade V.L.",
-      "coep_authors": [
-        "Karade V.L."
-      ],
-      "primary_author": "Karade V.L.",
-      "department": "Computer Engineering & IT",
-      "journal": "Iet Intelligent Transport Systems",
-      "issn": "1751956X",
-      "publisher": "Academic Publisher",
-      "publication_date": "2026-01-01",
-      "year": 2026,
-      "month": "January",
-      "month_num": 1,
-      "doi": "10.1049/itr2.70208",
-      "doi_url": "https://doi.org/10.1049/itr2.70208",
-      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105036014939&origin=inward",
-      "citations": 0,
-      "citescore": 2.5,
-      "sjr": 0.3,
-      "quartile": "Q4",
-      "is_top_10_percent": false,
-      "collaboration_type": "Institutional",
-      "is_international_collab": false,
-      "is_industry_collab": false,
-      "collaborating_countries": [
-        "India"
-      ],
-      "foreign_countries": [],
-      "collaborating_institutions": [
-        "COEP Technological University, Pune"
-      ],
-      "external_institutions": [],
-      "document_type": "Article",
-      "open_access": true,
-      "abstract": "Scopus indexed publication from COEP Technological University on Robust Yaw Angle Control of an AUV: Terminal Sliding Manifold Based Optimized Super-Twisting Algorithm."
-    },
-    {
-      "id": "105051525929",
-      "eid": "2-s2.0-105051525929",
-      "scopus_id": "105051525929",
-      "title": "Uncertainty-Aware Remaining Useful Life Prediction and Maintenance Decision-Making for Lithium-Ion Batteries",
-      "authors": [
-        "Vaidya R.A."
-      ],
-      "authors_str": "Vaidya R.A.",
-      "coep_authors": [
-        "Vaidya R.A."
-      ],
-      "primary_author": "Vaidya R.A.",
-      "department": "Computer Engineering & IT",
-      "journal": "2026 International Conference on Intelligent and Sustainable Electronics and Computing Technologies Insect 2026",
-      "issn": "",
-      "publisher": "Academic Publisher",
-      "publication_date": "2026-01-01",
-      "year": 2026,
-      "month": "January",
-      "month_num": 1,
-      "doi": "10.1109/INSECT68872.2026.11663986",
-      "doi_url": "https://doi.org/10.1109/INSECT68872.2026.11663986",
-      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105051525929&origin=inward",
-      "citations": 0,
-      "citescore": 3.8,
-      "sjr": 0.45,
-      "quartile": "Q3",
-      "is_top_10_percent": false,
-      "collaboration_type": "Institutional",
-      "is_international_collab": false,
-      "is_industry_collab": false,
-      "collaborating_countries": [
-        "India"
-      ],
-      "foreign_countries": [],
-      "collaborating_institutions": [
-        "COEP Technological University, Pune"
-      ],
-      "external_institutions": [],
-      "document_type": "Conference Paper",
-      "open_access": false,
-      "abstract": "Scopus indexed publication from COEP Technological University on Uncertainty-Aware Remaining Useful Life Prediction and Maintenance Decision-Making for Lithium-Ion Batteries."
     },
     {
       "id": "105050614740",
@@ -10722,6 +10678,50 @@
       "abstract": "Scopus indexed publication from COEP Technological University on Microstructural evolution and mechanical behavior of EN AW-2014A (AlCu4SiMg)/SiC reinforced composites under friction stir welding."
     },
     {
+      "id": "105051525929",
+      "eid": "2-s2.0-105051525929",
+      "scopus_id": "105051525929",
+      "title": "Uncertainty-Aware Remaining Useful Life Prediction and Maintenance Decision-Making for Lithium-Ion Batteries",
+      "authors": [
+        "Vaidya R.A."
+      ],
+      "authors_str": "Vaidya R.A.",
+      "coep_authors": [
+        "Vaidya R.A."
+      ],
+      "primary_author": "Vaidya R.A.",
+      "department": "Computer Engineering & IT",
+      "journal": "2026 International Conference on Intelligent and Sustainable Electronics and Computing Technologies Insect 2026",
+      "issn": "",
+      "publisher": "Academic Publisher",
+      "publication_date": "2026-01-01",
+      "year": 2026,
+      "month": "January",
+      "month_num": 1,
+      "doi": "10.1109/INSECT68872.2026.11663986",
+      "doi_url": "https://doi.org/10.1109/INSECT68872.2026.11663986",
+      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105051525929&origin=inward",
+      "citations": 0,
+      "citescore": 3.8,
+      "sjr": 0.45,
+      "quartile": "Q3",
+      "is_top_10_percent": false,
+      "collaboration_type": "Institutional",
+      "is_international_collab": false,
+      "is_industry_collab": false,
+      "collaborating_countries": [
+        "India"
+      ],
+      "foreign_countries": [],
+      "collaborating_institutions": [
+        "COEP Technological University, Pune"
+      ],
+      "external_institutions": [],
+      "document_type": "Conference Paper",
+      "open_access": false,
+      "abstract": "Scopus indexed publication from COEP Technological University on Uncertainty-Aware Remaining Useful Life Prediction and Maintenance Decision-Making for Lithium-Ion Batteries."
+    },
+    {
       "id": "105046430218",
       "eid": "2-s2.0-105046430218",
       "scopus_id": "105046430218",
@@ -10769,50 +10769,6 @@
       "abstract": "Scopus indexed publication from COEP Technological University on Quality optimisation by metaphor less algorithms: a case study of abrasive waterjet industry."
     },
     {
-      "id": "105040770810",
-      "eid": "2-s2.0-105040770810",
-      "scopus_id": "105040770810",
-      "title": "Explainability-Driven Trust Enhancement in Medical AI for Radiological and Neurophysiological Prognostics with SimulationBased Validation",
-      "authors": [
-        "Trivedi K."
-      ],
-      "authors_str": "Trivedi K.",
-      "coep_authors": [
-        "Trivedi K."
-      ],
-      "primary_author": "Trivedi K.",
-      "department": "Mechanical Engineering",
-      "journal": "2026 International Conference on Emerging Technologies and Future Innovations Etfi 2026",
-      "issn": "",
-      "publisher": "Academic Publisher",
-      "publication_date": "2026-01-01",
-      "year": 2026,
-      "month": "January",
-      "month_num": 1,
-      "doi": "10.1109/ETFI68128.2026.11484889",
-      "doi_url": "https://doi.org/10.1109/ETFI68128.2026.11484889",
-      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105040770810&origin=inward",
-      "citations": 0,
-      "citescore": 3.8,
-      "sjr": 0.45,
-      "quartile": "Q3",
-      "is_top_10_percent": false,
-      "collaboration_type": "Institutional",
-      "is_international_collab": false,
-      "is_industry_collab": false,
-      "collaborating_countries": [
-        "India"
-      ],
-      "foreign_countries": [],
-      "collaborating_institutions": [
-        "COEP Technological University, Pune"
-      ],
-      "external_institutions": [],
-      "document_type": "Conference Paper",
-      "open_access": false,
-      "abstract": "Scopus indexed publication from COEP Technological University on Explainability-Driven Trust Enhancement in Medical AI for Radiological and Neurophysiological Prognostics with SimulationBased Validation."
-    },
-    {
       "id": "105049388521",
       "eid": "2-s2.0-105049388521",
       "scopus_id": "105049388521",
@@ -10855,6 +10811,50 @@
       "document_type": "Article",
       "open_access": true,
       "abstract": "Scopus indexed publication from COEP Technological University on MINDSET-XAI: Multi-Level Explainable Insider Threat Detection Using Temporal Behavioral Modeling and LLM-Assisted Forensic Reasoning."
+    },
+    {
+      "id": "105040770810",
+      "eid": "2-s2.0-105040770810",
+      "scopus_id": "105040770810",
+      "title": "Explainability-Driven Trust Enhancement in Medical AI for Radiological and Neurophysiological Prognostics with SimulationBased Validation",
+      "authors": [
+        "Trivedi K."
+      ],
+      "authors_str": "Trivedi K.",
+      "coep_authors": [
+        "Trivedi K."
+      ],
+      "primary_author": "Trivedi K.",
+      "department": "Mechanical Engineering",
+      "journal": "2026 International Conference on Emerging Technologies and Future Innovations Etfi 2026",
+      "issn": "",
+      "publisher": "Academic Publisher",
+      "publication_date": "2026-01-01",
+      "year": 2026,
+      "month": "January",
+      "month_num": 1,
+      "doi": "10.1109/ETFI68128.2026.11484889",
+      "doi_url": "https://doi.org/10.1109/ETFI68128.2026.11484889",
+      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105040770810&origin=inward",
+      "citations": 0,
+      "citescore": 3.8,
+      "sjr": 0.45,
+      "quartile": "Q3",
+      "is_top_10_percent": false,
+      "collaboration_type": "Institutional",
+      "is_international_collab": false,
+      "is_industry_collab": false,
+      "collaborating_countries": [
+        "India"
+      ],
+      "foreign_countries": [],
+      "collaborating_institutions": [
+        "COEP Technological University, Pune"
+      ],
+      "external_institutions": [],
+      "document_type": "Conference Paper",
+      "open_access": false,
+      "abstract": "Scopus indexed publication from COEP Technological University on Explainability-Driven Trust Enhancement in Medical AI for Radiological and Neurophysiological Prognostics with SimulationBased Validation."
     },
     {
       "id": "105040763880",
@@ -11826,6 +11826,50 @@
       "abstract": "Scopus indexed publication from COEP Technological University on Field-Oriented Control of Induction Motor Drive Using Indian Drive Cycle."
     },
     {
+      "id": "105051477727",
+      "eid": "2-s2.0-105051477727",
+      "scopus_id": "105051477727",
+      "title": "FedDet: Federated Learning for Computationally Limited Devices Using Gradient Based Updates",
+      "authors": [
+        "Ingale C."
+      ],
+      "authors_str": "Ingale C.",
+      "coep_authors": [
+        "Ingale C."
+      ],
+      "primary_author": "Ingale C.",
+      "department": "Computer Engineering & IT",
+      "journal": "2026 International Conference on Intelligent and Sustainable Electronics and Computing Technologies Insect 2026",
+      "issn": "",
+      "publisher": "Academic Publisher",
+      "publication_date": "2026-01-01",
+      "year": 2026,
+      "month": "January",
+      "month_num": 1,
+      "doi": "10.1109/INSECT68872.2026.11663788",
+      "doi_url": "https://doi.org/10.1109/INSECT68872.2026.11663788",
+      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105051477727&origin=inward",
+      "citations": 0,
+      "citescore": 3.8,
+      "sjr": 0.45,
+      "quartile": "Q3",
+      "is_top_10_percent": false,
+      "collaboration_type": "Institutional",
+      "is_international_collab": false,
+      "is_industry_collab": false,
+      "collaborating_countries": [
+        "India"
+      ],
+      "foreign_countries": [],
+      "collaborating_institutions": [
+        "COEP Technological University, Pune"
+      ],
+      "external_institutions": [],
+      "document_type": "Conference Paper",
+      "open_access": false,
+      "abstract": "Scopus indexed publication from COEP Technological University on FedDet: Federated Learning for Computationally Limited Devices Using Gradient Based Updates."
+    },
+    {
       "id": "105039422822",
       "eid": "2-s2.0-105039422822",
       "scopus_id": "105039422822",
@@ -11871,50 +11915,6 @@
       "document_type": "Conference Paper",
       "open_access": false,
       "abstract": "Scopus indexed publication from COEP Technological University on NailNet: YOLOv12-Based Multi-class Classification of Nail Diseases."
-    },
-    {
-      "id": "105051477727",
-      "eid": "2-s2.0-105051477727",
-      "scopus_id": "105051477727",
-      "title": "FedDet: Federated Learning for Computationally Limited Devices Using Gradient Based Updates",
-      "authors": [
-        "Ingale C."
-      ],
-      "authors_str": "Ingale C.",
-      "coep_authors": [
-        "Ingale C."
-      ],
-      "primary_author": "Ingale C.",
-      "department": "Computer Engineering & IT",
-      "journal": "2026 International Conference on Intelligent and Sustainable Electronics and Computing Technologies Insect 2026",
-      "issn": "",
-      "publisher": "Academic Publisher",
-      "publication_date": "2026-01-01",
-      "year": 2026,
-      "month": "January",
-      "month_num": 1,
-      "doi": "10.1109/INSECT68872.2026.11663788",
-      "doi_url": "https://doi.org/10.1109/INSECT68872.2026.11663788",
-      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105051477727&origin=inward",
-      "citations": 0,
-      "citescore": 3.8,
-      "sjr": 0.45,
-      "quartile": "Q3",
-      "is_top_10_percent": false,
-      "collaboration_type": "Institutional",
-      "is_international_collab": false,
-      "is_industry_collab": false,
-      "collaborating_countries": [
-        "India"
-      ],
-      "foreign_countries": [],
-      "collaborating_institutions": [
-        "COEP Technological University, Pune"
-      ],
-      "external_institutions": [],
-      "document_type": "Conference Paper",
-      "open_access": false,
-      "abstract": "Scopus indexed publication from COEP Technological University on FedDet: Federated Learning for Computationally Limited Devices Using Gradient Based Updates."
     },
     {
       "id": "105050667824",
@@ -12237,53 +12237,6 @@
       "abstract": "Scopus indexed publication from COEP Technological University on Exploring Connectivity to Metro Station Through Integrated Bicycle Infrastructure: A Case of Pune."
     },
     {
-      "id": "105047061655",
-      "eid": "2-s2.0-105047061655",
-      "scopus_id": "105047061655",
-      "title": "Structure-induced enhancement of charge transport in DNA via bis-daunomycin intercalation",
-      "authors": [
-        "Pardhi K."
-      ],
-      "authors_str": "Pardhi K.",
-      "coep_authors": [
-        "Pardhi K."
-      ],
-      "primary_author": "Pardhi K.",
-      "department": "Metallurgical & Materials Engineering",
-      "journal": "Nanoscale Horizons",
-      "issn": "20556756",
-      "publisher": "Academic Publisher",
-      "publication_date": "2026-01-01",
-      "year": 2026,
-      "month": "January",
-      "month_num": 1,
-      "doi": "10.1039/d6nh00190d",
-      "doi_url": "https://doi.org/10.1039/d6nh00190d",
-      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105047061655&origin=inward",
-      "citations": 2,
-      "citescore": 2.5,
-      "sjr": 0.3,
-      "quartile": "Q4",
-      "is_top_10_percent": false,
-      "collaboration_type": "National",
-      "is_international_collab": false,
-      "is_industry_collab": false,
-      "collaborating_countries": [
-        "India"
-      ],
-      "foreign_countries": [],
-      "collaborating_institutions": [
-        "COEP Technological University, Pune",
-        "Institute of Science Nagpur"
-      ],
-      "external_institutions": [
-        "Institute of Science Nagpur"
-      ],
-      "document_type": "Article",
-      "open_access": false,
-      "abstract": "Scopus indexed publication from COEP Technological University on Structure-induced enhancement of charge transport in DNA via bis-daunomycin intercalation."
-    },
-    {
       "id": "105037736194",
       "eid": "2-s2.0-105037736194",
       "scopus_id": "105037736194",
@@ -12370,6 +12323,53 @@
       "document_type": "Article",
       "open_access": true,
       "abstract": "Scopus indexed publication from COEP Technological University on Establishment and Analysis of Correlation Between Li-Ion Battery Model Accuracy and Kalman Filter-Based SOC Estimation."
+    },
+    {
+      "id": "105047061655",
+      "eid": "2-s2.0-105047061655",
+      "scopus_id": "105047061655",
+      "title": "Structure-induced enhancement of charge transport in DNA via bis-daunomycin intercalation",
+      "authors": [
+        "Pardhi K."
+      ],
+      "authors_str": "Pardhi K.",
+      "coep_authors": [
+        "Pardhi K."
+      ],
+      "primary_author": "Pardhi K.",
+      "department": "Metallurgical & Materials Engineering",
+      "journal": "Nanoscale Horizons",
+      "issn": "20556756",
+      "publisher": "Academic Publisher",
+      "publication_date": "2026-01-01",
+      "year": 2026,
+      "month": "January",
+      "month_num": 1,
+      "doi": "10.1039/d6nh00190d",
+      "doi_url": "https://doi.org/10.1039/d6nh00190d",
+      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105047061655&origin=inward",
+      "citations": 2,
+      "citescore": 2.5,
+      "sjr": 0.3,
+      "quartile": "Q4",
+      "is_top_10_percent": false,
+      "collaboration_type": "National",
+      "is_international_collab": false,
+      "is_industry_collab": false,
+      "collaborating_countries": [
+        "India"
+      ],
+      "foreign_countries": [],
+      "collaborating_institutions": [
+        "COEP Technological University, Pune",
+        "Institute of Science Nagpur"
+      ],
+      "external_institutions": [
+        "Institute of Science Nagpur"
+      ],
+      "document_type": "Article",
+      "open_access": false,
+      "abstract": "Scopus indexed publication from COEP Technological University on Structure-induced enhancement of charge transport in DNA via bis-daunomycin intercalation."
     },
     {
       "id": "105048800460",
@@ -17799,50 +17799,6 @@
       "abstract": "Scopus indexed publication from COEP Technological University on Techno-economic analysis and sustainable advancements in food waste conversion to biogas and hydrogen fuel."
     },
     {
-      "id": "105006874479",
-      "eid": "2-s2.0-105006874479",
-      "scopus_id": "105006874479",
-      "title": "Rapid and sensitive rGO/AuNP-based electrochemical nano-biosensor for detection of E. coli and S. aureus in less than an hour",
-      "authors": [
-        "Sirdeshmukh V.V."
-      ],
-      "authors_str": "Sirdeshmukh V.V.",
-      "coep_authors": [
-        "Sirdeshmukh V.V."
-      ],
-      "primary_author": "Sirdeshmukh V.V.",
-      "department": "Instrumentation & Control Engineering",
-      "journal": "Aip Advances",
-      "issn": "21583226",
-      "publisher": "Academic Publisher",
-      "publication_date": "2025-05-01",
-      "year": 2025,
-      "month": "May",
-      "month_num": 5,
-      "doi": "10.1063/5.0243093",
-      "doi_url": "https://doi.org/10.1063/5.0243093",
-      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105006874479&origin=inward",
-      "citations": 2,
-      "citescore": 3.8,
-      "sjr": 0.45,
-      "quartile": "Q3",
-      "is_top_10_percent": false,
-      "collaboration_type": "Institutional",
-      "is_international_collab": false,
-      "is_industry_collab": false,
-      "collaborating_countries": [
-        "India"
-      ],
-      "foreign_countries": [],
-      "collaborating_institutions": [
-        "COEP Technological University, Pune"
-      ],
-      "external_institutions": [],
-      "document_type": "Article",
-      "open_access": true,
-      "abstract": "Scopus indexed publication from COEP Technological University on Rapid and sensitive rGO/AuNP-based electrochemical nano-biosensor for detection of E. coli and S. aureus in less than an hour."
-    },
-    {
       "id": "105000636861",
       "eid": "2-s2.0-105000636861",
       "scopus_id": "105000636861",
@@ -17888,6 +17844,50 @@
       "document_type": "Review",
       "open_access": false,
       "abstract": "Scopus indexed publication from COEP Technological University on Factors influencing biohydrogen production from waste: Insights into substrates and operating conditions."
+    },
+    {
+      "id": "105006874479",
+      "eid": "2-s2.0-105006874479",
+      "scopus_id": "105006874479",
+      "title": "Rapid and sensitive rGO/AuNP-based electrochemical nano-biosensor for detection of E. coli and S. aureus in less than an hour",
+      "authors": [
+        "Sirdeshmukh V.V."
+      ],
+      "authors_str": "Sirdeshmukh V.V.",
+      "coep_authors": [
+        "Sirdeshmukh V.V."
+      ],
+      "primary_author": "Sirdeshmukh V.V.",
+      "department": "Instrumentation & Control Engineering",
+      "journal": "Aip Advances",
+      "issn": "21583226",
+      "publisher": "Academic Publisher",
+      "publication_date": "2025-05-01",
+      "year": 2025,
+      "month": "May",
+      "month_num": 5,
+      "doi": "10.1063/5.0243093",
+      "doi_url": "https://doi.org/10.1063/5.0243093",
+      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105006874479&origin=inward",
+      "citations": 2,
+      "citescore": 3.8,
+      "sjr": 0.45,
+      "quartile": "Q3",
+      "is_top_10_percent": false,
+      "collaboration_type": "Institutional",
+      "is_international_collab": false,
+      "is_industry_collab": false,
+      "collaborating_countries": [
+        "India"
+      ],
+      "foreign_countries": [],
+      "collaborating_institutions": [
+        "COEP Technological University, Pune"
+      ],
+      "external_institutions": [],
+      "document_type": "Article",
+      "open_access": true,
+      "abstract": "Scopus indexed publication from COEP Technological University on Rapid and sensitive rGO/AuNP-based electrochemical nano-biosensor for detection of E. coli and S. aureus in less than an hour."
     },
     {
       "id": "86000521699",
@@ -20262,50 +20262,6 @@
       "abstract": "Scopus indexed publication from COEP Technological University on Solar Power Prediction using Temporal Fusion Transformer."
     },
     {
-      "id": "105021972707",
-      "eid": "2-s2.0-105021972707",
-      "scopus_id": "105021972707",
-      "title": "Risk Assessment and Cashflow Automation for Individual Construction Activities: A Power BI-Based Approach",
-      "authors": [
-        "Gunde S.A."
-      ],
-      "authors_str": "Gunde S.A.",
-      "coep_authors": [
-        "Gunde S.A."
-      ],
-      "primary_author": "Gunde S.A.",
-      "department": "Mechanical Engineering",
-      "journal": "Lecture Notes in Civil Engineering",
-      "issn": "23662557",
-      "publisher": "Academic Publisher",
-      "publication_date": "2025-01-01",
-      "year": 2025,
-      "month": "January",
-      "month_num": 1,
-      "doi": "10.1007/978-981-95-2266-8_53",
-      "doi_url": "https://doi.org/10.1007/978-981-95-2266-8_53",
-      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105021972707&origin=inward",
-      "citations": 0,
-      "citescore": 1.2,
-      "sjr": 0.22,
-      "quartile": "Q4",
-      "is_top_10_percent": false,
-      "collaboration_type": "Institutional",
-      "is_international_collab": false,
-      "is_industry_collab": false,
-      "collaborating_countries": [
-        "India"
-      ],
-      "foreign_countries": [],
-      "collaborating_institutions": [
-        "COEP Technological University, Pune"
-      ],
-      "external_institutions": [],
-      "document_type": "Conference Paper",
-      "open_access": false,
-      "abstract": "Scopus indexed publication from COEP Technological University on Risk Assessment and Cashflow Automation for Individual Construction Activities: A Power BI-Based Approach."
-    },
-    {
       "id": "105018456130",
       "eid": "2-s2.0-105018456130",
       "scopus_id": "105018456130",
@@ -20395,6 +20351,50 @@
       "document_type": "Book Chapter",
       "open_access": false,
       "abstract": "Scopus indexed publication from COEP Technological University on Additively manufactured stimuli responsive smart materials and structures."
+    },
+    {
+      "id": "105021972707",
+      "eid": "2-s2.0-105021972707",
+      "scopus_id": "105021972707",
+      "title": "Risk Assessment and Cashflow Automation for Individual Construction Activities: A Power BI-Based Approach",
+      "authors": [
+        "Gunde S.A."
+      ],
+      "authors_str": "Gunde S.A.",
+      "coep_authors": [
+        "Gunde S.A."
+      ],
+      "primary_author": "Gunde S.A.",
+      "department": "Mechanical Engineering",
+      "journal": "Lecture Notes in Civil Engineering",
+      "issn": "23662557",
+      "publisher": "Academic Publisher",
+      "publication_date": "2025-01-01",
+      "year": 2025,
+      "month": "January",
+      "month_num": 1,
+      "doi": "10.1007/978-981-95-2266-8_53",
+      "doi_url": "https://doi.org/10.1007/978-981-95-2266-8_53",
+      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105021972707&origin=inward",
+      "citations": 0,
+      "citescore": 1.2,
+      "sjr": 0.22,
+      "quartile": "Q4",
+      "is_top_10_percent": false,
+      "collaboration_type": "Institutional",
+      "is_international_collab": false,
+      "is_industry_collab": false,
+      "collaborating_countries": [
+        "India"
+      ],
+      "foreign_countries": [],
+      "collaborating_institutions": [
+        "COEP Technological University, Pune"
+      ],
+      "external_institutions": [],
+      "document_type": "Conference Paper",
+      "open_access": false,
+      "abstract": "Scopus indexed publication from COEP Technological University on Risk Assessment and Cashflow Automation for Individual Construction Activities: A Power BI-Based Approach."
     },
     {
       "id": "105034839948",
@@ -21609,54 +21609,51 @@
       "abstract": "Scopus indexed publication from COEP Technological University on Decoding Metaphors: A Multi-Model Approach Using Abstract Meaning Representation and FrameNet."
     },
     {
-      "id": "105045233095",
-      "eid": "2-s2.0-105045233095",
-      "scopus_id": "105045233095",
-      "title": "Electrooculography Based Eye Movement Classification for Computer Cursor Control",
+      "id": "85187150456",
+      "eid": "2-s2.0-85187150456",
+      "scopus_id": "85187150456",
+      "title": "Optimum Power Forecasting Technique for Hybrid Renewable Energy Systems Using Deep Learning",
       "authors": [
-        "Pathrabe C."
+        "Singh S."
       ],
-      "authors_str": "Pathrabe C.",
+      "authors_str": "Singh S.",
       "coep_authors": [
-        "Pathrabe C."
+        "Singh S."
       ],
-      "primary_author": "Pathrabe C.",
+      "primary_author": "Singh S.",
       "department": "Computer Engineering & IT",
-      "journal": "International IEEE EMBS Conference on Neural Engineering Ner",
-      "issn": "19483546",
+      "journal": "Electric Power Components and Systems",
+      "issn": "15325008",
       "publisher": "Academic Publisher",
       "publication_date": "2025-01-01",
       "year": 2025,
       "month": "January",
       "month_num": 1,
-      "doi": "10.1109/NER61569.2025.11589181",
-      "doi_url": "https://doi.org/10.1109/NER61569.2025.11589181",
-      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105045233095&origin=inward",
-      "citations": 0,
-      "citescore": 7.2,
-      "sjr": 0.98,
-      "quartile": "Q2",
-      "is_top_10_percent": false,
-      "collaboration_type": "International",
-      "is_international_collab": true,
+      "doi": "10.1080/15325008.2024.2316251",
+      "doi_url": "https://doi.org/10.1080/15325008.2024.2316251",
+      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85187150456&origin=inward",
+      "citations": 37,
+      "citescore": 2.5,
+      "sjr": 0.3,
+      "quartile": "Q3",
+      "is_top_10_percent": true,
+      "collaboration_type": "National",
+      "is_international_collab": false,
       "is_industry_collab": false,
       "collaborating_countries": [
-        "India",
-        "United States"
+        "India"
       ],
-      "foreign_countries": [
-        "United States"
-      ],
+      "foreign_countries": [],
       "collaborating_institutions": [
         "COEP Technological University, Pune",
-        "Shu Chien-Gene Lay Department of Bioengineering"
+        "Dr. A.P.J. Abdul Kalam Technical University"
       ],
       "external_institutions": [
-        "Shu Chien-Gene Lay Department of Bioengineering"
+        "Dr. A.P.J. Abdul Kalam Technical University"
       ],
-      "document_type": "Conference Paper",
+      "document_type": "Article",
       "open_access": false,
-      "abstract": "Scopus indexed publication from COEP Technological University on Electrooculography Based Eye Movement Classification for Computer Cursor Control."
+      "abstract": "Scopus indexed publication from COEP Technological University on Optimum Power Forecasting Technique for Hybrid Renewable Energy Systems Using Deep Learning."
     },
     {
       "id": "105045233095",
@@ -24206,50 +24203,6 @@
       "abstract": "Scopus indexed publication from COEP Technological University on Advanced CNN Architecture for Brain Tumor Segmentation and Classification using BraTS-GOAT 2024 Dataset."
     },
     {
-      "id": "105034971709",
-      "eid": "2-s2.0-105034971709",
-      "scopus_id": "105034971709",
-      "title": "Advance Baby Incubator System Design using IoT Technology",
-      "authors": [
-        "Shinde R."
-      ],
-      "authors_str": "Shinde R.",
-      "coep_authors": [
-        "Shinde R."
-      ],
-      "primary_author": "Shinde R.",
-      "department": "Computer Engineering & IT",
-      "journal": "Proceedings 2025 IEEE 3rd International Symposium on Sustainable Energy Signal Processing and Cybersecurity Isssc 2025",
-      "issn": "",
-      "publisher": "Academic Publisher",
-      "publication_date": "2025-01-01",
-      "year": 2025,
-      "month": "January",
-      "month_num": 1,
-      "doi": "10.1109/iSSSC66652.2025.11388269",
-      "doi_url": "https://doi.org/10.1109/iSSSC66652.2025.11388269",
-      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105034971709&origin=inward",
-      "citations": 0,
-      "citescore": 7.2,
-      "sjr": 0.98,
-      "quartile": "Q2",
-      "is_top_10_percent": false,
-      "collaboration_type": "Institutional",
-      "is_international_collab": false,
-      "is_industry_collab": false,
-      "collaborating_countries": [
-        "India"
-      ],
-      "foreign_countries": [],
-      "collaborating_institutions": [
-        "COEP Technological University, Pune"
-      ],
-      "external_institutions": [],
-      "document_type": "Conference Paper",
-      "open_access": false,
-      "abstract": "Scopus indexed publication from COEP Technological University on Advance Baby Incubator System Design using IoT Technology."
-    },
-    {
       "id": "105016214493",
       "eid": "2-s2.0-105016214493",
       "scopus_id": "105016214493",
@@ -24292,6 +24245,50 @@
       "document_type": "Conference Paper",
       "open_access": false,
       "abstract": "Scopus indexed publication from COEP Technological University on Quality Control (QC) and Quality Assurance (QA) Procedures for Meteorological Data from Automatic Weather Stations."
+    },
+    {
+      "id": "105034971709",
+      "eid": "2-s2.0-105034971709",
+      "scopus_id": "105034971709",
+      "title": "Advance Baby Incubator System Design using IoT Technology",
+      "authors": [
+        "Shinde R."
+      ],
+      "authors_str": "Shinde R.",
+      "coep_authors": [
+        "Shinde R."
+      ],
+      "primary_author": "Shinde R.",
+      "department": "Computer Engineering & IT",
+      "journal": "Proceedings 2025 IEEE 3rd International Symposium on Sustainable Energy Signal Processing and Cybersecurity Isssc 2025",
+      "issn": "",
+      "publisher": "Academic Publisher",
+      "publication_date": "2025-01-01",
+      "year": 2025,
+      "month": "January",
+      "month_num": 1,
+      "doi": "10.1109/iSSSC66652.2025.11388269",
+      "doi_url": "https://doi.org/10.1109/iSSSC66652.2025.11388269",
+      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105034971709&origin=inward",
+      "citations": 0,
+      "citescore": 7.2,
+      "sjr": 0.98,
+      "quartile": "Q2",
+      "is_top_10_percent": false,
+      "collaboration_type": "Institutional",
+      "is_international_collab": false,
+      "is_industry_collab": false,
+      "collaborating_countries": [
+        "India"
+      ],
+      "foreign_countries": [],
+      "collaborating_institutions": [
+        "COEP Technological University, Pune"
+      ],
+      "external_institutions": [],
+      "document_type": "Conference Paper",
+      "open_access": false,
+      "abstract": "Scopus indexed publication from COEP Technological University on Advance Baby Incubator System Design using IoT Technology."
     },
     {
       "id": "105026247542",
@@ -25453,50 +25450,6 @@
       "abstract": "Scopus indexed publication from COEP Technological University on Technological Integration of Marma Chikitsa: An Embedded-AI Based Therapeutic Device."
     },
     {
-      "id": "105023987000",
-      "eid": "2-s2.0-105023987000",
-      "scopus_id": "105023987000",
-      "title": "Characterization of activated carbon produced by bio-waste material",
-      "authors": [
-        "Patil D.L."
-      ],
-      "authors_str": "Patil D.L.",
-      "coep_authors": [
-        "Patil D.L."
-      ],
-      "primary_author": "Patil D.L.",
-      "department": "Metallurgical & Materials Engineering",
-      "journal": "Advances in Materials Research South Korea",
-      "issn": "22340912",
-      "publisher": "Academic Publisher",
-      "publication_date": "2025-01-01",
-      "year": 2025,
-      "month": "January",
-      "month_num": 1,
-      "doi": "10.12989/amr.2025.14.4.339",
-      "doi_url": "https://doi.org/10.12989/amr.2025.14.4.339",
-      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105023987000&origin=inward",
-      "citations": 0,
-      "citescore": 3.8,
-      "sjr": 0.45,
-      "quartile": "Q3",
-      "is_top_10_percent": false,
-      "collaboration_type": "Institutional",
-      "is_international_collab": false,
-      "is_industry_collab": false,
-      "collaborating_countries": [
-        "India"
-      ],
-      "foreign_countries": [],
-      "collaborating_institutions": [
-        "COEP Technological University, Pune"
-      ],
-      "external_institutions": [],
-      "document_type": "Article",
-      "open_access": false,
-      "abstract": "Scopus indexed publication from COEP Technological University on Characterization of activated carbon produced by bio-waste material."
-    },
-    {
       "id": "105002472696",
       "eid": "2-s2.0-105002472696",
       "scopus_id": "105002472696",
@@ -25539,6 +25492,50 @@
       "document_type": "Conference Paper",
       "open_access": false,
       "abstract": "Scopus indexed publication from COEP Technological University on Dynamic Retail Pricing via Q-Learning - A Reinforcement Learning Framework for Enhanced Revenue Management."
+    },
+    {
+      "id": "105023987000",
+      "eid": "2-s2.0-105023987000",
+      "scopus_id": "105023987000",
+      "title": "Characterization of activated carbon produced by bio-waste material",
+      "authors": [
+        "Patil D.L."
+      ],
+      "authors_str": "Patil D.L.",
+      "coep_authors": [
+        "Patil D.L."
+      ],
+      "primary_author": "Patil D.L.",
+      "department": "Metallurgical & Materials Engineering",
+      "journal": "Advances in Materials Research South Korea",
+      "issn": "22340912",
+      "publisher": "Academic Publisher",
+      "publication_date": "2025-01-01",
+      "year": 2025,
+      "month": "January",
+      "month_num": 1,
+      "doi": "10.12989/amr.2025.14.4.339",
+      "doi_url": "https://doi.org/10.12989/amr.2025.14.4.339",
+      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105023987000&origin=inward",
+      "citations": 0,
+      "citescore": 3.8,
+      "sjr": 0.45,
+      "quartile": "Q3",
+      "is_top_10_percent": false,
+      "collaboration_type": "Institutional",
+      "is_international_collab": false,
+      "is_industry_collab": false,
+      "collaborating_countries": [
+        "India"
+      ],
+      "foreign_countries": [],
+      "collaborating_institutions": [
+        "COEP Technological University, Pune"
+      ],
+      "external_institutions": [],
+      "document_type": "Article",
+      "open_access": false,
+      "abstract": "Scopus indexed publication from COEP Technological University on Characterization of activated carbon produced by bio-waste material."
     },
     {
       "id": "105020937322",
@@ -26172,50 +26169,6 @@
       "abstract": "Scopus indexed publication from COEP Technological University on Regenerative Braking-Aware Longitudinal Slip Control Strategy for Hub Motor Electric Two-Wheelers on Variable Friction Surfaces."
     },
     {
-      "id": "105013619607",
-      "eid": "2-s2.0-105013619607",
-      "scopus_id": "105013619607",
-      "title": "Design and Performance Analysis of a Tiny Water Propulsion Propeller Using CFD Simulation",
-      "authors": [
-        "Patil V.G."
-      ],
-      "authors_str": "Patil V.G.",
-      "coep_authors": [
-        "Patil V.G."
-      ],
-      "primary_author": "Patil V.G.",
-      "department": "Computer Engineering & IT",
-      "journal": "Proceedings of the 6th International Conference on Inventive Research in Computing Applications Icirca 2025",
-      "issn": "",
-      "publisher": "Academic Publisher",
-      "publication_date": "2025-01-01",
-      "year": 2025,
-      "month": "January",
-      "month_num": 1,
-      "doi": "10.1109/ICIRCA65293.2025.11089886",
-      "doi_url": "https://doi.org/10.1109/ICIRCA65293.2025.11089886",
-      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105013619607&origin=inward",
-      "citations": 0,
-      "citescore": 3.8,
-      "sjr": 0.45,
-      "quartile": "Q3",
-      "is_top_10_percent": false,
-      "collaboration_type": "Institutional",
-      "is_international_collab": false,
-      "is_industry_collab": false,
-      "collaborating_countries": [
-        "India"
-      ],
-      "foreign_countries": [],
-      "collaborating_institutions": [
-        "COEP Technological University, Pune"
-      ],
-      "external_institutions": [],
-      "document_type": "Conference Paper",
-      "open_access": false,
-      "abstract": "Scopus indexed publication from COEP Technological University on Design and Performance Analysis of a Tiny Water Propulsion Propeller Using CFD Simulation."
-    },
-    {
       "id": "105002282401",
       "eid": "2-s2.0-105002282401",
       "scopus_id": "105002282401",
@@ -26258,6 +26211,50 @@
       "document_type": "Conference Paper",
       "open_access": false,
       "abstract": "Scopus indexed publication from COEP Technological University on Optimizing Grid Resilience and Sustainability with Renewable Energy and Battery Energy Storage Systems.."
+    },
+    {
+      "id": "105013619607",
+      "eid": "2-s2.0-105013619607",
+      "scopus_id": "105013619607",
+      "title": "Design and Performance Analysis of a Tiny Water Propulsion Propeller Using CFD Simulation",
+      "authors": [
+        "Patil V.G."
+      ],
+      "authors_str": "Patil V.G.",
+      "coep_authors": [
+        "Patil V.G."
+      ],
+      "primary_author": "Patil V.G.",
+      "department": "Computer Engineering & IT",
+      "journal": "Proceedings of the 6th International Conference on Inventive Research in Computing Applications Icirca 2025",
+      "issn": "",
+      "publisher": "Academic Publisher",
+      "publication_date": "2025-01-01",
+      "year": 2025,
+      "month": "January",
+      "month_num": 1,
+      "doi": "10.1109/ICIRCA65293.2025.11089886",
+      "doi_url": "https://doi.org/10.1109/ICIRCA65293.2025.11089886",
+      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105013619607&origin=inward",
+      "citations": 0,
+      "citescore": 3.8,
+      "sjr": 0.45,
+      "quartile": "Q3",
+      "is_top_10_percent": false,
+      "collaboration_type": "Institutional",
+      "is_international_collab": false,
+      "is_industry_collab": false,
+      "collaborating_countries": [
+        "India"
+      ],
+      "foreign_countries": [],
+      "collaborating_institutions": [
+        "COEP Technological University, Pune"
+      ],
+      "external_institutions": [],
+      "document_type": "Conference Paper",
+      "open_access": false,
+      "abstract": "Scopus indexed publication from COEP Technological University on Design and Performance Analysis of a Tiny Water Propulsion Propeller Using CFD Simulation."
     },
     {
       "id": "105036356270",
@@ -27287,35 +27284,35 @@
       "abstract": "Scopus indexed publication from COEP Technological University on Landslide Detection Using Custom Deep Convolutional Neural Network."
     },
     {
-      "id": "105011517532",
-      "eid": "2-s2.0-105011517532",
-      "scopus_id": "105011517532",
-      "title": "Investigation into the Rheological Characteristics of RA Binder Rejuvenated with HDPE Pyro-Oil under Short- and Long-Term Aging Conditions",
+      "id": "85185147167",
+      "eid": "2-s2.0-85185147167",
+      "scopus_id": "85185147167",
+      "title": "Assessing Factors Influencing Customers’ Adoption of AI-Based Voice Assistants",
       "authors": [
-        "Dare P.D."
+        "Choudhary S."
       ],
-      "authors_str": "Dare P.D.",
+      "authors_str": "Choudhary S.",
       "coep_authors": [
-        "Dare P.D."
+        "Choudhary S."
       ],
-      "primary_author": "Dare P.D.",
-      "department": "Mechanical Engineering",
-      "journal": "Journal of Materials in Civil Engineering",
-      "issn": "08991561",
+      "primary_author": "Choudhary S.",
+      "department": "Computer Engineering & IT",
+      "journal": "Journal of Computer Information Systems",
+      "issn": "08874417",
       "publisher": "Academic Publisher",
       "publication_date": "2025-01-01",
       "year": 2025,
       "month": "January",
       "month_num": 1,
-      "doi": "10.1061/JMCEE7.MTENG-20064",
-      "doi_url": "https://doi.org/10.1061/JMCEE7.MTENG-20064",
-      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105011517532&origin=inward",
-      "citations": 0,
+      "doi": "10.1080/08874417.2024.2312858",
+      "doi_url": "https://doi.org/10.1080/08874417.2024.2312858",
+      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85185147167&origin=inward",
+      "citations": 38,
       "citescore": 7.2,
       "sjr": 0.98,
       "quartile": "Q2",
-      "is_top_10_percent": false,
-      "collaboration_type": "Institutional",
+      "is_top_10_percent": true,
+      "collaboration_type": "National",
       "is_international_collab": false,
       "is_industry_collab": false,
       "collaborating_countries": [
@@ -27323,12 +27320,15 @@
       ],
       "foreign_countries": [],
       "collaborating_institutions": [
-        "COEP Technological University, Pune"
+        "COEP Technological University, Pune",
+        "National Institute of Technology Kurukshetra"
       ],
-      "external_institutions": [],
+      "external_institutions": [
+        "National Institute of Technology Kurukshetra"
+      ],
       "document_type": "Article",
-      "open_access": false,
-      "abstract": "Scopus indexed publication from COEP Technological University on Investigation into the Rheological Characteristics of RA Binder Rejuvenated with HDPE Pyro-Oil under Short- and Long-Term Aging Conditions."
+      "open_access": true,
+      "abstract": "Scopus indexed publication from COEP Technological University on Assessing Factors Influencing Customers’ Adoption of AI-Based Voice Assistants."
     },
     {
       "id": "105030148354",
@@ -29579,6 +29579,50 @@
       "abstract": "Scopus indexed publication from COEP Technological University on Comparative analysis of biogas upgrading technologies: Efficiency, economics, and sustainability."
     },
     {
+      "id": "105031359756",
+      "eid": "2-s2.0-105031359756",
+      "scopus_id": "105031359756",
+      "title": "StegSecure-IoT: Enhancing Personal IoT Data Privacy via Compression-Based Crypto-Steganography",
+      "authors": [
+        "Jogi O."
+      ],
+      "authors_str": "Jogi O.",
+      "coep_authors": [
+        "Jogi O."
+      ],
+      "primary_author": "Jogi O.",
+      "department": "Computer Engineering & IT",
+      "journal": "2025 5th Asian Conference on Innovation in Technology Asiancon 2025",
+      "issn": "",
+      "publisher": "Academic Publisher",
+      "publication_date": "2025-01-01",
+      "year": 2025,
+      "month": "January",
+      "month_num": 1,
+      "doi": "10.1109/ASIANCON66527.2025.11280607",
+      "doi_url": "https://doi.org/10.1109/ASIANCON66527.2025.11280607",
+      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105031359756&origin=inward",
+      "citations": 0,
+      "citescore": 3.8,
+      "sjr": 0.45,
+      "quartile": "Q3",
+      "is_top_10_percent": false,
+      "collaboration_type": "Institutional",
+      "is_international_collab": false,
+      "is_industry_collab": false,
+      "collaborating_countries": [
+        "India"
+      ],
+      "foreign_countries": [],
+      "collaborating_institutions": [
+        "COEP Technological University, Pune"
+      ],
+      "external_institutions": [],
+      "document_type": "Conference Paper",
+      "open_access": false,
+      "abstract": "Scopus indexed publication from COEP Technological University on StegSecure-IoT: Enhancing Personal IoT Data Privacy via Compression-Based Crypto-Steganography."
+    },
+    {
       "id": "105035029274",
       "eid": "2-s2.0-105035029274",
       "scopus_id": "105035029274",
@@ -29624,50 +29668,6 @@
       "document_type": "Conference Paper",
       "open_access": false,
       "abstract": "Scopus indexed publication from COEP Technological University on Human-Robot Interaction in Healthcare: Enhancing Safety and Efficiency in Clinical Settings."
-    },
-    {
-      "id": "105031359756",
-      "eid": "2-s2.0-105031359756",
-      "scopus_id": "105031359756",
-      "title": "StegSecure-IoT: Enhancing Personal IoT Data Privacy via Compression-Based Crypto-Steganography",
-      "authors": [
-        "Jogi O."
-      ],
-      "authors_str": "Jogi O.",
-      "coep_authors": [
-        "Jogi O."
-      ],
-      "primary_author": "Jogi O.",
-      "department": "Computer Engineering & IT",
-      "journal": "2025 5th Asian Conference on Innovation in Technology Asiancon 2025",
-      "issn": "",
-      "publisher": "Academic Publisher",
-      "publication_date": "2025-01-01",
-      "year": 2025,
-      "month": "January",
-      "month_num": 1,
-      "doi": "10.1109/ASIANCON66527.2025.11280607",
-      "doi_url": "https://doi.org/10.1109/ASIANCON66527.2025.11280607",
-      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105031359756&origin=inward",
-      "citations": 0,
-      "citescore": 3.8,
-      "sjr": 0.45,
-      "quartile": "Q3",
-      "is_top_10_percent": false,
-      "collaboration_type": "Institutional",
-      "is_international_collab": false,
-      "is_industry_collab": false,
-      "collaborating_countries": [
-        "India"
-      ],
-      "foreign_countries": [],
-      "collaborating_institutions": [
-        "COEP Technological University, Pune"
-      ],
-      "external_institutions": [],
-      "document_type": "Conference Paper",
-      "open_access": false,
-      "abstract": "Scopus indexed publication from COEP Technological University on StegSecure-IoT: Enhancing Personal IoT Data Privacy via Compression-Based Crypto-Steganography."
     },
     {
       "id": "105013616795",
@@ -31391,58 +31391,6 @@
       "abstract": "Scopus indexed publication from COEP Technological University on The role of additive manufacturing in the study of carbon fiber-reinforced polymer composite."
     },
     {
-      "id": "85203091980",
-      "eid": "2-s2.0-85203091980",
-      "scopus_id": "85203091980",
-      "title": "Ultra-Thin, Bendable PbS Photodetector on Paper for High-Performance Infrared Sensing",
-      "authors": [
-        "Thabit M.Y.H."
-      ],
-      "authors_str": "Thabit M.Y.H.",
-      "coep_authors": [
-        "Thabit M.Y.H."
-      ],
-      "primary_author": "Thabit M.Y.H.",
-      "department": "Electronics & Telecommunication (E&TC)",
-      "journal": "Journal of Electronic Materials",
-      "issn": "03615235",
-      "publisher": "Academic Publisher",
-      "publication_date": "2024-11-01",
-      "year": 2024,
-      "month": "November",
-      "month_num": 11,
-      "doi": "10.1007/s11664-024-11398-x",
-      "doi_url": "https://doi.org/10.1007/s11664-024-11398-x",
-      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85203091980&origin=inward",
-      "citations": 6,
-      "citescore": 3.8,
-      "sjr": 0.48,
-      "quartile": "Q3",
-      "is_top_10_percent": false,
-      "collaboration_type": "International",
-      "is_international_collab": true,
-      "is_industry_collab": false,
-      "collaborating_countries": [
-        "India",
-        "Yemen"
-      ],
-      "foreign_countries": [
-        "Yemen"
-      ],
-      "collaborating_institutions": [
-        "COEP Technological University, Pune",
-        "Swami Ramanand Teerth Marathwada University",
-        "Amran University"
-      ],
-      "external_institutions": [
-        "Swami Ramanand Teerth Marathwada University",
-        "Amran University"
-      ],
-      "document_type": "Article",
-      "open_access": false,
-      "abstract": "Scopus indexed publication from COEP Technological University on Ultra-Thin, Bendable PbS Photodetector on Paper for High-Performance Infrared Sensing."
-    },
-    {
       "id": "85208788023",
       "eid": "2-s2.0-85208788023",
       "scopus_id": "85208788023",
@@ -31493,6 +31441,58 @@
       "document_type": "Article",
       "open_access": false,
       "abstract": "Scopus indexed publication from COEP Technological University on MXene—Reclaimed Cellulose Acetate Composites for Methylene Blue Removal Through Synergistic Adsorption and Photocatalysis."
+    },
+    {
+      "id": "85203091980",
+      "eid": "2-s2.0-85203091980",
+      "scopus_id": "85203091980",
+      "title": "Ultra-Thin, Bendable PbS Photodetector on Paper for High-Performance Infrared Sensing",
+      "authors": [
+        "Thabit M.Y.H."
+      ],
+      "authors_str": "Thabit M.Y.H.",
+      "coep_authors": [
+        "Thabit M.Y.H."
+      ],
+      "primary_author": "Thabit M.Y.H.",
+      "department": "Electronics & Telecommunication (E&TC)",
+      "journal": "Journal of Electronic Materials",
+      "issn": "03615235",
+      "publisher": "Academic Publisher",
+      "publication_date": "2024-11-01",
+      "year": 2024,
+      "month": "November",
+      "month_num": 11,
+      "doi": "10.1007/s11664-024-11398-x",
+      "doi_url": "https://doi.org/10.1007/s11664-024-11398-x",
+      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85203091980&origin=inward",
+      "citations": 6,
+      "citescore": 3.8,
+      "sjr": 0.48,
+      "quartile": "Q3",
+      "is_top_10_percent": false,
+      "collaboration_type": "International",
+      "is_international_collab": true,
+      "is_industry_collab": false,
+      "collaborating_countries": [
+        "India",
+        "Yemen"
+      ],
+      "foreign_countries": [
+        "Yemen"
+      ],
+      "collaborating_institutions": [
+        "COEP Technological University, Pune",
+        "Swami Ramanand Teerth Marathwada University",
+        "Amran University"
+      ],
+      "external_institutions": [
+        "Swami Ramanand Teerth Marathwada University",
+        "Amran University"
+      ],
+      "document_type": "Article",
+      "open_access": false,
+      "abstract": "Scopus indexed publication from COEP Technological University on Ultra-Thin, Bendable PbS Photodetector on Paper for High-Performance Infrared Sensing."
     },
     {
       "id": "85205025044",
@@ -32495,50 +32495,6 @@
       "abstract": "Scopus indexed publication from COEP Technological University on YOLOv8-Based Frameworks for Liver and Tumor Segmentation Task on LiTS."
     },
     {
-      "id": "85200050493",
-      "eid": "2-s2.0-85200050493",
-      "scopus_id": "85200050493",
-      "title": "Meta-structures for energy absorption: materials, designs, and applications in additive manufacturing and its future scope",
-      "authors": [
-        "Dalave P.A."
-      ],
-      "authors_str": "Dalave P.A.",
-      "coep_authors": [
-        "Dalave P.A."
-      ],
-      "primary_author": "Dalave P.A.",
-      "department": "Mechanical Engineering",
-      "journal": "Journal of the Brazilian Society of Mechanical Sciences and Engineering",
-      "issn": "16785878",
-      "publisher": "Academic Publisher",
-      "publication_date": "2024-08-01",
-      "year": 2024,
-      "month": "August",
-      "month_num": 8,
-      "doi": "10.1007/s40430-024-05094-4",
-      "doi_url": "https://doi.org/10.1007/s40430-024-05094-4",
-      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85200050493&origin=inward",
-      "citations": 26,
-      "citescore": 16.5,
-      "sjr": 2.85,
-      "quartile": "Q1",
-      "is_top_10_percent": true,
-      "collaboration_type": "Institutional",
-      "is_international_collab": false,
-      "is_industry_collab": false,
-      "collaborating_countries": [
-        "India"
-      ],
-      "foreign_countries": [],
-      "collaborating_institutions": [
-        "COEP Technological University, Pune"
-      ],
-      "external_institutions": [],
-      "document_type": "Review",
-      "open_access": false,
-      "abstract": "Scopus indexed publication from COEP Technological University on Meta-structures for energy absorption: materials, designs, and applications in additive manufacturing and its future scope."
-    },
-    {
       "id": "85190259299",
       "eid": "2-s2.0-85190259299",
       "scopus_id": "85190259299",
@@ -32581,6 +32537,50 @@
       "document_type": "Article",
       "open_access": false,
       "abstract": "Scopus indexed publication from COEP Technological University on An adaptive Marine Predator Optimization Algorithm (MPOA) integrated Gated Recurrent Neural Network (GRNN) classifier model for arrhythmia detection."
+    },
+    {
+      "id": "85200050493",
+      "eid": "2-s2.0-85200050493",
+      "scopus_id": "85200050493",
+      "title": "Meta-structures for energy absorption: materials, designs, and applications in additive manufacturing and its future scope",
+      "authors": [
+        "Dalave P.A."
+      ],
+      "authors_str": "Dalave P.A.",
+      "coep_authors": [
+        "Dalave P.A."
+      ],
+      "primary_author": "Dalave P.A.",
+      "department": "Mechanical Engineering",
+      "journal": "Journal of the Brazilian Society of Mechanical Sciences and Engineering",
+      "issn": "16785878",
+      "publisher": "Academic Publisher",
+      "publication_date": "2024-08-01",
+      "year": 2024,
+      "month": "August",
+      "month_num": 8,
+      "doi": "10.1007/s40430-024-05094-4",
+      "doi_url": "https://doi.org/10.1007/s40430-024-05094-4",
+      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85200050493&origin=inward",
+      "citations": 26,
+      "citescore": 16.5,
+      "sjr": 2.85,
+      "quartile": "Q1",
+      "is_top_10_percent": true,
+      "collaboration_type": "Institutional",
+      "is_international_collab": false,
+      "is_industry_collab": false,
+      "collaborating_countries": [
+        "India"
+      ],
+      "foreign_countries": [],
+      "collaborating_institutions": [
+        "COEP Technological University, Pune"
+      ],
+      "external_institutions": [],
+      "document_type": "Review",
+      "open_access": false,
+      "abstract": "Scopus indexed publication from COEP Technological University on Meta-structures for energy absorption: materials, designs, and applications in additive manufacturing and its future scope."
     },
     {
       "id": "85186679371",
@@ -37761,50 +37761,6 @@
       "abstract": "Scopus indexed publication from COEP Technological University on Comparative Performance Analysis of SVM and KNN in Stress Detection using Voice."
     },
     {
-      "id": "85207549775",
-      "eid": "2-s2.0-85207549775",
-      "scopus_id": "85207549775",
-      "title": "Managing Cost Overrun and Risk in New Product Development Projects: A Multi-Attribute Decision-Making Approach Using R-method: R-Method",
-      "authors": [
-        "Susar S."
-      ],
-      "authors_str": "Susar S.",
-      "coep_authors": [
-        "Susar S."
-      ],
-      "primary_author": "Susar S.",
-      "department": "Mechanical Engineering",
-      "journal": "Lecture Notes in Electrical Engineering",
-      "issn": "18761100",
-      "publisher": "Academic Publisher",
-      "publication_date": "2024-01-01",
-      "year": 2024,
-      "month": "January",
-      "month_num": 1,
-      "doi": "10.1007/978-981-97-4654-5_32",
-      "doi_url": "https://doi.org/10.1007/978-981-97-4654-5_32",
-      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85207549775&origin=inward",
-      "citations": 0,
-      "citescore": 1.2,
-      "sjr": 0.22,
-      "quartile": "Q4",
-      "is_top_10_percent": false,
-      "collaboration_type": "Institutional",
-      "is_international_collab": false,
-      "is_industry_collab": false,
-      "collaborating_countries": [
-        "India"
-      ],
-      "foreign_countries": [],
-      "collaborating_institutions": [
-        "COEP Technological University, Pune"
-      ],
-      "external_institutions": [],
-      "document_type": "Conference Paper",
-      "open_access": false,
-      "abstract": "Scopus indexed publication from COEP Technological University on Managing Cost Overrun and Risk in New Product Development Projects: A Multi-Attribute Decision-Making Approach Using R-method: R-Method."
-    },
-    {
       "id": "85212942098",
       "eid": "2-s2.0-85212942098",
       "scopus_id": "85212942098",
@@ -37853,6 +37809,50 @@
       "document_type": "Retracted",
       "open_access": false,
       "abstract": "Scopus indexed publication from COEP Technological University on The intelligent optimization of AI/ML framework to Detect Network Abnormalities via Time Series Analysis."
+    },
+    {
+      "id": "85207549775",
+      "eid": "2-s2.0-85207549775",
+      "scopus_id": "85207549775",
+      "title": "Managing Cost Overrun and Risk in New Product Development Projects: A Multi-Attribute Decision-Making Approach Using R-method: R-Method",
+      "authors": [
+        "Susar S."
+      ],
+      "authors_str": "Susar S.",
+      "coep_authors": [
+        "Susar S."
+      ],
+      "primary_author": "Susar S.",
+      "department": "Mechanical Engineering",
+      "journal": "Lecture Notes in Electrical Engineering",
+      "issn": "18761100",
+      "publisher": "Academic Publisher",
+      "publication_date": "2024-01-01",
+      "year": 2024,
+      "month": "January",
+      "month_num": 1,
+      "doi": "10.1007/978-981-97-4654-5_32",
+      "doi_url": "https://doi.org/10.1007/978-981-97-4654-5_32",
+      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85207549775&origin=inward",
+      "citations": 0,
+      "citescore": 1.2,
+      "sjr": 0.22,
+      "quartile": "Q4",
+      "is_top_10_percent": false,
+      "collaboration_type": "Institutional",
+      "is_international_collab": false,
+      "is_industry_collab": false,
+      "collaborating_countries": [
+        "India"
+      ],
+      "foreign_countries": [],
+      "collaborating_institutions": [
+        "COEP Technological University, Pune"
+      ],
+      "external_institutions": [],
+      "document_type": "Conference Paper",
+      "open_access": false,
+      "abstract": "Scopus indexed publication from COEP Technological University on Managing Cost Overrun and Risk in New Product Development Projects: A Multi-Attribute Decision-Making Approach Using R-method: R-Method."
     },
     {
       "id": "85218457613",
@@ -40486,6 +40486,50 @@
       "abstract": "Scopus indexed publication from COEP Technological University on Railway Accident Reduction By Passenger Detection Using Machine Learning Techniques."
     },
     {
+      "id": "85218420909",
+      "eid": "2-s2.0-85218420909",
+      "scopus_id": "85218420909",
+      "title": "Lightweight Authentication System Based on Zero Knowledge Proof for IoT Devices",
+      "authors": [
+        "Khandait A.U."
+      ],
+      "authors_str": "Khandait A.U.",
+      "coep_authors": [
+        "Khandait A.U."
+      ],
+      "primary_author": "Khandait A.U.",
+      "department": "Computer Engineering & IT",
+      "journal": "2024 Global Conference on Communications and Information Technologies Gccit 2024",
+      "issn": "",
+      "publisher": "Academic Publisher",
+      "publication_date": "2024-01-01",
+      "year": 2024,
+      "month": "January",
+      "month_num": 1,
+      "doi": "10.1109/GCCIT63234.2024.10862207",
+      "doi_url": "https://doi.org/10.1109/GCCIT63234.2024.10862207",
+      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85218420909&origin=inward",
+      "citations": 1,
+      "citescore": 3.8,
+      "sjr": 0.45,
+      "quartile": "Q3",
+      "is_top_10_percent": false,
+      "collaboration_type": "Institutional",
+      "is_international_collab": false,
+      "is_industry_collab": false,
+      "collaborating_countries": [
+        "India"
+      ],
+      "foreign_countries": [],
+      "collaborating_institutions": [
+        "COEP Technological University, Pune"
+      ],
+      "external_institutions": [],
+      "document_type": "Conference Paper",
+      "open_access": false,
+      "abstract": "Scopus indexed publication from COEP Technological University on Lightweight Authentication System Based on Zero Knowledge Proof for IoT Devices."
+    },
+    {
       "id": "85214316188",
       "eid": "2-s2.0-85214316188",
       "scopus_id": "85214316188",
@@ -40531,50 +40575,6 @@
       "document_type": "Article",
       "open_access": false,
       "abstract": "Scopus indexed publication from COEP Technological University on Contemporary Advances in Metal Oxide Doped Polypyrrole Composites: A Comprehensive Review."
-    },
-    {
-      "id": "85218420909",
-      "eid": "2-s2.0-85218420909",
-      "scopus_id": "85218420909",
-      "title": "Lightweight Authentication System Based on Zero Knowledge Proof for IoT Devices",
-      "authors": [
-        "Khandait A.U."
-      ],
-      "authors_str": "Khandait A.U.",
-      "coep_authors": [
-        "Khandait A.U."
-      ],
-      "primary_author": "Khandait A.U.",
-      "department": "Computer Engineering & IT",
-      "journal": "2024 Global Conference on Communications and Information Technologies Gccit 2024",
-      "issn": "",
-      "publisher": "Academic Publisher",
-      "publication_date": "2024-01-01",
-      "year": 2024,
-      "month": "January",
-      "month_num": 1,
-      "doi": "10.1109/GCCIT63234.2024.10862207",
-      "doi_url": "https://doi.org/10.1109/GCCIT63234.2024.10862207",
-      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85218420909&origin=inward",
-      "citations": 1,
-      "citescore": 3.8,
-      "sjr": 0.45,
-      "quartile": "Q3",
-      "is_top_10_percent": false,
-      "collaboration_type": "Institutional",
-      "is_international_collab": false,
-      "is_industry_collab": false,
-      "collaborating_countries": [
-        "India"
-      ],
-      "foreign_countries": [],
-      "collaborating_institutions": [
-        "COEP Technological University, Pune"
-      ],
-      "external_institutions": [],
-      "document_type": "Conference Paper",
-      "open_access": false,
-      "abstract": "Scopus indexed publication from COEP Technological University on Lightweight Authentication System Based on Zero Knowledge Proof for IoT Devices."
     },
     {
       "id": "85189543067",
@@ -41380,6 +41380,50 @@
       "abstract": "Scopus indexed publication from COEP Technological University on Hybrid deep learning methodology for fetal cardiac disease prediction."
     },
     {
+      "id": "85219088593",
+      "eid": "2-s2.0-85219088593",
+      "scopus_id": "85219088593",
+      "title": "Strategic Placement and Sizing of Centralized BESS in Distribution Network with Solar Photovoltaic Integration",
+      "authors": [
+        "Shirkar S.S."
+      ],
+      "authors_str": "Shirkar S.S.",
+      "coep_authors": [
+        "Shirkar S.S."
+      ],
+      "primary_author": "Shirkar S.S.",
+      "department": "Electrical Engineering",
+      "journal": "2024 4th International Conference on Emerging Frontiers in Electrical and Electronic Technologies Icefeet 2024",
+      "issn": "",
+      "publisher": "Academic Publisher",
+      "publication_date": "2024-01-01",
+      "year": 2024,
+      "month": "January",
+      "month_num": 1,
+      "doi": "10.1109/ICEFEET64463.2024.10867259",
+      "doi_url": "https://doi.org/10.1109/ICEFEET64463.2024.10867259",
+      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85219088593&origin=inward",
+      "citations": 1,
+      "citescore": 3.8,
+      "sjr": 0.45,
+      "quartile": "Q3",
+      "is_top_10_percent": false,
+      "collaboration_type": "Institutional",
+      "is_international_collab": false,
+      "is_industry_collab": false,
+      "collaborating_countries": [
+        "India"
+      ],
+      "foreign_countries": [],
+      "collaborating_institutions": [
+        "COEP Technological University, Pune"
+      ],
+      "external_institutions": [],
+      "document_type": "Conference Paper",
+      "open_access": false,
+      "abstract": "Scopus indexed publication from COEP Technological University on Strategic Placement and Sizing of Centralized BESS in Distribution Network with Solar Photovoltaic Integration."
+    },
+    {
       "id": "85191343728",
       "eid": "2-s2.0-85191343728",
       "scopus_id": "85191343728",
@@ -41425,50 +41469,6 @@
       "document_type": "Article",
       "open_access": true,
       "abstract": "Scopus indexed publication from COEP Technological University on Machine learning for monitoring hobbing tool health in CNC hobbing machine."
-    },
-    {
-      "id": "85219088593",
-      "eid": "2-s2.0-85219088593",
-      "scopus_id": "85219088593",
-      "title": "Strategic Placement and Sizing of Centralized BESS in Distribution Network with Solar Photovoltaic Integration",
-      "authors": [
-        "Shirkar S.S."
-      ],
-      "authors_str": "Shirkar S.S.",
-      "coep_authors": [
-        "Shirkar S.S."
-      ],
-      "primary_author": "Shirkar S.S.",
-      "department": "Electrical Engineering",
-      "journal": "2024 4th International Conference on Emerging Frontiers in Electrical and Electronic Technologies Icefeet 2024",
-      "issn": "",
-      "publisher": "Academic Publisher",
-      "publication_date": "2024-01-01",
-      "year": 2024,
-      "month": "January",
-      "month_num": 1,
-      "doi": "10.1109/ICEFEET64463.2024.10867259",
-      "doi_url": "https://doi.org/10.1109/ICEFEET64463.2024.10867259",
-      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85219088593&origin=inward",
-      "citations": 1,
-      "citescore": 3.8,
-      "sjr": 0.45,
-      "quartile": "Q3",
-      "is_top_10_percent": false,
-      "collaboration_type": "Institutional",
-      "is_international_collab": false,
-      "is_industry_collab": false,
-      "collaborating_countries": [
-        "India"
-      ],
-      "foreign_countries": [],
-      "collaborating_institutions": [
-        "COEP Technological University, Pune"
-      ],
-      "external_institutions": [],
-      "document_type": "Conference Paper",
-      "open_access": false,
-      "abstract": "Scopus indexed publication from COEP Technological University on Strategic Placement and Sizing of Centralized BESS in Distribution Network with Solar Photovoltaic Integration."
     },
     {
       "id": "85150623092",
@@ -42010,50 +42010,6 @@
       "abstract": "Scopus indexed publication from COEP Technological University on A Practical Approach for Estimating State of Health of Li-Ion Batteries in Electric Vehicles."
     },
     {
-      "id": "85192200278",
-      "eid": "2-s2.0-85192200278",
-      "scopus_id": "85192200278",
-      "title": "Recent Developments in Evaporative Cooling as an Energy Efficient Technology for the Short-Term Storage of Perishable Farm Goods: A Review",
-      "authors": [
-        "Pawar S."
-      ],
-      "authors_str": "Pawar S.",
-      "coep_authors": [
-        "Pawar S."
-      ],
-      "primary_author": "Pawar S.",
-      "department": "Mechanical Engineering",
-      "journal": "Lecture Notes in Civil Engineering",
-      "issn": "23662557",
-      "publisher": "Academic Publisher",
-      "publication_date": "2024-01-01",
-      "year": 2024,
-      "month": "January",
-      "month_num": 1,
-      "doi": "10.1007/978-981-99-6616-5_35",
-      "doi_url": "https://doi.org/10.1007/978-981-99-6616-5_35",
-      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85192200278&origin=inward",
-      "citations": 3,
-      "citescore": 1.2,
-      "sjr": 0.22,
-      "quartile": "Q4",
-      "is_top_10_percent": false,
-      "collaboration_type": "Institutional",
-      "is_international_collab": false,
-      "is_industry_collab": false,
-      "collaborating_countries": [
-        "India"
-      ],
-      "foreign_countries": [],
-      "collaborating_institutions": [
-        "COEP Technological University, Pune"
-      ],
-      "external_institutions": [],
-      "document_type": "Conference Paper",
-      "open_access": false,
-      "abstract": "Scopus indexed publication from COEP Technological University on Recent Developments in Evaporative Cooling as an Energy Efficient Technology for the Short-Term Storage of Perishable Farm Goods: A Review."
-    },
-    {
       "id": "85147314352",
       "eid": "2-s2.0-85147314352",
       "scopus_id": "85147314352",
@@ -42096,6 +42052,50 @@
       "document_type": "Article",
       "open_access": false,
       "abstract": "Scopus indexed publication from COEP Technological University on The Velocity of Underwater Ultrasound at Different Temperatures."
+    },
+    {
+      "id": "85192200278",
+      "eid": "2-s2.0-85192200278",
+      "scopus_id": "85192200278",
+      "title": "Recent Developments in Evaporative Cooling as an Energy Efficient Technology for the Short-Term Storage of Perishable Farm Goods: A Review",
+      "authors": [
+        "Pawar S."
+      ],
+      "authors_str": "Pawar S.",
+      "coep_authors": [
+        "Pawar S."
+      ],
+      "primary_author": "Pawar S.",
+      "department": "Mechanical Engineering",
+      "journal": "Lecture Notes in Civil Engineering",
+      "issn": "23662557",
+      "publisher": "Academic Publisher",
+      "publication_date": "2024-01-01",
+      "year": 2024,
+      "month": "January",
+      "month_num": 1,
+      "doi": "10.1007/978-981-99-6616-5_35",
+      "doi_url": "https://doi.org/10.1007/978-981-99-6616-5_35",
+      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85192200278&origin=inward",
+      "citations": 3,
+      "citescore": 1.2,
+      "sjr": 0.22,
+      "quartile": "Q4",
+      "is_top_10_percent": false,
+      "collaboration_type": "Institutional",
+      "is_international_collab": false,
+      "is_industry_collab": false,
+      "collaborating_countries": [
+        "India"
+      ],
+      "foreign_countries": [],
+      "collaborating_institutions": [
+        "COEP Technological University, Pune"
+      ],
+      "external_institutions": [],
+      "document_type": "Conference Paper",
+      "open_access": false,
+      "abstract": "Scopus indexed publication from COEP Technological University on Recent Developments in Evaporative Cooling as an Energy Efficient Technology for the Short-Term Storage of Perishable Farm Goods: A Review."
     },
     {
       "id": "85140875194",
@@ -42984,33 +42984,33 @@
       "abstract": "Scopus indexed publication from COEP Technological University on Evaluation of Rutting Resistance of RAP Blended Binder with Sasobit as a Rejuvenator Using MSCR."
     },
     {
-      "id": "85215118671",
-      "eid": "2-s2.0-85215118671",
-      "scopus_id": "85215118671",
-      "title": "Performance Analysis of Machine Learning Classifiers for Malware Detection",
+      "id": "85187658983",
+      "eid": "2-s2.0-85187658983",
+      "scopus_id": "85187658983",
+      "title": "Impact of Optimum Use of Ground Granulated Blast Furnace Slag on Economy and Sustainability of Pune Metro Project",
       "authors": [
-        "Patel N."
+        "Dhaygude V."
       ],
-      "authors_str": "Patel N.",
+      "authors_str": "Dhaygude V.",
       "coep_authors": [
-        "Patel N."
+        "Dhaygude V."
       ],
-      "primary_author": "Patel N.",
-      "department": "Computer Engineering & IT",
-      "journal": "2024 8th International Conference on Computing Communication Control and Automation Iccubea 2024",
-      "issn": "",
+      "primary_author": "Dhaygude V.",
+      "department": "Mechanical Engineering",
+      "journal": "Lecture Notes in Civil Engineering",
+      "issn": "23662557",
       "publisher": "Academic Publisher",
       "publication_date": "2024-01-01",
       "year": 2024,
       "month": "January",
       "month_num": 1,
-      "doi": "10.1109/ICCUBEA61740.2024.10775101",
-      "doi_url": "https://doi.org/10.1109/ICCUBEA61740.2024.10775101",
-      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85215118671&origin=inward",
-      "citations": 4,
-      "citescore": 3.8,
-      "sjr": 0.45,
-      "quartile": "Q3",
+      "doi": "10.1007/978-981-99-8842-6_21",
+      "doi_url": "https://doi.org/10.1007/978-981-99-8842-6_21",
+      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85187658983&origin=inward",
+      "citations": 0,
+      "citescore": 1.2,
+      "sjr": 0.22,
+      "quartile": "Q4",
       "is_top_10_percent": false,
       "collaboration_type": "Institutional",
       "is_international_collab": false,
@@ -43025,7 +43025,7 @@
       "external_institutions": [],
       "document_type": "Conference Paper",
       "open_access": false,
-      "abstract": "Scopus indexed publication from COEP Technological University on Performance Analysis of Machine Learning Classifiers for Malware Detection."
+      "abstract": "Scopus indexed publication from COEP Technological University on Impact of Optimum Use of Ground Granulated Blast Furnace Slag on Economy and Sustainability of Pune Metro Project."
     },
     {
       "id": "85208187890",
@@ -53829,6 +53829,50 @@
       "abstract": "Scopus indexed publication from COEP Technological University on A Comprehensive Compendium on Passive Augmentation Techniques for Enhancement of Single-Phase Heat Transfer Coefficients in Heat Exchanger Tubes under Laminar and Turbulent Flow Conditions."
     },
     {
+      "id": "85139330871",
+      "eid": "2-s2.0-85139330871",
+      "scopus_id": "85139330871",
+      "title": "Repair of pre-cracked aluminium alloy panel with CFRP bonded patch and its comparison with riveted patch",
+      "authors": [
+        "Kadam S."
+      ],
+      "authors_str": "Kadam S.",
+      "coep_authors": [
+        "Kadam S."
+      ],
+      "primary_author": "Kadam S.",
+      "department": "Metallurgical & Materials Engineering",
+      "journal": "Materials Today Proceedings",
+      "issn": "22147853",
+      "publisher": "Academic Publisher",
+      "publication_date": "2023-01-01",
+      "year": 2023,
+      "month": "January",
+      "month_num": 1,
+      "doi": "10.1016/j.matpr.2022.09.282",
+      "doi_url": "https://doi.org/10.1016/j.matpr.2022.09.282",
+      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85139330871&origin=inward",
+      "citations": 8,
+      "citescore": 3.8,
+      "sjr": 0.45,
+      "quartile": "Q3",
+      "is_top_10_percent": false,
+      "collaboration_type": "Institutional",
+      "is_international_collab": false,
+      "is_industry_collab": false,
+      "collaborating_countries": [
+        "India"
+      ],
+      "foreign_countries": [],
+      "collaborating_institutions": [
+        "COEP Technological University, Pune"
+      ],
+      "external_institutions": [],
+      "document_type": "Conference Paper",
+      "open_access": false,
+      "abstract": "Scopus indexed publication from COEP Technological University on Repair of pre-cracked aluminium alloy panel with CFRP bonded patch and its comparison with riveted patch."
+    },
+    {
       "id": "85159605464",
       "eid": "2-s2.0-85159605464",
       "scopus_id": "85159605464",
@@ -53918,50 +53962,6 @@
       "document_type": "Conference Paper",
       "open_access": false,
       "abstract": "Scopus indexed publication from COEP Technological University on Fatigue life of thin pre-cracked aluminum alloy panel repaired with CFRP patch at elevated temperature."
-    },
-    {
-      "id": "85139330871",
-      "eid": "2-s2.0-85139330871",
-      "scopus_id": "85139330871",
-      "title": "Repair of pre-cracked aluminium alloy panel with CFRP bonded patch and its comparison with riveted patch",
-      "authors": [
-        "Kadam S."
-      ],
-      "authors_str": "Kadam S.",
-      "coep_authors": [
-        "Kadam S."
-      ],
-      "primary_author": "Kadam S.",
-      "department": "Metallurgical & Materials Engineering",
-      "journal": "Materials Today Proceedings",
-      "issn": "22147853",
-      "publisher": "Academic Publisher",
-      "publication_date": "2023-01-01",
-      "year": 2023,
-      "month": "January",
-      "month_num": 1,
-      "doi": "10.1016/j.matpr.2022.09.282",
-      "doi_url": "https://doi.org/10.1016/j.matpr.2022.09.282",
-      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85139330871&origin=inward",
-      "citations": 8,
-      "citescore": 3.8,
-      "sjr": 0.45,
-      "quartile": "Q3",
-      "is_top_10_percent": false,
-      "collaboration_type": "Institutional",
-      "is_international_collab": false,
-      "is_industry_collab": false,
-      "collaborating_countries": [
-        "India"
-      ],
-      "foreign_countries": [],
-      "collaborating_institutions": [
-        "COEP Technological University, Pune"
-      ],
-      "external_institutions": [],
-      "document_type": "Conference Paper",
-      "open_access": false,
-      "abstract": "Scopus indexed publication from COEP Technological University on Repair of pre-cracked aluminium alloy panel with CFRP bonded patch and its comparison with riveted patch."
     },
     {
       "id": "85179844883",
@@ -54187,50 +54187,6 @@
       "abstract": "Scopus indexed publication from COEP Technological University on Orphan Entity Allocation Using Entity Chunking, Context Mining, and Semantic Networks for CV-Parsing."
     },
     {
-      "id": "85139083906",
-      "eid": "2-s2.0-85139083906",
-      "scopus_id": "85139083906",
-      "title": "Battery thermal management system based on PCM with addition of nanoparticles",
-      "authors": [
-        "Kadam G."
-      ],
-      "authors_str": "Kadam G.",
-      "coep_authors": [
-        "Kadam G."
-      ],
-      "primary_author": "Kadam G.",
-      "department": "Mechanical Engineering",
-      "journal": "Materials Today Proceedings",
-      "issn": "22147853",
-      "publisher": "Academic Publisher",
-      "publication_date": "2023-01-01",
-      "year": 2023,
-      "month": "January",
-      "month_num": 1,
-      "doi": "10.1016/j.matpr.2022.09.384",
-      "doi_url": "https://doi.org/10.1016/j.matpr.2022.09.384",
-      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85139083906&origin=inward",
-      "citations": 42,
-      "citescore": 3.8,
-      "sjr": 0.45,
-      "quartile": "Q3",
-      "is_top_10_percent": true,
-      "collaboration_type": "Institutional",
-      "is_international_collab": false,
-      "is_industry_collab": false,
-      "collaborating_countries": [
-        "India"
-      ],
-      "foreign_countries": [],
-      "collaborating_institutions": [
-        "COEP Technological University, Pune"
-      ],
-      "external_institutions": [],
-      "document_type": "Conference Paper",
-      "open_access": false,
-      "abstract": "Scopus indexed publication from COEP Technological University on Battery thermal management system based on PCM with addition of nanoparticles."
-    },
-    {
       "id": "85137388866",
       "eid": "2-s2.0-85137388866",
       "scopus_id": "85137388866",
@@ -54278,6 +54234,50 @@
       "document_type": "Conference Paper",
       "open_access": false,
       "abstract": "Scopus indexed publication from COEP Technological University on A self-balancing tray for elderly people."
+    },
+    {
+      "id": "85139083906",
+      "eid": "2-s2.0-85139083906",
+      "scopus_id": "85139083906",
+      "title": "Battery thermal management system based on PCM with addition of nanoparticles",
+      "authors": [
+        "Kadam G."
+      ],
+      "authors_str": "Kadam G.",
+      "coep_authors": [
+        "Kadam G."
+      ],
+      "primary_author": "Kadam G.",
+      "department": "Mechanical Engineering",
+      "journal": "Materials Today Proceedings",
+      "issn": "22147853",
+      "publisher": "Academic Publisher",
+      "publication_date": "2023-01-01",
+      "year": 2023,
+      "month": "January",
+      "month_num": 1,
+      "doi": "10.1016/j.matpr.2022.09.384",
+      "doi_url": "https://doi.org/10.1016/j.matpr.2022.09.384",
+      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85139083906&origin=inward",
+      "citations": 42,
+      "citescore": 3.8,
+      "sjr": 0.45,
+      "quartile": "Q3",
+      "is_top_10_percent": true,
+      "collaboration_type": "Institutional",
+      "is_international_collab": false,
+      "is_industry_collab": false,
+      "collaborating_countries": [
+        "India"
+      ],
+      "foreign_countries": [],
+      "collaborating_institutions": [
+        "COEP Technological University, Pune"
+      ],
+      "external_institutions": [],
+      "document_type": "Conference Paper",
+      "open_access": false,
+      "abstract": "Scopus indexed publication from COEP Technological University on Battery thermal management system based on PCM with addition of nanoparticles."
     },
     {
       "id": "85185809166",
@@ -54990,50 +54990,6 @@
       "abstract": "Scopus indexed publication from COEP Technological University on Design and Development of Multi-axis Manipulator for Data Acquisition for Neurosurgery Applications.."
     },
     {
-      "id": "85187778547",
-      "eid": "2-s2.0-85187778547",
-      "scopus_id": "85187778547",
-      "title": "SPECTER-Based Transformer Model For Multi-Label Research Paper Classification",
-      "authors": [
-        "Lahoti K."
-      ],
-      "authors_str": "Lahoti K.",
-      "coep_authors": [
-        "Lahoti K."
-      ],
-      "primary_author": "Lahoti K.",
-      "department": "Mechanical Engineering",
-      "journal": "2023 IEEE Pune Section International Conference Punecon 2023",
-      "issn": "",
-      "publisher": "Academic Publisher",
-      "publication_date": "2023-01-01",
-      "year": 2023,
-      "month": "January",
-      "month_num": 1,
-      "doi": "10.1109/PuneCon58714.2023.10450144",
-      "doi_url": "https://doi.org/10.1109/PuneCon58714.2023.10450144",
-      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85187778547&origin=inward",
-      "citations": 0,
-      "citescore": 7.2,
-      "sjr": 0.98,
-      "quartile": "Q2",
-      "is_top_10_percent": false,
-      "collaboration_type": "Institutional",
-      "is_international_collab": false,
-      "is_industry_collab": false,
-      "collaborating_countries": [
-        "India"
-      ],
-      "foreign_countries": [],
-      "collaborating_institutions": [
-        "COEP Technological University, Pune"
-      ],
-      "external_institutions": [],
-      "document_type": "Conference Paper",
-      "open_access": false,
-      "abstract": "Scopus indexed publication from COEP Technological University on SPECTER-Based Transformer Model For Multi-Label Research Paper Classification."
-    },
-    {
       "id": "85139344859",
       "eid": "2-s2.0-85139344859",
       "scopus_id": "85139344859",
@@ -55120,6 +55076,50 @@
       "document_type": "Conference Paper",
       "open_access": false,
       "abstract": "Scopus indexed publication from COEP Technological University on Leveraging Knowledge Graphs for Orphan Entity Allocation in Resume Processing."
+    },
+    {
+      "id": "85187778547",
+      "eid": "2-s2.0-85187778547",
+      "scopus_id": "85187778547",
+      "title": "SPECTER-Based Transformer Model For Multi-Label Research Paper Classification",
+      "authors": [
+        "Lahoti K."
+      ],
+      "authors_str": "Lahoti K.",
+      "coep_authors": [
+        "Lahoti K."
+      ],
+      "primary_author": "Lahoti K.",
+      "department": "Mechanical Engineering",
+      "journal": "2023 IEEE Pune Section International Conference Punecon 2023",
+      "issn": "",
+      "publisher": "Academic Publisher",
+      "publication_date": "2023-01-01",
+      "year": 2023,
+      "month": "January",
+      "month_num": 1,
+      "doi": "10.1109/PuneCon58714.2023.10450144",
+      "doi_url": "https://doi.org/10.1109/PuneCon58714.2023.10450144",
+      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85187778547&origin=inward",
+      "citations": 0,
+      "citescore": 7.2,
+      "sjr": 0.98,
+      "quartile": "Q2",
+      "is_top_10_percent": false,
+      "collaboration_type": "Institutional",
+      "is_international_collab": false,
+      "is_industry_collab": false,
+      "collaborating_countries": [
+        "India"
+      ],
+      "foreign_countries": [],
+      "collaborating_institutions": [
+        "COEP Technological University, Pune"
+      ],
+      "external_institutions": [],
+      "document_type": "Conference Paper",
+      "open_access": false,
+      "abstract": "Scopus indexed publication from COEP Technological University on SPECTER-Based Transformer Model For Multi-Label Research Paper Classification."
     },
     {
       "id": "85151065826",
@@ -58936,50 +58936,6 @@
       "abstract": "Scopus indexed publication from COEP Technological University on Prediction of Ischemic Heart Disease in Patients Diagnosed with Coronavirus Disease (Covid-19) or Showing Symptoms of the Same using Machine Learning Algorithms and Ensemble Techniques."
     },
     {
-      "id": "85175316848",
-      "eid": "2-s2.0-85175316848",
-      "scopus_id": "85175316848",
-      "title": "Process and dimensional variation analysis of automobile assembly in development phase using Six Sigma DMAIC",
-      "authors": [
-        "Sisodia V."
-      ],
-      "authors_str": "Sisodia V.",
-      "coep_authors": [
-        "Sisodia V."
-      ],
-      "primary_author": "Sisodia V.",
-      "department": "Mechanical Engineering",
-      "journal": "International Journal of Six Sigma and Competitive Advantage",
-      "issn": "14792494",
-      "publisher": "Academic Publisher",
-      "publication_date": "2023-01-01",
-      "year": 2023,
-      "month": "January",
-      "month_num": 1,
-      "doi": "10.1504/IJSSCA.2023.134442",
-      "doi_url": "https://doi.org/10.1504/IJSSCA.2023.134442",
-      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85175316848&origin=inward",
-      "citations": 2,
-      "citescore": 7.2,
-      "sjr": 0.98,
-      "quartile": "Q2",
-      "is_top_10_percent": false,
-      "collaboration_type": "Institutional",
-      "is_international_collab": false,
-      "is_industry_collab": false,
-      "collaborating_countries": [
-        "India"
-      ],
-      "foreign_countries": [],
-      "collaborating_institutions": [
-        "COEP Technological University, Pune"
-      ],
-      "external_institutions": [],
-      "document_type": "Article",
-      "open_access": false,
-      "abstract": "Scopus indexed publication from COEP Technological University on Process and dimensional variation analysis of automobile assembly in development phase using Six Sigma DMAIC."
-    },
-    {
       "id": "85140448486",
       "eid": "2-s2.0-85140448486",
       "scopus_id": "85140448486",
@@ -59022,6 +58978,50 @@
       "document_type": "Conference Paper",
       "open_access": false,
       "abstract": "Scopus indexed publication from COEP Technological University on Finite Element Analysis for Parametric Study of Mega Tunnels."
+    },
+    {
+      "id": "85175316848",
+      "eid": "2-s2.0-85175316848",
+      "scopus_id": "85175316848",
+      "title": "Process and dimensional variation analysis of automobile assembly in development phase using Six Sigma DMAIC",
+      "authors": [
+        "Sisodia V."
+      ],
+      "authors_str": "Sisodia V.",
+      "coep_authors": [
+        "Sisodia V."
+      ],
+      "primary_author": "Sisodia V.",
+      "department": "Mechanical Engineering",
+      "journal": "International Journal of Six Sigma and Competitive Advantage",
+      "issn": "14792494",
+      "publisher": "Academic Publisher",
+      "publication_date": "2023-01-01",
+      "year": 2023,
+      "month": "January",
+      "month_num": 1,
+      "doi": "10.1504/IJSSCA.2023.134442",
+      "doi_url": "https://doi.org/10.1504/IJSSCA.2023.134442",
+      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85175316848&origin=inward",
+      "citations": 2,
+      "citescore": 7.2,
+      "sjr": 0.98,
+      "quartile": "Q2",
+      "is_top_10_percent": false,
+      "collaboration_type": "Institutional",
+      "is_international_collab": false,
+      "is_industry_collab": false,
+      "collaborating_countries": [
+        "India"
+      ],
+      "foreign_countries": [],
+      "collaborating_institutions": [
+        "COEP Technological University, Pune"
+      ],
+      "external_institutions": [],
+      "document_type": "Article",
+      "open_access": false,
+      "abstract": "Scopus indexed publication from COEP Technological University on Process and dimensional variation analysis of automobile assembly in development phase using Six Sigma DMAIC."
     },
     {
       "id": "85181985662",
@@ -61973,50 +61973,6 @@
       "abstract": "Scopus indexed publication from COEP Technological University on Towards an intrusion detection system for detecting web attacks based on an ensemble of filter feature selection techniques."
     },
     {
-      "id": "85177861335",
-      "eid": "2-s2.0-85177861335",
-      "scopus_id": "85177861335",
-      "title": "Effect of Lanthanum Doping on Properties of ZnS Thin Films for Water Splitting",
-      "authors": [
-        "Patil Y.S."
-      ],
-      "authors_str": "Patil Y.S.",
-      "coep_authors": [
-        "Patil Y.S."
-      ],
-      "primary_author": "Patil Y.S.",
-      "department": "Mechanical Engineering",
-      "journal": "Solid State Phenomena",
-      "issn": "10120394",
-      "publisher": "Academic Publisher",
-      "publication_date": "2023-01-01",
-      "year": 2023,
-      "month": "January",
-      "month_num": 1,
-      "doi": "10.4028/p-S8c4Xg",
-      "doi_url": "https://doi.org/10.4028/p-S8c4Xg",
-      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85177861335&origin=inward",
-      "citations": 5,
-      "citescore": 2.5,
-      "sjr": 0.3,
-      "quartile": "Q3",
-      "is_top_10_percent": false,
-      "collaboration_type": "Institutional",
-      "is_international_collab": false,
-      "is_industry_collab": false,
-      "collaborating_countries": [
-        "India"
-      ],
-      "foreign_countries": [],
-      "collaborating_institutions": [
-        "COEP Technological University, Pune"
-      ],
-      "external_institutions": [],
-      "document_type": "Book Chapter",
-      "open_access": false,
-      "abstract": "Scopus indexed publication from COEP Technological University on Effect of Lanthanum Doping on Properties of ZnS Thin Films for Water Splitting."
-    },
-    {
       "id": "85140481695",
       "eid": "2-s2.0-85140481695",
       "scopus_id": "85140481695",
@@ -62103,6 +62059,94 @@
       "document_type": "Article",
       "open_access": true,
       "abstract": "Scopus indexed publication from COEP Technological University on Which pricing policy do road users accept?."
+    },
+    {
+      "id": "85174241800",
+      "eid": "2-s2.0-85174241800",
+      "scopus_id": "85174241800",
+      "title": "Development and Testing of End-of-Line (EOL) Tester for Diesel Engine",
+      "authors": [
+        "Khond N.A."
+      ],
+      "authors_str": "Khond N.A.",
+      "coep_authors": [
+        "Khond N.A."
+      ],
+      "primary_author": "Khond N.A.",
+      "department": "Mechanical Engineering",
+      "journal": "SAE Technical Papers",
+      "issn": "01487191",
+      "publisher": "Academic Publisher",
+      "publication_date": "2023-01-01",
+      "year": 2023,
+      "month": "January",
+      "month_num": 1,
+      "doi": "10.4271/2023-01-5058",
+      "doi_url": "https://doi.org/10.4271/2023-01-5058",
+      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85174241800&origin=inward",
+      "citations": 2,
+      "citescore": 3.8,
+      "sjr": 0.45,
+      "quartile": "Q3",
+      "is_top_10_percent": false,
+      "collaboration_type": "Institutional",
+      "is_international_collab": false,
+      "is_industry_collab": false,
+      "collaborating_countries": [
+        "India"
+      ],
+      "foreign_countries": [],
+      "collaborating_institutions": [
+        "COEP Technological University, Pune"
+      ],
+      "external_institutions": [],
+      "document_type": "Conference Paper",
+      "open_access": false,
+      "abstract": "Scopus indexed publication from COEP Technological University on Development and Testing of End-of-Line (EOL) Tester for Diesel Engine."
+    },
+    {
+      "id": "85174241800",
+      "eid": "2-s2.0-85174241800",
+      "scopus_id": "85174241800",
+      "title": "Development and Testing of End-of-Line (EOL) Tester for Diesel Engine",
+      "authors": [
+        "Khond N.A."
+      ],
+      "authors_str": "Khond N.A.",
+      "coep_authors": [
+        "Khond N.A."
+      ],
+      "primary_author": "Khond N.A.",
+      "department": "Mechanical Engineering",
+      "journal": "SAE Technical Papers",
+      "issn": "01487191",
+      "publisher": "Academic Publisher",
+      "publication_date": "2023-01-01",
+      "year": 2023,
+      "month": "January",
+      "month_num": 1,
+      "doi": "10.4271/2023-01-5058",
+      "doi_url": "https://doi.org/10.4271/2023-01-5058",
+      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85174241800&origin=inward",
+      "citations": 2,
+      "citescore": 3.8,
+      "sjr": 0.45,
+      "quartile": "Q3",
+      "is_top_10_percent": false,
+      "collaboration_type": "Institutional",
+      "is_international_collab": false,
+      "is_industry_collab": false,
+      "collaborating_countries": [
+        "India"
+      ],
+      "foreign_countries": [],
+      "collaborating_institutions": [
+        "COEP Technological University, Pune"
+      ],
+      "external_institutions": [],
+      "document_type": "Conference Paper",
+      "open_access": false,
+      "abstract": "Scopus indexed publication from COEP Technological University on Development and Testing of End-of-Line (EOL) Tester for Diesel Engine."
     },
     {
       "id": "85174634307",
@@ -62235,50 +62279,6 @@
       "document_type": "Conference Paper",
       "open_access": false,
       "abstract": "Scopus indexed publication from COEP Technological University on Leveraging YOLOv7 for Plant Disease Detection."
-    },
-    {
-      "id": "85177861335",
-      "eid": "2-s2.0-85177861335",
-      "scopus_id": "85177861335",
-      "title": "Effect of Lanthanum Doping on Properties of ZnS Thin Films for Water Splitting",
-      "authors": [
-        "Patil Y.S."
-      ],
-      "authors_str": "Patil Y.S.",
-      "coep_authors": [
-        "Patil Y.S."
-      ],
-      "primary_author": "Patil Y.S.",
-      "department": "Mechanical Engineering",
-      "journal": "Solid State Phenomena",
-      "issn": "10120394",
-      "publisher": "Academic Publisher",
-      "publication_date": "2023-01-01",
-      "year": 2023,
-      "month": "January",
-      "month_num": 1,
-      "doi": "10.4028/p-S8c4Xg",
-      "doi_url": "https://doi.org/10.4028/p-S8c4Xg",
-      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85177861335&origin=inward",
-      "citations": 5,
-      "citescore": 2.5,
-      "sjr": 0.3,
-      "quartile": "Q3",
-      "is_top_10_percent": false,
-      "collaboration_type": "Institutional",
-      "is_international_collab": false,
-      "is_industry_collab": false,
-      "collaborating_countries": [
-        "India"
-      ],
-      "foreign_countries": [],
-      "collaborating_institutions": [
-        "COEP Technological University, Pune"
-      ],
-      "external_institutions": [],
-      "document_type": "Book Chapter",
-      "open_access": false,
-      "abstract": "Scopus indexed publication from COEP Technological University on Effect of Lanthanum Doping on Properties of ZnS Thin Films for Water Splitting."
     },
     {
       "id": "85161207490",
@@ -66245,6 +66245,50 @@
       "abstract": "Scopus indexed publication from COEP Technological University on Comparative Analysis of Various Walling Materials for Finding Sustainable Solutions Using Building Information Modeling."
     },
     {
+      "id": "85183567954",
+      "eid": "2-s2.0-85183567954",
+      "scopus_id": "85183567954",
+      "title": "Comparative Study of Various Methods proposed to improve performance of 3D Graphics Pipeline",
+      "authors": [
+        "Gothi A.A."
+      ],
+      "authors_str": "Gothi A.A.",
+      "coep_authors": [
+        "Gothi A.A."
+      ],
+      "primary_author": "Gothi A.A.",
+      "department": "Electronics & Telecommunication (E&TC)",
+      "journal": "2023 1st International Conference on Advances in Electrical Electronics and Computational Intelligence Icaeeci 2023",
+      "issn": "",
+      "publisher": "Academic Publisher",
+      "publication_date": "2023-01-01",
+      "year": 2023,
+      "month": "January",
+      "month_num": 1,
+      "doi": "10.1109/ICAEECI58247.2023.10370813",
+      "doi_url": "https://doi.org/10.1109/ICAEECI58247.2023.10370813",
+      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85183567954&origin=inward",
+      "citations": 2,
+      "citescore": 3.8,
+      "sjr": 0.45,
+      "quartile": "Q3",
+      "is_top_10_percent": false,
+      "collaboration_type": "Institutional",
+      "is_international_collab": false,
+      "is_industry_collab": false,
+      "collaborating_countries": [
+        "India"
+      ],
+      "foreign_countries": [],
+      "collaborating_institutions": [
+        "COEP Technological University, Pune"
+      ],
+      "external_institutions": [],
+      "document_type": "Conference Paper",
+      "open_access": false,
+      "abstract": "Scopus indexed publication from COEP Technological University on Comparative Study of Various Methods proposed to improve performance of 3D Graphics Pipeline."
+    },
+    {
       "id": "85140487354",
       "eid": "2-s2.0-85140487354",
       "scopus_id": "85140487354",
@@ -66381,50 +66425,6 @@
       "document_type": "Conference Paper",
       "open_access": false,
       "abstract": "Scopus indexed publication from COEP Technological University on Development of low-cost seismic isolators using scarp rubber tyre pads for sustainable disaster mitigation."
-    },
-    {
-      "id": "85183567954",
-      "eid": "2-s2.0-85183567954",
-      "scopus_id": "85183567954",
-      "title": "Comparative Study of Various Methods proposed to improve performance of 3D Graphics Pipeline",
-      "authors": [
-        "Gothi A.A."
-      ],
-      "authors_str": "Gothi A.A.",
-      "coep_authors": [
-        "Gothi A.A."
-      ],
-      "primary_author": "Gothi A.A.",
-      "department": "Electronics & Telecommunication (E&TC)",
-      "journal": "2023 1st International Conference on Advances in Electrical Electronics and Computational Intelligence Icaeeci 2023",
-      "issn": "",
-      "publisher": "Academic Publisher",
-      "publication_date": "2023-01-01",
-      "year": 2023,
-      "month": "January",
-      "month_num": 1,
-      "doi": "10.1109/ICAEECI58247.2023.10370813",
-      "doi_url": "https://doi.org/10.1109/ICAEECI58247.2023.10370813",
-      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85183567954&origin=inward",
-      "citations": 2,
-      "citescore": 3.8,
-      "sjr": 0.45,
-      "quartile": "Q3",
-      "is_top_10_percent": false,
-      "collaboration_type": "Institutional",
-      "is_international_collab": false,
-      "is_industry_collab": false,
-      "collaborating_countries": [
-        "India"
-      ],
-      "foreign_countries": [],
-      "collaborating_institutions": [
-        "COEP Technological University, Pune"
-      ],
-      "external_institutions": [],
-      "document_type": "Conference Paper",
-      "open_access": false,
-      "abstract": "Scopus indexed publication from COEP Technological University on Comparative Study of Various Methods proposed to improve performance of 3D Graphics Pipeline."
     },
     {
       "id": "85151061655",
@@ -68167,50 +68167,6 @@
       "abstract": "Scopus indexed publication from COEP Technological University on Modal analysis of plate to analyze the effect of mass stiffeners using the Chladni plate approach."
     },
     {
-      "id": "85152549763",
-      "eid": "2-s2.0-85152549763",
-      "scopus_id": "85152549763",
-      "title": "Comparative Analysis of Various Standards for Medical Image Compression",
-      "authors": [
-        "Ishware T."
-      ],
-      "authors_str": "Ishware T.",
-      "coep_authors": [
-        "Ishware T."
-      ],
-      "primary_author": "Ishware T.",
-      "department": "Computer Engineering & IT",
-      "journal": "Smart Innovation Systems and Technologies",
-      "issn": "21903018",
-      "publisher": "Academic Publisher",
-      "publication_date": "2023-01-01",
-      "year": 2023,
-      "month": "January",
-      "month_num": 1,
-      "doi": "10.1007/978-981-19-8094-7_27",
-      "doi_url": "https://doi.org/10.1007/978-981-19-8094-7_27",
-      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85152549763&origin=inward",
-      "citations": 1,
-      "citescore": 2.5,
-      "sjr": 0.3,
-      "quartile": "Q4",
-      "is_top_10_percent": false,
-      "collaboration_type": "Institutional",
-      "is_international_collab": false,
-      "is_industry_collab": false,
-      "collaborating_countries": [
-        "India"
-      ],
-      "foreign_countries": [],
-      "collaborating_institutions": [
-        "COEP Technological University, Pune"
-      ],
-      "external_institutions": [],
-      "document_type": "Conference Paper",
-      "open_access": false,
-      "abstract": "Scopus indexed publication from COEP Technological University on Comparative Analysis of Various Standards for Medical Image Compression."
-    },
-    {
       "id": "85149103602",
       "eid": "2-s2.0-85149103602",
       "scopus_id": "85149103602",
@@ -68253,6 +68209,50 @@
       "document_type": "Article",
       "open_access": true,
       "abstract": "Scopus indexed publication from COEP Technological University on Framework for deep learning based model for human activity recognition (HAR) using adapted PSRA6 dataset."
+    },
+    {
+      "id": "85152549763",
+      "eid": "2-s2.0-85152549763",
+      "scopus_id": "85152549763",
+      "title": "Comparative Analysis of Various Standards for Medical Image Compression",
+      "authors": [
+        "Ishware T."
+      ],
+      "authors_str": "Ishware T.",
+      "coep_authors": [
+        "Ishware T."
+      ],
+      "primary_author": "Ishware T.",
+      "department": "Computer Engineering & IT",
+      "journal": "Smart Innovation Systems and Technologies",
+      "issn": "21903018",
+      "publisher": "Academic Publisher",
+      "publication_date": "2023-01-01",
+      "year": 2023,
+      "month": "January",
+      "month_num": 1,
+      "doi": "10.1007/978-981-19-8094-7_27",
+      "doi_url": "https://doi.org/10.1007/978-981-19-8094-7_27",
+      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85152549763&origin=inward",
+      "citations": 1,
+      "citescore": 2.5,
+      "sjr": 0.3,
+      "quartile": "Q4",
+      "is_top_10_percent": false,
+      "collaboration_type": "Institutional",
+      "is_international_collab": false,
+      "is_industry_collab": false,
+      "collaborating_countries": [
+        "India"
+      ],
+      "foreign_countries": [],
+      "collaborating_institutions": [
+        "COEP Technological University, Pune"
+      ],
+      "external_institutions": [],
+      "document_type": "Conference Paper",
+      "open_access": false,
+      "abstract": "Scopus indexed publication from COEP Technological University on Comparative Analysis of Various Standards for Medical Image Compression."
     },
     {
       "id": "85175643335",
@@ -68794,50 +68794,6 @@
       "abstract": "Scopus indexed publication from COEP Technological University on Research Paper Recommendation System using Transformer Model."
     },
     {
-      "id": "85179849268",
-      "eid": "2-s2.0-85179849268",
-      "scopus_id": "85179849268",
-      "title": "Unit Test Framework for Distributed Unit Manager (DUMGR) of 5G RAN",
-      "authors": [
-        "Suman M."
-      ],
-      "authors_str": "Suman M.",
-      "coep_authors": [
-        "Suman M."
-      ],
-      "primary_author": "Suman M.",
-      "department": "Computer Engineering & IT",
-      "journal": "2023 14th International Conference on Computing Communication and Networking Technologies Icccnt 2023",
-      "issn": "",
-      "publisher": "Academic Publisher",
-      "publication_date": "2023-01-01",
-      "year": 2023,
-      "month": "January",
-      "month_num": 1,
-      "doi": "10.1109/ICCCNT56998.2023.10306895",
-      "doi_url": "https://doi.org/10.1109/ICCCNT56998.2023.10306895",
-      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85179849268&origin=inward",
-      "citations": 1,
-      "citescore": 3.8,
-      "sjr": 0.45,
-      "quartile": "Q3",
-      "is_top_10_percent": false,
-      "collaboration_type": "Institutional",
-      "is_international_collab": false,
-      "is_industry_collab": false,
-      "collaborating_countries": [
-        "India"
-      ],
-      "foreign_countries": [],
-      "collaborating_institutions": [
-        "COEP Technological University, Pune"
-      ],
-      "external_institutions": [],
-      "document_type": "Conference Paper",
-      "open_access": false,
-      "abstract": "Scopus indexed publication from COEP Technological University on Unit Test Framework for Distributed Unit Manager (DUMGR) of 5G RAN."
-    },
-    {
       "id": "85176321168",
       "eid": "2-s2.0-85176321168",
       "scopus_id": "85176321168",
@@ -68880,6 +68836,50 @@
       "document_type": "Conference Paper",
       "open_access": true,
       "abstract": "Scopus indexed publication from COEP Technological University on In Cabin Driver Monitoring and Alerting System for Passenger cars using Machine Learning.."
+    },
+    {
+      "id": "85179849268",
+      "eid": "2-s2.0-85179849268",
+      "scopus_id": "85179849268",
+      "title": "Unit Test Framework for Distributed Unit Manager (DUMGR) of 5G RAN",
+      "authors": [
+        "Suman M."
+      ],
+      "authors_str": "Suman M.",
+      "coep_authors": [
+        "Suman M."
+      ],
+      "primary_author": "Suman M.",
+      "department": "Computer Engineering & IT",
+      "journal": "2023 14th International Conference on Computing Communication and Networking Technologies Icccnt 2023",
+      "issn": "",
+      "publisher": "Academic Publisher",
+      "publication_date": "2023-01-01",
+      "year": 2023,
+      "month": "January",
+      "month_num": 1,
+      "doi": "10.1109/ICCCNT56998.2023.10306895",
+      "doi_url": "https://doi.org/10.1109/ICCCNT56998.2023.10306895",
+      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85179849268&origin=inward",
+      "citations": 1,
+      "citescore": 3.8,
+      "sjr": 0.45,
+      "quartile": "Q3",
+      "is_top_10_percent": false,
+      "collaboration_type": "Institutional",
+      "is_international_collab": false,
+      "is_industry_collab": false,
+      "collaborating_countries": [
+        "India"
+      ],
+      "foreign_countries": [],
+      "collaborating_institutions": [
+        "COEP Technological University, Pune"
+      ],
+      "external_institutions": [],
+      "document_type": "Conference Paper",
+      "open_access": false,
+      "abstract": "Scopus indexed publication from COEP Technological University on Unit Test Framework for Distributed Unit Manager (DUMGR) of 5G RAN."
     },
     {
       "id": "85179853432",
@@ -76284,50 +76284,6 @@
       "abstract": "Scopus indexed publication from COEP Technological University on Reasoning the social benefits of mixed land-use and population density in an Indian city."
     },
     {
-      "id": "85109042536",
-      "eid": "2-s2.0-85109042536",
-      "scopus_id": "85109042536",
-      "title": "A review on weight initialization strategies for neural networks",
-      "authors": [
-        "Narkhede M.V."
-      ],
-      "authors_str": "Narkhede M.V.",
-      "coep_authors": [
-        "Narkhede M.V."
-      ],
-      "primary_author": "Narkhede M.V.",
-      "department": "Computer Engineering & IT",
-      "journal": "Artificial Intelligence Review",
-      "issn": "02692821",
-      "publisher": "Academic Publisher",
-      "publication_date": "2022-01-01",
-      "year": 2022,
-      "month": "January",
-      "month_num": 1,
-      "doi": "10.1007/s10462-021-10033-z",
-      "doi_url": "https://doi.org/10.1007/s10462-021-10033-z",
-      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85109042536&origin=inward",
-      "citations": 290,
-      "citescore": 2.5,
-      "sjr": 0.3,
-      "quartile": "Q3",
-      "is_top_10_percent": true,
-      "collaboration_type": "Institutional",
-      "is_international_collab": false,
-      "is_industry_collab": false,
-      "collaborating_countries": [
-        "India"
-      ],
-      "foreign_countries": [],
-      "collaborating_institutions": [
-        "COEP Technological University, Pune"
-      ],
-      "external_institutions": [],
-      "document_type": "Article",
-      "open_access": false,
-      "abstract": "Scopus indexed publication from COEP Technological University on A review on weight initialization strategies for neural networks."
-    },
-    {
       "id": "85143760142",
       "eid": "2-s2.0-85143760142",
       "scopus_id": "85143760142",
@@ -76370,6 +76326,50 @@
       "document_type": "Conference Paper",
       "open_access": false,
       "abstract": "Scopus indexed publication from COEP Technological University on Designing a Microstrip Band Pass Filter for 5G Applications."
+    },
+    {
+      "id": "85109042536",
+      "eid": "2-s2.0-85109042536",
+      "scopus_id": "85109042536",
+      "title": "A review on weight initialization strategies for neural networks",
+      "authors": [
+        "Narkhede M.V."
+      ],
+      "authors_str": "Narkhede M.V.",
+      "coep_authors": [
+        "Narkhede M.V."
+      ],
+      "primary_author": "Narkhede M.V.",
+      "department": "Computer Engineering & IT",
+      "journal": "Artificial Intelligence Review",
+      "issn": "02692821",
+      "publisher": "Academic Publisher",
+      "publication_date": "2022-01-01",
+      "year": 2022,
+      "month": "January",
+      "month_num": 1,
+      "doi": "10.1007/s10462-021-10033-z",
+      "doi_url": "https://doi.org/10.1007/s10462-021-10033-z",
+      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85109042536&origin=inward",
+      "citations": 290,
+      "citescore": 2.5,
+      "sjr": 0.3,
+      "quartile": "Q3",
+      "is_top_10_percent": true,
+      "collaboration_type": "Institutional",
+      "is_international_collab": false,
+      "is_industry_collab": false,
+      "collaborating_countries": [
+        "India"
+      ],
+      "foreign_countries": [],
+      "collaborating_institutions": [
+        "COEP Technological University, Pune"
+      ],
+      "external_institutions": [],
+      "document_type": "Article",
+      "open_access": false,
+      "abstract": "Scopus indexed publication from COEP Technological University on A review on weight initialization strategies for neural networks."
     },
     {
       "id": "85145432893",
@@ -77533,6 +77533,50 @@
       "abstract": "Scopus indexed publication from COEP Technological University on Prediction of COVID-19 & Pneumonia using Machine Learning & Deep Learning Model."
     },
     {
+      "id": "85132733527",
+      "eid": "2-s2.0-85132733527",
+      "scopus_id": "85132733527",
+      "title": "Investigation for Influence of Pressure on Face Stability of Mega Tunnel",
+      "authors": [
+        "Kulkarni S."
+      ],
+      "authors_str": "Kulkarni S.",
+      "coep_authors": [
+        "Kulkarni S."
+      ],
+      "primary_author": "Kulkarni S.",
+      "department": "Mechanical Engineering",
+      "journal": "Lecture Notes in Civil Engineering",
+      "issn": "23662557",
+      "publisher": "Academic Publisher",
+      "publication_date": "2022-01-01",
+      "year": 2022,
+      "month": "January",
+      "month_num": 1,
+      "doi": "10.1007/978-981-16-9770-8_22",
+      "doi_url": "https://doi.org/10.1007/978-981-16-9770-8_22",
+      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85132733527&origin=inward",
+      "citations": 9,
+      "citescore": 1.2,
+      "sjr": 0.22,
+      "quartile": "Q4",
+      "is_top_10_percent": false,
+      "collaboration_type": "Institutional",
+      "is_international_collab": false,
+      "is_industry_collab": false,
+      "collaborating_countries": [
+        "India"
+      ],
+      "foreign_countries": [],
+      "collaborating_institutions": [
+        "COEP Technological University, Pune"
+      ],
+      "external_institutions": [],
+      "document_type": "Conference Paper",
+      "open_access": false,
+      "abstract": "Scopus indexed publication from COEP Technological University on Investigation for Influence of Pressure on Face Stability of Mega Tunnel."
+    },
+    {
       "id": "85167571378",
       "eid": "2-s2.0-85167571378",
       "scopus_id": "85167571378",
@@ -77707,50 +77751,6 @@
       "document_type": "Conference Paper",
       "open_access": false,
       "abstract": "Scopus indexed publication from COEP Technological University on Design and Simulation of Band 40 RF SAW Ladder-Type Filter."
-    },
-    {
-      "id": "85132733527",
-      "eid": "2-s2.0-85132733527",
-      "scopus_id": "85132733527",
-      "title": "Investigation for Influence of Pressure on Face Stability of Mega Tunnel",
-      "authors": [
-        "Kulkarni S."
-      ],
-      "authors_str": "Kulkarni S.",
-      "coep_authors": [
-        "Kulkarni S."
-      ],
-      "primary_author": "Kulkarni S.",
-      "department": "Mechanical Engineering",
-      "journal": "Lecture Notes in Civil Engineering",
-      "issn": "23662557",
-      "publisher": "Academic Publisher",
-      "publication_date": "2022-01-01",
-      "year": 2022,
-      "month": "January",
-      "month_num": 1,
-      "doi": "10.1007/978-981-16-9770-8_22",
-      "doi_url": "https://doi.org/10.1007/978-981-16-9770-8_22",
-      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85132733527&origin=inward",
-      "citations": 9,
-      "citescore": 1.2,
-      "sjr": 0.22,
-      "quartile": "Q4",
-      "is_top_10_percent": false,
-      "collaboration_type": "Institutional",
-      "is_international_collab": false,
-      "is_industry_collab": false,
-      "collaborating_countries": [
-        "India"
-      ],
-      "foreign_countries": [],
-      "collaborating_institutions": [
-        "COEP Technological University, Pune"
-      ],
-      "external_institutions": [],
-      "document_type": "Conference Paper",
-      "open_access": false,
-      "abstract": "Scopus indexed publication from COEP Technological University on Investigation for Influence of Pressure on Face Stability of Mega Tunnel."
     },
     {
       "id": "85156141004",
@@ -84781,50 +84781,6 @@
       "abstract": "Scopus indexed publication from COEP Technological University on Estimation of blood pressure using Heart Rate Variability features with deep learning approach for limited database."
     },
     {
-      "id": "85142200840",
-      "eid": "2-s2.0-85142200840",
-      "scopus_id": "85142200840",
-      "title": "Thermal management of catalytic converter with heat pipe embedded in thermal energy storage to reduce cold start emissions",
-      "authors": [
-        "Pise G."
-      ],
-      "authors_str": "Pise G.",
-      "coep_authors": [
-        "Pise G."
-      ],
-      "primary_author": "Pise G.",
-      "department": "Mechanical Engineering",
-      "journal": "Energy Sources Part A Recovery Utilization and Environmental Effects",
-      "issn": "15567036",
-      "publisher": "Academic Publisher",
-      "publication_date": "2022-01-01",
-      "year": 2022,
-      "month": "January",
-      "month_num": 1,
-      "doi": "10.1080/15567036.2022.2143949",
-      "doi_url": "https://doi.org/10.1080/15567036.2022.2143949",
-      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85142200840&origin=inward",
-      "citations": 1,
-      "citescore": 2.5,
-      "sjr": 0.3,
-      "quartile": "Q4",
-      "is_top_10_percent": false,
-      "collaboration_type": "Institutional",
-      "is_international_collab": false,
-      "is_industry_collab": false,
-      "collaborating_countries": [
-        "India"
-      ],
-      "foreign_countries": [],
-      "collaborating_institutions": [
-        "COEP Technological University, Pune"
-      ],
-      "external_institutions": [],
-      "document_type": "Article",
-      "open_access": false,
-      "abstract": "Scopus indexed publication from COEP Technological University on Thermal management of catalytic converter with heat pipe embedded in thermal energy storage to reduce cold start emissions."
-    },
-    {
       "id": "85130937574",
       "eid": "2-s2.0-85130937574",
       "scopus_id": "85130937574",
@@ -84911,6 +84867,50 @@
       "document_type": "Conference Paper",
       "open_access": false,
       "abstract": "Scopus indexed publication from COEP Technological University on On-board Camera-based Lane and Traffic Sign Detection for 2 Wheeler HeadLamp."
+    },
+    {
+      "id": "85142200840",
+      "eid": "2-s2.0-85142200840",
+      "scopus_id": "85142200840",
+      "title": "Thermal management of catalytic converter with heat pipe embedded in thermal energy storage to reduce cold start emissions",
+      "authors": [
+        "Pise G."
+      ],
+      "authors_str": "Pise G.",
+      "coep_authors": [
+        "Pise G."
+      ],
+      "primary_author": "Pise G.",
+      "department": "Mechanical Engineering",
+      "journal": "Energy Sources Part A Recovery Utilization and Environmental Effects",
+      "issn": "15567036",
+      "publisher": "Academic Publisher",
+      "publication_date": "2022-01-01",
+      "year": 2022,
+      "month": "January",
+      "month_num": 1,
+      "doi": "10.1080/15567036.2022.2143949",
+      "doi_url": "https://doi.org/10.1080/15567036.2022.2143949",
+      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85142200840&origin=inward",
+      "citations": 1,
+      "citescore": 2.5,
+      "sjr": 0.3,
+      "quartile": "Q4",
+      "is_top_10_percent": false,
+      "collaboration_type": "Institutional",
+      "is_international_collab": false,
+      "is_industry_collab": false,
+      "collaborating_countries": [
+        "India"
+      ],
+      "foreign_countries": [],
+      "collaborating_institutions": [
+        "COEP Technological University, Pune"
+      ],
+      "external_institutions": [],
+      "document_type": "Article",
+      "open_access": false,
+      "abstract": "Scopus indexed publication from COEP Technological University on Thermal management of catalytic converter with heat pipe embedded in thermal energy storage to reduce cold start emissions."
     },
     {
       "id": "85143839024",
@@ -87174,50 +87174,6 @@
       "abstract": "Scopus indexed publication from COEP Technological University on The parametric comparison of perpetual pavements with respect to Lifecycle cost and greenhouse gas emissions."
     },
     {
-      "id": "85146919225",
-      "eid": "2-s2.0-85146919225",
-      "scopus_id": "85146919225",
-      "title": "Detection of Inter-Turn Short Circuit in Permanent Magnet Synchronous Motor using Machine Learning",
-      "authors": [
-        "Patil P."
-      ],
-      "authors_str": "Patil P.",
-      "coep_authors": [
-        "Patil P."
-      ],
-      "primary_author": "Patil P.",
-      "department": "Computer Engineering & IT",
-      "journal": "2022 International Conference on Signal and Information Processing Iconsip 2022",
-      "issn": "",
-      "publisher": "Academic Publisher",
-      "publication_date": "2022-01-01",
-      "year": 2022,
-      "month": "January",
-      "month_num": 1,
-      "doi": "10.1109/ICoNSIP49665.2022.10007457",
-      "doi_url": "https://doi.org/10.1109/ICoNSIP49665.2022.10007457",
-      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85146919225&origin=inward",
-      "citations": 6,
-      "citescore": 3.8,
-      "sjr": 0.45,
-      "quartile": "Q3",
-      "is_top_10_percent": false,
-      "collaboration_type": "Institutional",
-      "is_international_collab": false,
-      "is_industry_collab": false,
-      "collaborating_countries": [
-        "India"
-      ],
-      "foreign_countries": [],
-      "collaborating_institutions": [
-        "COEP Technological University, Pune"
-      ],
-      "external_institutions": [],
-      "document_type": "Conference Paper",
-      "open_access": false,
-      "abstract": "Scopus indexed publication from COEP Technological University on Detection of Inter-Turn Short Circuit in Permanent Magnet Synchronous Motor using Machine Learning."
-    },
-    {
       "id": "85160740951",
       "eid": "2-s2.0-85160740951",
       "scopus_id": "85160740951",
@@ -87263,6 +87219,50 @@
       "document_type": "Conference Paper",
       "open_access": false,
       "abstract": "Scopus indexed publication from COEP Technological University on Tulsi Leaf Disease Detection using CNN."
+    },
+    {
+      "id": "85146919225",
+      "eid": "2-s2.0-85146919225",
+      "scopus_id": "85146919225",
+      "title": "Detection of Inter-Turn Short Circuit in Permanent Magnet Synchronous Motor using Machine Learning",
+      "authors": [
+        "Patil P."
+      ],
+      "authors_str": "Patil P.",
+      "coep_authors": [
+        "Patil P."
+      ],
+      "primary_author": "Patil P.",
+      "department": "Computer Engineering & IT",
+      "journal": "2022 International Conference on Signal and Information Processing Iconsip 2022",
+      "issn": "",
+      "publisher": "Academic Publisher",
+      "publication_date": "2022-01-01",
+      "year": 2022,
+      "month": "January",
+      "month_num": 1,
+      "doi": "10.1109/ICoNSIP49665.2022.10007457",
+      "doi_url": "https://doi.org/10.1109/ICoNSIP49665.2022.10007457",
+      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85146919225&origin=inward",
+      "citations": 6,
+      "citescore": 3.8,
+      "sjr": 0.45,
+      "quartile": "Q3",
+      "is_top_10_percent": false,
+      "collaboration_type": "Institutional",
+      "is_international_collab": false,
+      "is_industry_collab": false,
+      "collaborating_countries": [
+        "India"
+      ],
+      "foreign_countries": [],
+      "collaborating_institutions": [
+        "COEP Technological University, Pune"
+      ],
+      "external_institutions": [],
+      "document_type": "Conference Paper",
+      "open_access": false,
+      "abstract": "Scopus indexed publication from COEP Technological University on Detection of Inter-Turn Short Circuit in Permanent Magnet Synchronous Motor using Machine Learning."
     },
     {
       "id": "85144410004",
@@ -99731,50 +99731,6 @@
       "abstract": "Scopus indexed publication from COEP Technological University on Microstructural aspects of tensile strength, toughness and wear for 34crmo4 steel."
     },
     {
-      "id": "85125721483",
-      "eid": "2-s2.0-85125721483",
-      "scopus_id": "85125721483",
-      "title": "GNU Radio and USRP B210 based Software Defined Radio for OFDM Data Transmission",
-      "authors": [
-        "Gawade M.S."
-      ],
-      "authors_str": "Gawade M.S.",
-      "coep_authors": [
-        "Gawade M.S."
-      ],
-      "primary_author": "Gawade M.S.",
-      "department": "Computer Engineering & IT",
-      "journal": "2021 IEEE International Conference on Mobile Networks and Wireless Communications Icmnwc 2021",
-      "issn": "",
-      "publisher": "Academic Publisher",
-      "publication_date": "2021-01-01",
-      "year": 2021,
-      "month": "January",
-      "month_num": 1,
-      "doi": "10.1109/ICMNWC52512.2021.9688506",
-      "doi_url": "https://doi.org/10.1109/ICMNWC52512.2021.9688506",
-      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85125721483&origin=inward",
-      "citations": 11,
-      "citescore": 7.2,
-      "sjr": 0.98,
-      "quartile": "Q2",
-      "is_top_10_percent": false,
-      "collaboration_type": "Institutional",
-      "is_international_collab": false,
-      "is_industry_collab": false,
-      "collaborating_countries": [
-        "India"
-      ],
-      "foreign_countries": [],
-      "collaborating_institutions": [
-        "COEP Technological University, Pune"
-      ],
-      "external_institutions": [],
-      "document_type": "Conference Paper",
-      "open_access": false,
-      "abstract": "Scopus indexed publication from COEP Technological University on GNU Radio and USRP B210 based Software Defined Radio for OFDM Data Transmission."
-    },
-    {
       "id": "85097642723",
       "eid": "2-s2.0-85097642723",
       "scopus_id": "85097642723",
@@ -99817,6 +99773,50 @@
       "document_type": "Conference Paper",
       "open_access": false,
       "abstract": "Scopus indexed publication from COEP Technological University on Influence of Particle Size of Bottom Ash on Mechanical Properties of M30 Grade Concrete."
+    },
+    {
+      "id": "85125721483",
+      "eid": "2-s2.0-85125721483",
+      "scopus_id": "85125721483",
+      "title": "GNU Radio and USRP B210 based Software Defined Radio for OFDM Data Transmission",
+      "authors": [
+        "Gawade M.S."
+      ],
+      "authors_str": "Gawade M.S.",
+      "coep_authors": [
+        "Gawade M.S."
+      ],
+      "primary_author": "Gawade M.S.",
+      "department": "Computer Engineering & IT",
+      "journal": "2021 IEEE International Conference on Mobile Networks and Wireless Communications Icmnwc 2021",
+      "issn": "",
+      "publisher": "Academic Publisher",
+      "publication_date": "2021-01-01",
+      "year": 2021,
+      "month": "January",
+      "month_num": 1,
+      "doi": "10.1109/ICMNWC52512.2021.9688506",
+      "doi_url": "https://doi.org/10.1109/ICMNWC52512.2021.9688506",
+      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85125721483&origin=inward",
+      "citations": 11,
+      "citescore": 7.2,
+      "sjr": 0.98,
+      "quartile": "Q2",
+      "is_top_10_percent": false,
+      "collaboration_type": "Institutional",
+      "is_international_collab": false,
+      "is_industry_collab": false,
+      "collaborating_countries": [
+        "India"
+      ],
+      "foreign_countries": [],
+      "collaborating_institutions": [
+        "COEP Technological University, Pune"
+      ],
+      "external_institutions": [],
+      "document_type": "Conference Paper",
+      "open_access": false,
+      "abstract": "Scopus indexed publication from COEP Technological University on GNU Radio and USRP B210 based Software Defined Radio for OFDM Data Transmission."
     },
     {
       "id": "85119954792",
@@ -101559,50 +101559,6 @@
       "abstract": "Scopus indexed publication from COEP Technological University on Experimental investigation of thermoelectric generator system."
     },
     {
-      "id": "85124804312",
-      "eid": "2-s2.0-85124804312",
-      "scopus_id": "85124804312",
-      "title": "Visual SLAM Combined with Object Detection for Autonomous Indoor Navigation Using Kinect V2 and ROS",
-      "authors": [
-        "Kulkarni M."
-      ],
-      "authors_str": "Kulkarni M.",
-      "coep_authors": [
-        "Kulkarni M."
-      ],
-      "primary_author": "Kulkarni M.",
-      "department": "Computer Engineering & IT",
-      "journal": "2021 IEEE 6th International Conference on Computing Communication and Automation Iccca 2021",
-      "issn": "",
-      "publisher": "Academic Publisher",
-      "publication_date": "2021-01-01",
-      "year": 2021,
-      "month": "January",
-      "month_num": 1,
-      "doi": "10.1109/ICCCA52192.2021.9666426",
-      "doi_url": "https://doi.org/10.1109/ICCCA52192.2021.9666426",
-      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85124804312&origin=inward",
-      "citations": 18,
-      "citescore": 7.2,
-      "sjr": 0.98,
-      "quartile": "Q2",
-      "is_top_10_percent": false,
-      "collaboration_type": "Institutional",
-      "is_international_collab": false,
-      "is_industry_collab": false,
-      "collaborating_countries": [
-        "India"
-      ],
-      "foreign_countries": [],
-      "collaborating_institutions": [
-        "COEP Technological University, Pune"
-      ],
-      "external_institutions": [],
-      "document_type": "Conference Paper",
-      "open_access": false,
-      "abstract": "Scopus indexed publication from COEP Technological University on Visual SLAM Combined with Object Detection for Autonomous Indoor Navigation Using Kinect V2 and ROS."
-    },
-    {
       "id": "85126392277",
       "eid": "2-s2.0-85126392277",
       "scopus_id": "85126392277",
@@ -101733,6 +101689,50 @@
       "document_type": "Conference Paper",
       "open_access": false,
       "abstract": "Scopus indexed publication from COEP Technological University on Evaluation of SC-FDMA Physical Link Using USRP."
+    },
+    {
+      "id": "85124804312",
+      "eid": "2-s2.0-85124804312",
+      "scopus_id": "85124804312",
+      "title": "Visual SLAM Combined with Object Detection for Autonomous Indoor Navigation Using Kinect V2 and ROS",
+      "authors": [
+        "Kulkarni M."
+      ],
+      "authors_str": "Kulkarni M.",
+      "coep_authors": [
+        "Kulkarni M."
+      ],
+      "primary_author": "Kulkarni M.",
+      "department": "Computer Engineering & IT",
+      "journal": "2021 IEEE 6th International Conference on Computing Communication and Automation Iccca 2021",
+      "issn": "",
+      "publisher": "Academic Publisher",
+      "publication_date": "2021-01-01",
+      "year": 2021,
+      "month": "January",
+      "month_num": 1,
+      "doi": "10.1109/ICCCA52192.2021.9666426",
+      "doi_url": "https://doi.org/10.1109/ICCCA52192.2021.9666426",
+      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85124804312&origin=inward",
+      "citations": 18,
+      "citescore": 7.2,
+      "sjr": 0.98,
+      "quartile": "Q2",
+      "is_top_10_percent": false,
+      "collaboration_type": "Institutional",
+      "is_international_collab": false,
+      "is_industry_collab": false,
+      "collaborating_countries": [
+        "India"
+      ],
+      "foreign_countries": [],
+      "collaborating_institutions": [
+        "COEP Technological University, Pune"
+      ],
+      "external_institutions": [],
+      "document_type": "Conference Paper",
+      "open_access": false,
+      "abstract": "Scopus indexed publication from COEP Technological University on Visual SLAM Combined with Object Detection for Autonomous Indoor Navigation Using Kinect V2 and ROS."
     },
     {
       "id": "85105957785",
@@ -103260,6 +103260,50 @@
       "abstract": "Scopus indexed publication from COEP Technological University on Feature-Based Model for Landslide Prediction Using Remote Sensing and Digital Elevation Data."
     },
     {
+      "id": "85096002991",
+      "eid": "2-s2.0-85096002991",
+      "scopus_id": "85096002991",
+      "title": "Reliability-Centered Maintenance (RCM) Approach for a Process Industry: Case Study",
+      "authors": [
+        "Karajagikar J.S."
+      ],
+      "authors_str": "Karajagikar J.S.",
+      "coep_authors": [
+        "Karajagikar J.S."
+      ],
+      "primary_author": "Karajagikar J.S.",
+      "department": "Mechanical Engineering",
+      "journal": "Lecture Notes on Multidisciplinary Industrial Engineering",
+      "issn": "25225022",
+      "publisher": "Academic Publisher",
+      "publication_date": "2021-01-01",
+      "year": 2021,
+      "month": "January",
+      "month_num": 1,
+      "doi": "10.1007/978-981-15-4550-4_26",
+      "doi_url": "https://doi.org/10.1007/978-981-15-4550-4_26",
+      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85096002991&origin=inward",
+      "citations": 3,
+      "citescore": 1.2,
+      "sjr": 0.22,
+      "quartile": "Q4",
+      "is_top_10_percent": false,
+      "collaboration_type": "Institutional",
+      "is_international_collab": false,
+      "is_industry_collab": false,
+      "collaborating_countries": [
+        "India"
+      ],
+      "foreign_countries": [],
+      "collaborating_institutions": [
+        "COEP Technological University, Pune"
+      ],
+      "external_institutions": [],
+      "document_type": "Book Chapter",
+      "open_access": false,
+      "abstract": "Scopus indexed publication from COEP Technological University on Reliability-Centered Maintenance (RCM) Approach for a Process Industry: Case Study."
+    },
+    {
       "id": "85097044521",
       "eid": "2-s2.0-85097044521",
       "scopus_id": "85097044521",
@@ -103352,50 +103396,6 @@
       "document_type": "Article",
       "open_access": false,
       "abstract": "Scopus indexed publication from COEP Technological University on E-Waste plastic powder modified bitumen: rheological properties and performance study of bituminous concrete."
-    },
-    {
-      "id": "85096002991",
-      "eid": "2-s2.0-85096002991",
-      "scopus_id": "85096002991",
-      "title": "Reliability-Centered Maintenance (RCM) Approach for a Process Industry: Case Study",
-      "authors": [
-        "Karajagikar J.S."
-      ],
-      "authors_str": "Karajagikar J.S.",
-      "coep_authors": [
-        "Karajagikar J.S."
-      ],
-      "primary_author": "Karajagikar J.S.",
-      "department": "Mechanical Engineering",
-      "journal": "Lecture Notes on Multidisciplinary Industrial Engineering",
-      "issn": "25225022",
-      "publisher": "Academic Publisher",
-      "publication_date": "2021-01-01",
-      "year": 2021,
-      "month": "January",
-      "month_num": 1,
-      "doi": "10.1007/978-981-15-4550-4_26",
-      "doi_url": "https://doi.org/10.1007/978-981-15-4550-4_26",
-      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85096002991&origin=inward",
-      "citations": 3,
-      "citescore": 1.2,
-      "sjr": 0.22,
-      "quartile": "Q4",
-      "is_top_10_percent": false,
-      "collaboration_type": "Institutional",
-      "is_international_collab": false,
-      "is_industry_collab": false,
-      "collaborating_countries": [
-        "India"
-      ],
-      "foreign_countries": [],
-      "collaborating_institutions": [
-        "COEP Technological University, Pune"
-      ],
-      "external_institutions": [],
-      "document_type": "Book Chapter",
-      "open_access": false,
-      "abstract": "Scopus indexed publication from COEP Technological University on Reliability-Centered Maintenance (RCM) Approach for a Process Industry: Case Study."
     },
     {
       "id": "85104705499",
@@ -108005,50 +108005,6 @@
       "abstract": "Scopus indexed publication from COEP Technological University on Organic Surfactant Assisted Polypyrrole Materials as Effective Chemiresistive Gas Sensors for VOCs and Toxic Gas Detection."
     },
     {
-      "id": "85101487879",
-      "eid": "2-s2.0-85101487879",
-      "scopus_id": "85101487879",
-      "title": "Smart water technology for efficient water resource management: A review",
-      "authors": [
-        "Gupta A.D."
-      ],
-      "authors_str": "Gupta A.D.",
-      "coep_authors": [
-        "Gupta A.D."
-      ],
-      "primary_author": "Gupta A.D.",
-      "department": "Computer Engineering & IT",
-      "journal": "Energies",
-      "issn": "19961073",
-      "publisher": "Academic Publisher",
-      "publication_date": "2020-12-01",
-      "year": 2020,
-      "month": "December",
-      "month_num": 12,
-      "doi": "10.3390/en13236268",
-      "doi_url": "https://doi.org/10.3390/en13236268",
-      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85101487879&origin=inward",
-      "citations": 156,
-      "citescore": 2.5,
-      "sjr": 0.3,
-      "quartile": "Q3",
-      "is_top_10_percent": true,
-      "collaboration_type": "Institutional",
-      "is_international_collab": false,
-      "is_industry_collab": false,
-      "collaborating_countries": [
-        "India"
-      ],
-      "foreign_countries": [],
-      "collaborating_institutions": [
-        "COEP Technological University, Pune"
-      ],
-      "external_institutions": [],
-      "document_type": "Article",
-      "open_access": true,
-      "abstract": "Scopus indexed publication from COEP Technological University on Smart water technology for efficient water resource management: A review."
-    },
-    {
       "id": "85094127954",
       "eid": "2-s2.0-85094127954",
       "scopus_id": "85094127954",
@@ -108091,6 +108047,50 @@
       "document_type": "Article",
       "open_access": false,
       "abstract": "Scopus indexed publication from COEP Technological University on Influence of Process Parameters on Countercurrent Reactor Reduction of Oxidized Mill Scale Waste and Its Co-relationship with Mathematical Model."
+    },
+    {
+      "id": "85101487879",
+      "eid": "2-s2.0-85101487879",
+      "scopus_id": "85101487879",
+      "title": "Smart water technology for efficient water resource management: A review",
+      "authors": [
+        "Gupta A.D."
+      ],
+      "authors_str": "Gupta A.D.",
+      "coep_authors": [
+        "Gupta A.D."
+      ],
+      "primary_author": "Gupta A.D.",
+      "department": "Computer Engineering & IT",
+      "journal": "Energies",
+      "issn": "19961073",
+      "publisher": "Academic Publisher",
+      "publication_date": "2020-12-01",
+      "year": 2020,
+      "month": "December",
+      "month_num": 12,
+      "doi": "10.3390/en13236268",
+      "doi_url": "https://doi.org/10.3390/en13236268",
+      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85101487879&origin=inward",
+      "citations": 156,
+      "citescore": 2.5,
+      "sjr": 0.3,
+      "quartile": "Q3",
+      "is_top_10_percent": true,
+      "collaboration_type": "Institutional",
+      "is_international_collab": false,
+      "is_industry_collab": false,
+      "collaborating_countries": [
+        "India"
+      ],
+      "foreign_countries": [],
+      "collaborating_institutions": [
+        "COEP Technological University, Pune"
+      ],
+      "external_institutions": [],
+      "document_type": "Article",
+      "open_access": true,
+      "abstract": "Scopus indexed publication from COEP Technological University on Smart water technology for efficient water resource management: A review."
     },
     {
       "id": "85087057448",
@@ -114930,50 +114930,6 @@
       "abstract": "Scopus indexed publication from COEP Technological University on Assessment of Anti-Stripping Property of Pyro-Oil Modified Bituminous Mixes Using Surface Free Energy Approach."
     },
     {
-      "id": "85161359011",
-      "eid": "2-s2.0-85161359011",
-      "scopus_id": "85161359011",
-      "title": "Development of 3-Axis Micro-Step Resolution Desktop CNC Stage for Machining of Meso- and Microscale-Features",
-      "authors": [
-        "Patil S."
-      ],
-      "authors_str": "Patil S.",
-      "coep_authors": [
-        "Patil S."
-      ],
-      "primary_author": "Patil S.",
-      "department": "Mechanical Engineering",
-      "journal": "Lecture Notes on Multidisciplinary Industrial Engineering",
-      "issn": "25225022",
-      "publisher": "Academic Publisher",
-      "publication_date": "2020-01-01",
-      "year": 2020,
-      "month": "January",
-      "month_num": 1,
-      "doi": "10.1007/978-981-32-9487-5_52",
-      "doi_url": "https://doi.org/10.1007/978-981-32-9487-5_52",
-      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85161359011&origin=inward",
-      "citations": 2,
-      "citescore": 1.2,
-      "sjr": 0.22,
-      "quartile": "Q4",
-      "is_top_10_percent": false,
-      "collaboration_type": "Institutional",
-      "is_international_collab": false,
-      "is_industry_collab": false,
-      "collaborating_countries": [
-        "India"
-      ],
-      "foreign_countries": [],
-      "collaborating_institutions": [
-        "COEP Technological University, Pune"
-      ],
-      "external_institutions": [],
-      "document_type": "Book Chapter",
-      "open_access": false,
-      "abstract": "Scopus indexed publication from COEP Technological University on Development of 3-Axis Micro-Step Resolution Desktop CNC Stage for Machining of Meso- and Microscale-Features."
-    },
-    {
       "id": "85075598897",
       "eid": "2-s2.0-85075598897",
       "scopus_id": "85075598897",
@@ -115016,6 +114972,50 @@
       "document_type": "Conference Paper",
       "open_access": false,
       "abstract": "Scopus indexed publication from COEP Technological University on Prediction Equations in Spirometry Using Demographic and Spirometric Values."
+    },
+    {
+      "id": "85161359011",
+      "eid": "2-s2.0-85161359011",
+      "scopus_id": "85161359011",
+      "title": "Development of 3-Axis Micro-Step Resolution Desktop CNC Stage for Machining of Meso- and Microscale-Features",
+      "authors": [
+        "Patil S."
+      ],
+      "authors_str": "Patil S.",
+      "coep_authors": [
+        "Patil S."
+      ],
+      "primary_author": "Patil S.",
+      "department": "Mechanical Engineering",
+      "journal": "Lecture Notes on Multidisciplinary Industrial Engineering",
+      "issn": "25225022",
+      "publisher": "Academic Publisher",
+      "publication_date": "2020-01-01",
+      "year": 2020,
+      "month": "January",
+      "month_num": 1,
+      "doi": "10.1007/978-981-32-9487-5_52",
+      "doi_url": "https://doi.org/10.1007/978-981-32-9487-5_52",
+      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85161359011&origin=inward",
+      "citations": 2,
+      "citescore": 1.2,
+      "sjr": 0.22,
+      "quartile": "Q4",
+      "is_top_10_percent": false,
+      "collaboration_type": "Institutional",
+      "is_international_collab": false,
+      "is_industry_collab": false,
+      "collaborating_countries": [
+        "India"
+      ],
+      "foreign_countries": [],
+      "collaborating_institutions": [
+        "COEP Technological University, Pune"
+      ],
+      "external_institutions": [],
+      "document_type": "Book Chapter",
+      "open_access": false,
+      "abstract": "Scopus indexed publication from COEP Technological University on Development of 3-Axis Micro-Step Resolution Desktop CNC Stage for Machining of Meso- and Microscale-Features."
     },
     {
       "id": "85077510662",
@@ -115194,50 +115194,6 @@
       "abstract": "Scopus indexed publication from COEP Technological University on Antineoplastic activity of alkylaminolapachol analogues and their copper complexes against MDA-MB-231 human breast cancer cell lines."
     },
     {
-      "id": "85078304676",
-      "eid": "2-s2.0-85078304676",
-      "scopus_id": "85078304676",
-      "title": "Standard library tool set for rough set theory on FPGA",
-      "authors": [
-        "Agarwal V."
-      ],
-      "authors_str": "Agarwal V.",
-      "coep_authors": [
-        "Agarwal V."
-      ],
-      "primary_author": "Agarwal V.",
-      "department": "Computer Engineering & IT",
-      "journal": "Lecture Notes in Networks and Systems",
-      "issn": "23673370",
-      "publisher": "Academic Publisher",
-      "publication_date": "2020-01-01",
-      "year": 2020,
-      "month": "January",
-      "month_num": 1,
-      "doi": "10.1007/978-981-15-0694-9_23",
-      "doi_url": "https://doi.org/10.1007/978-981-15-0694-9_23",
-      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85078304676&origin=inward",
-      "citations": 1,
-      "citescore": 1.2,
-      "sjr": 0.22,
-      "quartile": "Q4",
-      "is_top_10_percent": false,
-      "collaboration_type": "Institutional",
-      "is_international_collab": false,
-      "is_industry_collab": false,
-      "collaborating_countries": [
-        "India"
-      ],
-      "foreign_countries": [],
-      "collaborating_institutions": [
-        "COEP Technological University, Pune"
-      ],
-      "external_institutions": [],
-      "document_type": "Book Chapter",
-      "open_access": false,
-      "abstract": "Scopus indexed publication from COEP Technological University on Standard library tool set for rough set theory on FPGA."
-    },
-    {
       "id": "85105707981",
       "eid": "2-s2.0-85105707981",
       "scopus_id": "85105707981",
@@ -115280,6 +115236,50 @@
       "document_type": "Conference Paper",
       "open_access": false,
       "abstract": "Scopus indexed publication from COEP Technological University on Overview on production of reduced iron powder from mill scale waste."
+    },
+    {
+      "id": "85078304676",
+      "eid": "2-s2.0-85078304676",
+      "scopus_id": "85078304676",
+      "title": "Standard library tool set for rough set theory on FPGA",
+      "authors": [
+        "Agarwal V."
+      ],
+      "authors_str": "Agarwal V.",
+      "coep_authors": [
+        "Agarwal V."
+      ],
+      "primary_author": "Agarwal V.",
+      "department": "Computer Engineering & IT",
+      "journal": "Lecture Notes in Networks and Systems",
+      "issn": "23673370",
+      "publisher": "Academic Publisher",
+      "publication_date": "2020-01-01",
+      "year": 2020,
+      "month": "January",
+      "month_num": 1,
+      "doi": "10.1007/978-981-15-0694-9_23",
+      "doi_url": "https://doi.org/10.1007/978-981-15-0694-9_23",
+      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85078304676&origin=inward",
+      "citations": 1,
+      "citescore": 1.2,
+      "sjr": 0.22,
+      "quartile": "Q4",
+      "is_top_10_percent": false,
+      "collaboration_type": "Institutional",
+      "is_international_collab": false,
+      "is_industry_collab": false,
+      "collaborating_countries": [
+        "India"
+      ],
+      "foreign_countries": [],
+      "collaborating_institutions": [
+        "COEP Technological University, Pune"
+      ],
+      "external_institutions": [],
+      "document_type": "Book Chapter",
+      "open_access": false,
+      "abstract": "Scopus indexed publication from COEP Technological University on Standard library tool set for rough set theory on FPGA."
     },
     {
       "id": "85079503128",
@@ -118473,50 +118473,6 @@
       "abstract": "Scopus indexed publication from COEP Technological University on Design of Robust Optimal Fractional-order PID Controller using Salp Swarm Algorithm for Automatic Voltage Regulator (AVR) System."
     },
     {
-      "id": "85096524468",
-      "eid": "2-s2.0-85096524468",
-      "scopus_id": "85096524468",
-      "title": "Automatic Short Answer Grading using Siamese Bidirectional LSTM Based Regression",
-      "authors": [
-        "Prabhudesai A."
-      ],
-      "authors_str": "Prabhudesai A.",
-      "coep_authors": [
-        "Prabhudesai A."
-      ],
-      "primary_author": "Prabhudesai A.",
-      "department": "Mechanical Engineering",
-      "journal": "Tale 2019 2019 IEEE International Conference on Engineering Technology and Education",
-      "issn": "",
-      "publisher": "Academic Publisher",
-      "publication_date": "2019-12-01",
-      "year": 2019,
-      "month": "December",
-      "month_num": 12,
-      "doi": "10.1109/TALE48000.2019.9226026",
-      "doi_url": "https://doi.org/10.1109/TALE48000.2019.9226026",
-      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85096524468&origin=inward",
-      "citations": 35,
-      "citescore": 7.2,
-      "sjr": 0.98,
-      "quartile": "Q2",
-      "is_top_10_percent": true,
-      "collaboration_type": "Institutional",
-      "is_international_collab": false,
-      "is_industry_collab": false,
-      "collaborating_countries": [
-        "India"
-      ],
-      "foreign_countries": [],
-      "collaborating_institutions": [
-        "COEP Technological University, Pune"
-      ],
-      "external_institutions": [],
-      "document_type": "Conference Paper",
-      "open_access": false,
-      "abstract": "Scopus indexed publication from COEP Technological University on Automatic Short Answer Grading using Siamese Bidirectional LSTM Based Regression."
-    },
-    {
       "id": "85085197792",
       "eid": "2-s2.0-85085197792",
       "scopus_id": "85085197792",
@@ -118559,6 +118515,50 @@
       "document_type": "Conference Paper",
       "open_access": false,
       "abstract": "Scopus indexed publication from COEP Technological University on Mathematical Modelling of Active Vibration Control on 2-Wheeler Handle Bar by using Smart Material."
+    },
+    {
+      "id": "85096524468",
+      "eid": "2-s2.0-85096524468",
+      "scopus_id": "85096524468",
+      "title": "Automatic Short Answer Grading using Siamese Bidirectional LSTM Based Regression",
+      "authors": [
+        "Prabhudesai A."
+      ],
+      "authors_str": "Prabhudesai A.",
+      "coep_authors": [
+        "Prabhudesai A."
+      ],
+      "primary_author": "Prabhudesai A.",
+      "department": "Mechanical Engineering",
+      "journal": "Tale 2019 2019 IEEE International Conference on Engineering Technology and Education",
+      "issn": "",
+      "publisher": "Academic Publisher",
+      "publication_date": "2019-12-01",
+      "year": 2019,
+      "month": "December",
+      "month_num": 12,
+      "doi": "10.1109/TALE48000.2019.9226026",
+      "doi_url": "https://doi.org/10.1109/TALE48000.2019.9226026",
+      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85096524468&origin=inward",
+      "citations": 35,
+      "citescore": 7.2,
+      "sjr": 0.98,
+      "quartile": "Q2",
+      "is_top_10_percent": true,
+      "collaboration_type": "Institutional",
+      "is_international_collab": false,
+      "is_industry_collab": false,
+      "collaborating_countries": [
+        "India"
+      ],
+      "foreign_countries": [],
+      "collaborating_institutions": [
+        "COEP Technological University, Pune"
+      ],
+      "external_institutions": [],
+      "document_type": "Conference Paper",
+      "open_access": false,
+      "abstract": "Scopus indexed publication from COEP Technological University on Automatic Short Answer Grading using Siamese Bidirectional LSTM Based Regression."
     },
     {
       "id": "85075070415",
@@ -123205,50 +123205,6 @@
       "abstract": "Scopus indexed publication from COEP Technological University on Application of fractional pid controller to single and multi-variable non-minimum phase systems."
     },
     {
-      "id": "85078177725",
-      "eid": "2-s2.0-85078177725",
-      "scopus_id": "85078177725",
-      "title": "Polyphonic Piano Music Transcription using Long Short-Term Memory",
-      "authors": [
-        "Sadekar A."
-      ],
-      "authors_str": "Sadekar A.",
-      "coep_authors": [
-        "Sadekar A."
-      ],
-      "primary_author": "Sadekar A.",
-      "department": "Computer Engineering & IT",
-      "journal": "2019 10th International Conference on Computing Communication and Networking Technologies Icccnt 2019",
-      "issn": "",
-      "publisher": "Academic Publisher",
-      "publication_date": "2019-07-01",
-      "year": 2019,
-      "month": "July",
-      "month_num": 7,
-      "doi": "10.1109/ICCCNT45670.2019.8944400",
-      "doi_url": "https://doi.org/10.1109/ICCCNT45670.2019.8944400",
-      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85078177725&origin=inward",
-      "citations": 1,
-      "citescore": 3.8,
-      "sjr": 0.45,
-      "quartile": "Q3",
-      "is_top_10_percent": false,
-      "collaboration_type": "Institutional",
-      "is_international_collab": false,
-      "is_industry_collab": false,
-      "collaborating_countries": [
-        "India"
-      ],
-      "foreign_countries": [],
-      "collaborating_institutions": [
-        "COEP Technological University, Pune"
-      ],
-      "external_institutions": [],
-      "document_type": "Conference Paper",
-      "open_access": false,
-      "abstract": "Scopus indexed publication from COEP Technological University on Polyphonic Piano Music Transcription using Long Short-Term Memory."
-    },
-    {
       "id": "85081156635",
       "eid": "2-s2.0-85081156635",
       "scopus_id": "85081156635",
@@ -123291,6 +123247,50 @@
       "document_type": "Conference Paper",
       "open_access": false,
       "abstract": "Scopus indexed publication from COEP Technological University on File I/O Performance Analysis of ZFS BTRFS over iSCSI on a Storage Pool of Flash Drives."
+    },
+    {
+      "id": "85078177725",
+      "eid": "2-s2.0-85078177725",
+      "scopus_id": "85078177725",
+      "title": "Polyphonic Piano Music Transcription using Long Short-Term Memory",
+      "authors": [
+        "Sadekar A."
+      ],
+      "authors_str": "Sadekar A.",
+      "coep_authors": [
+        "Sadekar A."
+      ],
+      "primary_author": "Sadekar A.",
+      "department": "Computer Engineering & IT",
+      "journal": "2019 10th International Conference on Computing Communication and Networking Technologies Icccnt 2019",
+      "issn": "",
+      "publisher": "Academic Publisher",
+      "publication_date": "2019-07-01",
+      "year": 2019,
+      "month": "July",
+      "month_num": 7,
+      "doi": "10.1109/ICCCNT45670.2019.8944400",
+      "doi_url": "https://doi.org/10.1109/ICCCNT45670.2019.8944400",
+      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85078177725&origin=inward",
+      "citations": 1,
+      "citescore": 3.8,
+      "sjr": 0.45,
+      "quartile": "Q3",
+      "is_top_10_percent": false,
+      "collaboration_type": "Institutional",
+      "is_international_collab": false,
+      "is_industry_collab": false,
+      "collaborating_countries": [
+        "India"
+      ],
+      "foreign_countries": [],
+      "collaborating_institutions": [
+        "COEP Technological University, Pune"
+      ],
+      "external_institutions": [],
+      "document_type": "Conference Paper",
+      "open_access": false,
+      "abstract": "Scopus indexed publication from COEP Technological University on Polyphonic Piano Music Transcription using Long Short-Term Memory."
     },
     {
       "id": "85078117821",
@@ -130128,50 +130128,6 @@
       "abstract": "Scopus indexed publication from COEP Technological University on New predictive analytic-aided response-based system integrity protection scheme."
     },
     {
-      "id": "85063102852",
-      "eid": "2-s2.0-85063102852",
-      "scopus_id": "85063102852",
-      "title": "Source detection of rumor in social network – A review",
-      "authors": [
-        "Shelke S."
-      ],
-      "authors_str": "Shelke S.",
-      "coep_authors": [
-        "Shelke S."
-      ],
-      "primary_author": "Shelke S.",
-      "department": "Computer Engineering & IT",
-      "journal": "Online Social Networks and Media",
-      "issn": "24686964",
-      "publisher": "Academic Publisher",
-      "publication_date": "2019-01-01",
-      "year": 2019,
-      "month": "January",
-      "month_num": 1,
-      "doi": "10.1016/j.osnem.2018.12.001",
-      "doi_url": "https://doi.org/10.1016/j.osnem.2018.12.001",
-      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85063102852&origin=inward",
-      "citations": 153,
-      "citescore": 2.5,
-      "sjr": 0.3,
-      "quartile": "Q3",
-      "is_top_10_percent": true,
-      "collaboration_type": "Institutional",
-      "is_international_collab": false,
-      "is_industry_collab": false,
-      "collaborating_countries": [
-        "India"
-      ],
-      "foreign_countries": [],
-      "collaborating_institutions": [
-        "COEP Technological University, Pune"
-      ],
-      "external_institutions": [],
-      "document_type": "Review",
-      "open_access": false,
-      "abstract": "Scopus indexed publication from COEP Technological University on Source detection of rumor in social network – A review."
-    },
-    {
       "id": "85061088438",
       "eid": "2-s2.0-85061088438",
       "scopus_id": "85061088438",
@@ -130302,6 +130258,50 @@
       "document_type": "Book Chapter",
       "open_access": false,
       "abstract": "Scopus indexed publication from COEP Technological University on Design and development of scalable IoT framework for healthcare application."
+    },
+    {
+      "id": "85063102852",
+      "eid": "2-s2.0-85063102852",
+      "scopus_id": "85063102852",
+      "title": "Source detection of rumor in social network – A review",
+      "authors": [
+        "Shelke S."
+      ],
+      "authors_str": "Shelke S.",
+      "coep_authors": [
+        "Shelke S."
+      ],
+      "primary_author": "Shelke S.",
+      "department": "Computer Engineering & IT",
+      "journal": "Online Social Networks and Media",
+      "issn": "24686964",
+      "publisher": "Academic Publisher",
+      "publication_date": "2019-01-01",
+      "year": 2019,
+      "month": "January",
+      "month_num": 1,
+      "doi": "10.1016/j.osnem.2018.12.001",
+      "doi_url": "https://doi.org/10.1016/j.osnem.2018.12.001",
+      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85063102852&origin=inward",
+      "citations": 153,
+      "citescore": 2.5,
+      "sjr": 0.3,
+      "quartile": "Q3",
+      "is_top_10_percent": true,
+      "collaboration_type": "Institutional",
+      "is_international_collab": false,
+      "is_industry_collab": false,
+      "collaborating_countries": [
+        "India"
+      ],
+      "foreign_countries": [],
+      "collaborating_institutions": [
+        "COEP Technological University, Pune"
+      ],
+      "external_institutions": [],
+      "document_type": "Review",
+      "open_access": false,
+      "abstract": "Scopus indexed publication from COEP Technological University on Source detection of rumor in social network – A review."
     },
     {
       "id": "85059082171",
@@ -130618,50 +130618,6 @@
       "abstract": "Scopus indexed publication from COEP Technological University on Production and engine performance and emission evaluation of karanja and jatropha-based biodiesel."
     },
     {
-      "id": "85108800078",
-      "eid": "2-s2.0-85108800078",
-      "scopus_id": "85108800078",
-      "title": "Forming Behavior of AA5052-H32 and AA6061-T6 During Single Point Incremental Forming",
-      "authors": [
-        "Ghadmode M.M."
-      ],
-      "authors_str": "Ghadmode M.M.",
-      "coep_authors": [
-        "Ghadmode M.M."
-      ],
-      "primary_author": "Ghadmode M.M.",
-      "department": "Mechanical Engineering",
-      "journal": "Lecture Notes on Multidisciplinary Industrial Engineering",
-      "issn": "25225022",
-      "publisher": "Academic Publisher",
-      "publication_date": "2019-01-01",
-      "year": 2019,
-      "month": "January",
-      "month_num": 1,
-      "doi": "10.1007/978-981-32-9417-2_2",
-      "doi_url": "https://doi.org/10.1007/978-981-32-9417-2_2",
-      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85108800078&origin=inward",
-      "citations": 1,
-      "citescore": 1.2,
-      "sjr": 0.22,
-      "quartile": "Q4",
-      "is_top_10_percent": false,
-      "collaboration_type": "Institutional",
-      "is_international_collab": false,
-      "is_industry_collab": false,
-      "collaborating_countries": [
-        "India"
-      ],
-      "foreign_countries": [],
-      "collaborating_institutions": [
-        "COEP Technological University, Pune"
-      ],
-      "external_institutions": [],
-      "document_type": "Book Chapter",
-      "open_access": false,
-      "abstract": "Scopus indexed publication from COEP Technological University on Forming Behavior of AA5052-H32 and AA6061-T6 During Single Point Incremental Forming."
-    },
-    {
       "id": "85082566390",
       "eid": "2-s2.0-85082566390",
       "scopus_id": "85082566390",
@@ -130707,6 +130663,50 @@
       "document_type": "Book Chapter",
       "open_access": false,
       "abstract": "Scopus indexed publication from COEP Technological University on 4D and 5D Printing: Healthcare’s new edge."
+    },
+    {
+      "id": "85108800078",
+      "eid": "2-s2.0-85108800078",
+      "scopus_id": "85108800078",
+      "title": "Forming Behavior of AA5052-H32 and AA6061-T6 During Single Point Incremental Forming",
+      "authors": [
+        "Ghadmode M.M."
+      ],
+      "authors_str": "Ghadmode M.M.",
+      "coep_authors": [
+        "Ghadmode M.M."
+      ],
+      "primary_author": "Ghadmode M.M.",
+      "department": "Mechanical Engineering",
+      "journal": "Lecture Notes on Multidisciplinary Industrial Engineering",
+      "issn": "25225022",
+      "publisher": "Academic Publisher",
+      "publication_date": "2019-01-01",
+      "year": 2019,
+      "month": "January",
+      "month_num": 1,
+      "doi": "10.1007/978-981-32-9417-2_2",
+      "doi_url": "https://doi.org/10.1007/978-981-32-9417-2_2",
+      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85108800078&origin=inward",
+      "citations": 1,
+      "citescore": 1.2,
+      "sjr": 0.22,
+      "quartile": "Q4",
+      "is_top_10_percent": false,
+      "collaboration_type": "Institutional",
+      "is_international_collab": false,
+      "is_industry_collab": false,
+      "collaborating_countries": [
+        "India"
+      ],
+      "foreign_countries": [],
+      "collaborating_institutions": [
+        "COEP Technological University, Pune"
+      ],
+      "external_institutions": [],
+      "document_type": "Book Chapter",
+      "open_access": false,
+      "abstract": "Scopus indexed publication from COEP Technological University on Forming Behavior of AA5052-H32 and AA6061-T6 During Single Point Incremental Forming."
     },
     {
       "id": "85085698876",
@@ -183138,53 +183138,6 @@
       "abstract": "Scopus indexed publication from COEP Technological University on Performance evaluation of block matching algorithms for video coding."
     },
     {
-      "id": "84902248090",
-      "eid": "2-s2.0-84902248090",
-      "scopus_id": "84902248090",
-      "title": "Fractional order sliding mode control for single link flexible manipulator",
-      "authors": [
-        "Mujumdar A."
-      ],
-      "authors_str": "Mujumdar A.",
-      "coep_authors": [
-        "Mujumdar A."
-      ],
-      "primary_author": "Mujumdar A.",
-      "department": "Instrumentation & Control Engineering",
-      "journal": "Proceedings of the IEEE International Conference on Control Applications",
-      "issn": "",
-      "publisher": "Academic Publisher",
-      "publication_date": "2013-01-01",
-      "year": 2013,
-      "month": "January",
-      "month_num": 1,
-      "doi": "10.1109/CCA.2013.6662773",
-      "doi_url": "https://doi.org/10.1109/CCA.2013.6662773",
-      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84902248090&origin=inward",
-      "citations": 31,
-      "citescore": 7.2,
-      "sjr": 0.98,
-      "quartile": "Q2",
-      "is_top_10_percent": true,
-      "collaboration_type": "National",
-      "is_international_collab": false,
-      "is_industry_collab": false,
-      "collaborating_countries": [
-        "India"
-      ],
-      "foreign_countries": [],
-      "collaborating_institutions": [
-        "COEP Technological University, Pune",
-        "CME"
-      ],
-      "external_institutions": [
-        "CME"
-      ],
-      "document_type": "Conference Paper",
-      "open_access": false,
-      "abstract": "Scopus indexed publication from COEP Technological University on Fractional order sliding mode control for single link flexible manipulator."
-    },
-    {
       "id": "84894280996",
       "eid": "2-s2.0-84894280996",
       "scopus_id": "84894280996",
@@ -183229,30 +183182,30 @@
       "abstract": "Scopus indexed publication from COEP Technological University on Multimodal biometrics by integrating fingerprint and palmprint for security."
     },
     {
-      "id": "84902248090",
-      "eid": "2-s2.0-84902248090",
-      "scopus_id": "84902248090",
-      "title": "Fractional order sliding mode control for single link flexible manipulator",
+      "id": "84880551918",
+      "eid": "2-s2.0-84880551918",
+      "scopus_id": "84880551918",
+      "title": "Active suspension systems for vehicles based on a sliding-mode controller in combination with inertial delay control",
       "authors": [
-        "Mujumdar A."
+        "Deshpande V.S."
       ],
-      "authors_str": "Mujumdar A.",
+      "authors_str": "Deshpande V.S.",
       "coep_authors": [
-        "Mujumdar A."
+        "Deshpande V.S."
       ],
-      "primary_author": "Mujumdar A.",
-      "department": "Instrumentation & Control Engineering",
-      "journal": "Proceedings of the IEEE International Conference on Control Applications",
-      "issn": "",
+      "primary_author": "Deshpande V.S.",
+      "department": "Mechanical Engineering",
+      "journal": "Proceedings of the Institution of Mechanical Engineers Part D Journal of Automobile Engineering",
+      "issn": "09544070",
       "publisher": "Academic Publisher",
       "publication_date": "2013-01-01",
       "year": 2013,
       "month": "January",
       "month_num": 1,
-      "doi": "10.1109/CCA.2013.6662773",
-      "doi_url": "https://doi.org/10.1109/CCA.2013.6662773",
-      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84902248090&origin=inward",
-      "citations": 31,
+      "doi": "10.1177/0954407012462953",
+      "doi_url": "https://doi.org/10.1177/0954407012462953",
+      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84880551918&origin=inward",
+      "citations": 42,
       "citescore": 7.2,
       "sjr": 0.98,
       "quartile": "Q2",
@@ -183266,14 +183219,61 @@
       "foreign_countries": [],
       "collaborating_institutions": [
         "COEP Technological University, Pune",
-        "CME"
+        "Sinhgad Technical Education Society"
       ],
       "external_institutions": [
-        "CME"
+        "Sinhgad Technical Education Society"
       ],
-      "document_type": "Conference Paper",
+      "document_type": "Article",
       "open_access": false,
-      "abstract": "Scopus indexed publication from COEP Technological University on Fractional order sliding mode control for single link flexible manipulator."
+      "abstract": "Scopus indexed publication from COEP Technological University on Active suspension systems for vehicles based on a sliding-mode controller in combination with inertial delay control."
+    },
+    {
+      "id": "84880551918",
+      "eid": "2-s2.0-84880551918",
+      "scopus_id": "84880551918",
+      "title": "Active suspension systems for vehicles based on a sliding-mode controller in combination with inertial delay control",
+      "authors": [
+        "Deshpande V.S."
+      ],
+      "authors_str": "Deshpande V.S.",
+      "coep_authors": [
+        "Deshpande V.S."
+      ],
+      "primary_author": "Deshpande V.S.",
+      "department": "Mechanical Engineering",
+      "journal": "Proceedings of the Institution of Mechanical Engineers Part D Journal of Automobile Engineering",
+      "issn": "09544070",
+      "publisher": "Academic Publisher",
+      "publication_date": "2013-01-01",
+      "year": 2013,
+      "month": "January",
+      "month_num": 1,
+      "doi": "10.1177/0954407012462953",
+      "doi_url": "https://doi.org/10.1177/0954407012462953",
+      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=84880551918&origin=inward",
+      "citations": 42,
+      "citescore": 7.2,
+      "sjr": 0.98,
+      "quartile": "Q2",
+      "is_top_10_percent": true,
+      "collaboration_type": "National",
+      "is_international_collab": false,
+      "is_industry_collab": false,
+      "collaborating_countries": [
+        "India"
+      ],
+      "foreign_countries": [],
+      "collaborating_institutions": [
+        "COEP Technological University, Pune",
+        "Sinhgad Technical Education Society"
+      ],
+      "external_institutions": [
+        "Sinhgad Technical Education Society"
+      ],
+      "document_type": "Article",
+      "open_access": false,
+      "abstract": "Scopus indexed publication from COEP Technological University on Active suspension systems for vehicles based on a sliding-mode controller in combination with inertial delay control."
     },
     {
       "id": "84898829180",
