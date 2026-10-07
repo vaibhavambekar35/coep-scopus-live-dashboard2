@@ -1,5 +1,5 @@
 {
-  "last_synced": "2026-10-06T23:27:18.392783",
+  "last_synced": "2026-10-07T03:04:15.863236",
   "affiliation_id": "60069506",
   "institution": "COEP Technological University, Pune",
   "sync_frequency_minutes": 60,
@@ -6349,6 +6349,53 @@
       "abstract": "Scopus indexed publication from COEP Technological University on Daily Rainfall Prediction Using Recurrent Neural Network."
     },
     {
+      "id": "105037290216",
+      "eid": "2-s2.0-105037290216",
+      "scopus_id": "105037290216",
+      "title": "Synergizing Postural Support, Pain Assessment, and Skin Health in Physiotherapy",
+      "authors": [
+        "Yadav T."
+      ],
+      "authors_str": "Yadav T.",
+      "coep_authors": [
+        "Yadav T."
+      ],
+      "primary_author": "Yadav T.",
+      "department": "Computer Engineering & IT",
+      "journal": "Physiotherapy Using Artificial Intelligence",
+      "issn": "",
+      "publisher": "Academic Publisher",
+      "publication_date": "2026-01-01",
+      "year": 2026,
+      "month": "January",
+      "month_num": 1,
+      "doi": "10.1002/9781394391561.ch11",
+      "doi_url": "https://doi.org/10.1002/9781394391561.ch11",
+      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105037290216&origin=inward",
+      "citations": 0,
+      "citescore": 2.5,
+      "sjr": 0.3,
+      "quartile": "Q4",
+      "is_top_10_percent": false,
+      "collaboration_type": "National",
+      "is_international_collab": false,
+      "is_industry_collab": false,
+      "collaborating_countries": [
+        "India"
+      ],
+      "foreign_countries": [],
+      "collaborating_institutions": [
+        "COEP Technological University, Pune",
+        "KVV"
+      ],
+      "external_institutions": [
+        "KVV"
+      ],
+      "document_type": "Book Chapter",
+      "open_access": false,
+      "abstract": "Scopus indexed publication from COEP Technological University on Synergizing Postural Support, Pain Assessment, and Skin Health in Physiotherapy."
+    },
+    {
       "id": "105051127313",
       "eid": "2-s2.0-105051127313",
       "scopus_id": "105051127313",
@@ -6397,53 +6444,6 @@
       "document_type": "Editorial",
       "open_access": false,
       "abstract": "Scopus indexed publication from COEP Technological University on Preface."
-    },
-    {
-      "id": "105037290216",
-      "eid": "2-s2.0-105037290216",
-      "scopus_id": "105037290216",
-      "title": "Synergizing Postural Support, Pain Assessment, and Skin Health in Physiotherapy",
-      "authors": [
-        "Yadav T."
-      ],
-      "authors_str": "Yadav T.",
-      "coep_authors": [
-        "Yadav T."
-      ],
-      "primary_author": "Yadav T.",
-      "department": "Computer Engineering & IT",
-      "journal": "Physiotherapy Using Artificial Intelligence",
-      "issn": "",
-      "publisher": "Academic Publisher",
-      "publication_date": "2026-01-01",
-      "year": 2026,
-      "month": "January",
-      "month_num": 1,
-      "doi": "10.1002/9781394391561.ch11",
-      "doi_url": "https://doi.org/10.1002/9781394391561.ch11",
-      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105037290216&origin=inward",
-      "citations": 0,
-      "citescore": 2.5,
-      "sjr": 0.3,
-      "quartile": "Q4",
-      "is_top_10_percent": false,
-      "collaboration_type": "National",
-      "is_international_collab": false,
-      "is_industry_collab": false,
-      "collaborating_countries": [
-        "India"
-      ],
-      "foreign_countries": [],
-      "collaborating_institutions": [
-        "COEP Technological University, Pune",
-        "KVV"
-      ],
-      "external_institutions": [
-        "KVV"
-      ],
-      "document_type": "Book Chapter",
-      "open_access": false,
-      "abstract": "Scopus indexed publication from COEP Technological University on Synergizing Postural Support, Pain Assessment, and Skin Health in Physiotherapy."
     },
     {
       "id": "105043978712",
@@ -71329,7 +71329,7 @@
         "Army Institute of Technology"
       ],
       "document_type": "Article",
-      "open_access": false,
+      "open_access": true,
       "abstract": "Scopus indexed publication from COEP Technological University on On graphic elementary lifts of graphic matroids."
     },
     {
