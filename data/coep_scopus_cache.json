@@ -1,5 +1,5 @@
 {
-  "last_synced": "2026-10-11T02:37:05.556941",
+  "last_synced": "2026-10-11T09:26:08.634946",
   "affiliation_id": "60069506",
   "institution": "COEP Technological University, Pune",
   "sync_frequency_minutes": 60,
@@ -7071,50 +7071,6 @@
       "abstract": "Scopus indexed publication from COEP Technological University on Paradigm Shifts in Regulatory Framework Governing Solar Net Metering in Maharashtra & Distribution Licensee’s Perspective."
     },
     {
-      "id": "105052144696",
-      "eid": "2-s2.0-105052144696",
-      "scopus_id": "105052144696",
-      "title": "Energy Analysis of AUV Ascent: Comparing PD and Sliding Mode Control across Pitch Angles",
-      "authors": [
-        "Nande S.S."
-      ],
-      "authors_str": "Nande S.S.",
-      "coep_authors": [
-        "Nande S.S."
-      ],
-      "primary_author": "Nande S.S.",
-      "department": "Civil & Environmental Engineering",
-      "journal": "2026 IEEE 6th International Conference on Sustainable Energy and Future Electric Transportation Sefet 2026",
-      "issn": "",
-      "publisher": "Academic Publisher",
-      "publication_date": "2026-01-01",
-      "year": 2026,
-      "month": "January",
-      "month_num": 1,
-      "doi": "10.1109/SEFET69291.2026.11687380",
-      "doi_url": "https://doi.org/10.1109/SEFET69291.2026.11687380",
-      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105052144696&origin=inward",
-      "citations": 0,
-      "citescore": 7.2,
-      "sjr": 0.98,
-      "quartile": "Q2",
-      "is_top_10_percent": false,
-      "collaboration_type": "Institutional",
-      "is_international_collab": false,
-      "is_industry_collab": false,
-      "collaborating_countries": [
-        "India"
-      ],
-      "foreign_countries": [],
-      "collaborating_institutions": [
-        "COEP Technological University, Pune"
-      ],
-      "external_institutions": [],
-      "document_type": "Conference Paper",
-      "open_access": false,
-      "abstract": "Scopus indexed publication from COEP Technological University on Energy Analysis of AUV Ascent: Comparing PD and Sliding Mode Control across Pitch Angles."
-    },
-    {
       "id": "105049679710",
       "eid": "2-s2.0-105049679710",
       "scopus_id": "105049679710",
@@ -7157,6 +7113,50 @@
       "document_type": "Article",
       "open_access": false,
       "abstract": "Scopus indexed publication from COEP Technological University on MES-Driven Digitalization in Automotive Stamping Industry: A Case Study of Tandem Press Line."
+    },
+    {
+      "id": "105052144696",
+      "eid": "2-s2.0-105052144696",
+      "scopus_id": "105052144696",
+      "title": "Energy Analysis of AUV Ascent: Comparing PD and Sliding Mode Control across Pitch Angles",
+      "authors": [
+        "Nande S.S."
+      ],
+      "authors_str": "Nande S.S.",
+      "coep_authors": [
+        "Nande S.S."
+      ],
+      "primary_author": "Nande S.S.",
+      "department": "Civil & Environmental Engineering",
+      "journal": "2026 IEEE 6th International Conference on Sustainable Energy and Future Electric Transportation Sefet 2026",
+      "issn": "",
+      "publisher": "Academic Publisher",
+      "publication_date": "2026-01-01",
+      "year": 2026,
+      "month": "January",
+      "month_num": 1,
+      "doi": "10.1109/SEFET69291.2026.11687380",
+      "doi_url": "https://doi.org/10.1109/SEFET69291.2026.11687380",
+      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105052144696&origin=inward",
+      "citations": 0,
+      "citescore": 7.2,
+      "sjr": 0.98,
+      "quartile": "Q2",
+      "is_top_10_percent": false,
+      "collaboration_type": "Institutional",
+      "is_international_collab": false,
+      "is_industry_collab": false,
+      "collaborating_countries": [
+        "India"
+      ],
+      "foreign_countries": [],
+      "collaborating_institutions": [
+        "COEP Technological University, Pune"
+      ],
+      "external_institutions": [],
+      "document_type": "Conference Paper",
+      "open_access": false,
+      "abstract": "Scopus indexed publication from COEP Technological University on Energy Analysis of AUV Ascent: Comparing PD and Sliding Mode Control across Pitch Angles."
     },
     {
       "id": "105031050478",
@@ -11685,50 +11685,6 @@
       "abstract": "Scopus indexed publication from COEP Technological University on Complexity Results on Paired Domination in Cubic Graphs."
     },
     {
-      "id": "105051658244",
-      "eid": "2-s2.0-105051658244",
-      "scopus_id": "105051658244",
-      "title": "ENHANCING PRINTABILITY OF 3D PRINTABLE MORTARS USING QUATERNARY BLENDED BINDERS",
-      "authors": [
-        "Kumar Mishra S."
-      ],
-      "authors_str": "Kumar Mishra S.",
-      "coep_authors": [
-        "Kumar Mishra S."
-      ],
-      "primary_author": "Kumar Mishra S.",
-      "department": "Civil & Environmental Engineering",
-      "journal": "Indian Concrete Journal",
-      "issn": "00194565",
-      "publisher": "Academic Publisher",
-      "publication_date": "2026-01-01",
-      "year": 2026,
-      "month": "January",
-      "month_num": 1,
-      "doi": "",
-      "doi_url": "",
-      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105051658244&origin=inward",
-      "citations": 0,
-      "citescore": 2.5,
-      "sjr": 0.3,
-      "quartile": "Q4",
-      "is_top_10_percent": false,
-      "collaboration_type": "Institutional",
-      "is_international_collab": false,
-      "is_industry_collab": false,
-      "collaborating_countries": [
-        "India"
-      ],
-      "foreign_countries": [],
-      "collaborating_institutions": [
-        "COEP Technological University, Pune"
-      ],
-      "external_institutions": [],
-      "document_type": "Article",
-      "open_access": false,
-      "abstract": "Scopus indexed publication from COEP Technological University on ENHANCING PRINTABILITY OF 3D PRINTABLE MORTARS USING QUATERNARY BLENDED BINDERS."
-    },
-    {
       "id": "105037312295",
       "eid": "2-s2.0-105037312295",
       "scopus_id": "105037312295",
@@ -11915,6 +11871,50 @@
       "document_type": "Book Chapter",
       "open_access": false,
       "abstract": "Scopus indexed publication from COEP Technological University on AI-Driven Drug Discovery and Personalized Medicine in Cancer."
+    },
+    {
+      "id": "105051658244",
+      "eid": "2-s2.0-105051658244",
+      "scopus_id": "105051658244",
+      "title": "ENHANCING PRINTABILITY OF 3D PRINTABLE MORTARS USING QUATERNARY BLENDED BINDERS",
+      "authors": [
+        "Kumar Mishra S."
+      ],
+      "authors_str": "Kumar Mishra S.",
+      "coep_authors": [
+        "Kumar Mishra S."
+      ],
+      "primary_author": "Kumar Mishra S.",
+      "department": "Civil & Environmental Engineering",
+      "journal": "Indian Concrete Journal",
+      "issn": "00194565",
+      "publisher": "Academic Publisher",
+      "publication_date": "2026-01-01",
+      "year": 2026,
+      "month": "January",
+      "month_num": 1,
+      "doi": "",
+      "doi_url": "",
+      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105051658244&origin=inward",
+      "citations": 0,
+      "citescore": 2.5,
+      "sjr": 0.3,
+      "quartile": "Q4",
+      "is_top_10_percent": false,
+      "collaboration_type": "Institutional",
+      "is_international_collab": false,
+      "is_industry_collab": false,
+      "collaborating_countries": [
+        "India"
+      ],
+      "foreign_countries": [],
+      "collaborating_institutions": [
+        "COEP Technological University, Pune"
+      ],
+      "external_institutions": [],
+      "document_type": "Article",
+      "open_access": false,
+      "abstract": "Scopus indexed publication from COEP Technological University on ENHANCING PRINTABILITY OF 3D PRINTABLE MORTARS USING QUATERNARY BLENDED BINDERS."
     },
     {
       "id": "105050285383",
@@ -13636,35 +13636,35 @@
       "abstract": "Scopus indexed publication from COEP Technological University on Optimization of Deep Learning Experiments Using Taguchi Method Applied to Facial Expression Recognition Task."
     },
     {
-      "id": "105052190795",
-      "eid": "2-s2.0-105052190795",
-      "scopus_id": "105052190795",
-      "title": "Robust Performance Evaluation and Comparative Analysis of Metaheuristic-Tuned FOC PMSM Drives under Diverse Dynamic Conditions",
+      "id": "105031693789",
+      "eid": "2-s2.0-105031693789",
+      "scopus_id": "105031693789",
+      "title": "Complexity of deciding the equality of domination parameters in chordal graphs",
       "authors": [
-        "Thasale S.S."
+        "Bakal D.M."
       ],
-      "authors_str": "Thasale S.S.",
+      "authors_str": "Bakal D.M.",
       "coep_authors": [
-        "Thasale S.S."
+        "Bakal D.M."
       ],
-      "primary_author": "Thasale S.S.",
-      "department": "Electronics & Telecommunication (E&TC)",
-      "journal": "2026 IEEE 6th International Conference on Sustainable Energy and Future Electric Transportation Sefet 2026",
-      "issn": "",
+      "primary_author": "Bakal D.M.",
+      "department": "Computer Engineering & IT",
+      "journal": "International Journal of Computer Mathematics Computer Systems Theory",
+      "issn": "23799927",
       "publisher": "Academic Publisher",
       "publication_date": "2026-01-01",
       "year": 2026,
       "month": "January",
       "month_num": 1,
-      "doi": "10.1109/SEFET69291.2026.11687140",
-      "doi_url": "https://doi.org/10.1109/SEFET69291.2026.11687140",
-      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105052190795&origin=inward",
+      "doi": "10.1080/23799927.2026.2629390",
+      "doi_url": "https://doi.org/10.1080/23799927.2026.2629390",
+      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105031693789&origin=inward",
       "citations": 0,
       "citescore": 7.2,
       "sjr": 0.98,
       "quartile": "Q2",
       "is_top_10_percent": false,
-      "collaboration_type": "Institutional",
+      "collaboration_type": "National",
       "is_international_collab": false,
       "is_industry_collab": false,
       "collaborating_countries": [
@@ -13672,12 +13672,15 @@
       ],
       "foreign_countries": [],
       "collaborating_institutions": [
-        "COEP Technological University, Pune"
+        "COEP Technological University, Pune",
+        "Savitribai Phule Pune University"
       ],
-      "external_institutions": [],
-      "document_type": "Conference Paper",
+      "external_institutions": [
+        "Savitribai Phule Pune University"
+      ],
+      "document_type": "Article",
       "open_access": false,
-      "abstract": "Scopus indexed publication from COEP Technological University on Robust Performance Evaluation and Comparative Analysis of Metaheuristic-Tuned FOC PMSM Drives under Diverse Dynamic Conditions."
+      "abstract": "Scopus indexed publication from COEP Technological University on Complexity of deciding the equality of domination parameters in chordal graphs."
     },
     {
       "id": "105031693789",
@@ -28455,6 +28458,50 @@
       "abstract": "Scopus indexed publication from COEP Technological University on Determination of the most significant features for hyperglycemia detection and their extraction from electrocardiogram signal."
     },
     {
+      "id": "105013616591",
+      "eid": "2-s2.0-105013616591",
+      "scopus_id": "105013616591",
+      "title": "Predicting Smartphone Addiction Using Behavioral and Psychological Traits with Machine Learning",
+      "authors": [
+        "Pawar V."
+      ],
+      "authors_str": "Pawar V.",
+      "coep_authors": [
+        "Pawar V."
+      ],
+      "primary_author": "Pawar V.",
+      "department": "Computer Engineering & IT",
+      "journal": "2025 Global Conference in Emerging Technology Ginotech 2025",
+      "issn": "",
+      "publisher": "Academic Publisher",
+      "publication_date": "2025-01-01",
+      "year": 2025,
+      "month": "January",
+      "month_num": 1,
+      "doi": "10.1109/GINOTECH63460.2025.11077064",
+      "doi_url": "https://doi.org/10.1109/GINOTECH63460.2025.11077064",
+      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105013616591&origin=inward",
+      "citations": 4,
+      "citescore": 3.8,
+      "sjr": 0.45,
+      "quartile": "Q3",
+      "is_top_10_percent": false,
+      "collaboration_type": "Institutional",
+      "is_international_collab": false,
+      "is_industry_collab": false,
+      "collaborating_countries": [
+        "India"
+      ],
+      "foreign_countries": [],
+      "collaborating_institutions": [
+        "COEP Technological University, Pune"
+      ],
+      "external_institutions": [],
+      "document_type": "Conference Paper",
+      "open_access": false,
+      "abstract": "Scopus indexed publication from COEP Technological University on Predicting Smartphone Addiction Using Behavioral and Psychological Traits with Machine Learning."
+    },
+    {
       "id": "105034665290",
       "eid": "2-s2.0-105034665290",
       "scopus_id": "105034665290",
@@ -28500,50 +28547,6 @@
       "document_type": "Conference Paper",
       "open_access": false,
       "abstract": "Scopus indexed publication from COEP Technological University on Energy Aware GPU Kernel Optimization: A Hierarchical Approach."
-    },
-    {
-      "id": "105013616591",
-      "eid": "2-s2.0-105013616591",
-      "scopus_id": "105013616591",
-      "title": "Predicting Smartphone Addiction Using Behavioral and Psychological Traits with Machine Learning",
-      "authors": [
-        "Pawar V."
-      ],
-      "authors_str": "Pawar V.",
-      "coep_authors": [
-        "Pawar V."
-      ],
-      "primary_author": "Pawar V.",
-      "department": "Computer Engineering & IT",
-      "journal": "2025 Global Conference in Emerging Technology Ginotech 2025",
-      "issn": "",
-      "publisher": "Academic Publisher",
-      "publication_date": "2025-01-01",
-      "year": 2025,
-      "month": "January",
-      "month_num": 1,
-      "doi": "10.1109/GINOTECH63460.2025.11077064",
-      "doi_url": "https://doi.org/10.1109/GINOTECH63460.2025.11077064",
-      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105013616591&origin=inward",
-      "citations": 4,
-      "citescore": 3.8,
-      "sjr": 0.45,
-      "quartile": "Q3",
-      "is_top_10_percent": false,
-      "collaboration_type": "Institutional",
-      "is_international_collab": false,
-      "is_industry_collab": false,
-      "collaborating_countries": [
-        "India"
-      ],
-      "foreign_countries": [],
-      "collaborating_institutions": [
-        "COEP Technological University, Pune"
-      ],
-      "external_institutions": [],
-      "document_type": "Conference Paper",
-      "open_access": false,
-      "abstract": "Scopus indexed publication from COEP Technological University on Predicting Smartphone Addiction Using Behavioral and Psychological Traits with Machine Learning."
     },
     {
       "id": "105003631769",
@@ -54281,32 +54284,32 @@
       "abstract": "Scopus indexed publication from COEP Technological University on Fatigue life of thin pre-cracked aluminum alloy panel repaired with CFRP patch at elevated temperature."
     },
     {
-      "id": "85130218497",
-      "eid": "2-s2.0-85130218497",
-      "scopus_id": "85130218497",
-      "title": "A Comprehensive Compendium on Passive Augmentation Techniques for Enhancement of Single-Phase Heat Transfer Coefficients in Heat Exchanger Tubes under Laminar and Turbulent Flow Conditions",
+      "id": "85139330871",
+      "eid": "2-s2.0-85139330871",
+      "scopus_id": "85139330871",
+      "title": "Repair of pre-cracked aluminium alloy panel with CFRP bonded patch and its comparison with riveted patch",
       "authors": [
-        "Deshmukh P.W."
+        "Kadam S."
       ],
-      "authors_str": "Deshmukh P.W.",
+      "authors_str": "Kadam S.",
       "coep_authors": [
-        "Deshmukh P.W."
+        "Kadam S."
       ],
-      "primary_author": "Deshmukh P.W.",
-      "department": "Mechanical Engineering",
-      "journal": "Heat Transfer Engineering",
-      "issn": "01457632",
+      "primary_author": "Kadam S.",
+      "department": "Metallurgical & Materials Engineering",
+      "journal": "Materials Today Proceedings",
+      "issn": "22147853",
       "publisher": "Academic Publisher",
       "publication_date": "2023-01-01",
       "year": 2023,
       "month": "January",
       "month_num": 1,
-      "doi": "10.1080/01457632.2022.2073671",
-      "doi_url": "https://doi.org/10.1080/01457632.2022.2073671",
-      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85130218497&origin=inward",
-      "citations": 18,
-      "citescore": 2.5,
-      "sjr": 0.3,
+      "doi": "10.1016/j.matpr.2022.09.282",
+      "doi_url": "https://doi.org/10.1016/j.matpr.2022.09.282",
+      "scopus_url": "https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85139330871&origin=inward",
+      "citations": 8,
+      "citescore": 3.8,
+      "sjr": 0.45,
       "quartile": "Q3",
       "is_top_10_percent": false,
       "collaboration_type": "Institutional",
@@ -54320,9 +54323,9 @@
         "COEP Technological University, Pune"
       ],
       "external_institutions": [],
-      "document_type": "Article",
+      "document_type": "Conference Paper",
       "open_access": false,
-      "abstract": "Scopus indexed publication from COEP Technological University on A Comprehensive Compendium on Passive Augmentation Techniques for Enhancement of Single-Phase Heat Transfer Coefficients in Heat Exchanger Tubes under Laminar and Turbulent Flow Conditions."
+      "abstract": "Scopus indexed publication from COEP Technological University on Repair of pre-cracked aluminium alloy panel with CFRP bonded patch and its comparison with riveted patch."
     },
     {
       "id": "85179844883",
